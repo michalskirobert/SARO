@@ -28,14 +28,6 @@ function sendMail() {
     }
   }
 
-  // if(name === ""){
-  //   document.getElementById("name").classList.add("nameFail");
-  // }else if (msg === ""){
-
-  // }else if (email === ""){
-
-  // }
-
   //captcha valid..
   if (grecaptcha === undefined) {
     document.getElementById("ajaxResponseSuccess").style.display = "none";
