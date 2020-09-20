@@ -1,5 +1,5 @@
 var language = window.navigator.userLanguage || window.navigator.language;
-if (window.location.href === "https://saro.website/index.html"){
+if (window.location.href === "https://saro.website/index"){
     this.language === "en-GB";
 }
 else if(language === "ja"){
