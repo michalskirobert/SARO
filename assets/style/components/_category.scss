@@ -1,0 +1,45 @@
+@import './../base/colors';
+@import './../base/fonts';
+
+.filterDiv {
+    background-color: $color__link;
+    color: $color__link--hover;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    float: left;
+    color: #111;
+    text-align: left;
+    display: none;
+    transition: .4s;
+    margin: 1px;
+  }
+
+  .show {
+    display: block;
+  }
+  
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: $color__link;
+    color: $color__basic;
+    cursor: pointer;
+    margin: 3px 0;
+    -webkit-appearance: none;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 12px;
+    font-weight: 700;
+    &:hover{
+    background: $color__link--hover;
+    font-weight: 900;
+    }
+    &.active{
+      background: $color__link--hover;
+    }
+}

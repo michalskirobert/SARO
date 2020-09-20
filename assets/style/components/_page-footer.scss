@@ -1,0 +1,145 @@
+//language choice
+select {
+  box-shadow: 0 10px 25px #111;
+  background: #4d5061;
+  color: #fff;
+  border: 0;
+  padding: 0.5em 2em 0.5em 1em;
+}
+.custom-select {
+  position: relative;
+}
+.custom-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  background: #3b3c47;
+  height: 100%;
+  width: 1.5rem;
+  pointer-events: none;
+}
+.custom-arrow::before,
+.custom-arrow::after {
+  --size: 0.4em;
+  --color: rgba(255, 255, 255, 0.5);
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom-arrow::before {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-bottom: var(--size) solid var(--color);
+  top: 30%;
+}
+.custom-arrow::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid var(--color);
+  top: 65%;
+}
+.language {
+  display: inline-block;
+  width: fit-content;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Catamaran";
+  margin-bottom: 5px;
+}
+
+.language {
+  display: inline-block;
+  width: fit-content;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Catamaran";
+}
+.footer-links-cases {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+}
+
+//whole footer
+
+footer {
+  display: flex;
+  // width: calc(100% - 80px);
+  width: 100%;
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+  ul {
+    width: fit-content;
+    float: left;
+  }
+  ul li {
+    display: block;
+    list-style: none;
+  }
+  ul li a {
+    font-family: "Catamaran";
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+  }
+  ul li a:hover {
+    color: rgb(255, 0, 119);
+  }
+  ul li p {
+    font-family: "Catamaran";
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+  .footer-sm {
+    width: 50px;
+    float: right;
+  }
+  .footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-links-cases {
+    display: block;
+    padding: 0;
+  }
+  footer {
+    footer ul li p {
+      font-family: "Catamaran";
+      font-size: 16px;
+      color: #fff;
+      line-height: 40px;
+      text-transform: uppercase;
+    }
+    footer ul {
+      padding-right: 30px;
+    }
+  }
+}
+
+//jp
+html:lang(ja) {
+  footer {
+    .footer-links-cases {
+      position: relative;
+      right: 18px;
+    }
+    ul li a {
+      font-family: $jp__family;
+      font-size: 15px;
+    }
+  }
+}

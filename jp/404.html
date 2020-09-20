@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404 - page was not found</title>
+    <link rel="stylesheet" href="https://saro.website/jp/css/404.css">
+    <link
+    href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul class="logo">
+        <a href="https://saro.website/index.html" class="header-brand">SARO</a>
+    </div>
+    </header>
+    <main>
+        <section>
+            <div>
+           <b>ERROR 404</b>
+           <p>ページ</p> <p id="Url"></p> <p>が見つかりません</p>
+           <button onclick="goTo()">メインページに戻る</button>
+        </div>
+        </section>
+        <script>
+            function goTo(){
+                window.open("https://saro.website/jp/", "_self");
+            }
+            document.getElementById("Url").innerHTML='「'+window.location.pathname+'」';
+        </script>
+    </main>
+</body>
+</html>

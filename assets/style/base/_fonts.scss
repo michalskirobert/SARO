@@ -1,0 +1,17 @@
+//font-family
+$font-family__primary: "Catamaran", fallback, sans-serif;; //used to every kinds of text in website
+$font-family__secondary: "Cormorant garamond", fallback, sans-serif;; //used to every special kinds of text in website
+$font-family__tertiary: "Cormorant", fallback, sans-serif;;
+
+//japanese
+$jp__family: "Noto Sans JP", fallback, sans-serif; //used in Japanese part website
+
+//size
+$font-size__default: 16px; //use to all p, b
+$font-size__small: 12px; //use to all i, special fonts like notes in website
+$font-size__huge: 60px; // use to banners text or special heading
+$font-size__large: 40px; //for every heading and special text
+$font-size__medium: 28px; //used to lessons.
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;500;600;800;900&family=Cormorant+Garamond:ital,wght@0,300;0,500;0,600;1,300;1,500&family=Noto+Sans+JP:wght@400;500;700;900&display=swap');

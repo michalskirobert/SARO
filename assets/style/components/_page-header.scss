@@ -1,0 +1,70 @@
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 75px;
+  z-index: 3;
+  box-shadow: 5px 0 5px;
+  .header-brand {
+    font-family: "Catamaran";
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #111;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    width: fit-content;
+    transition: all .8s;
+    &:hover {
+      font-family: "Catamaran";
+      font-size: 40px;
+      font-weight: 900;
+      color: pink;
+    }
+    &:hover::after {
+      content: ".website";
+      font-size: 10px;
+      position: relative;
+      top: 8px;
+    }
+  }
+  .header-brand--after {
+    font-family: "Catamaran";
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 22px;
+    left: 16px;
+    &::after {
+      content: ".website";
+      font-size: 9px;
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  header {
+    .header-brand {
+      display: flex;
+      align-items: center;
+      margin: 19px 0;
+      text-align: left;
+      padding: 0px 20px 0px 40px;
+      line-height: 38px;
+      border-right: 3px solid #111;
+      float: left;
+      font-size: 25px;
+    }
+  }
+}

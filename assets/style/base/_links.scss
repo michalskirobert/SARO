@@ -1,0 +1,17 @@
+@import 'colors';
+@import 'fonts';
+
+//basic links
+
+a {
+    font-family: $font-family__primary;
+    font-size: $font-size__default;
+    font-weight: bold;
+    line-height: 24px;
+    color: $color__link;
+    transition: color .8s;
+}
+
+a:hover{
+    color: $color__link--hover;
+}

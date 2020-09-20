@@ -1,0 +1,28 @@
+@import './../base/colors';
+@import './../base/fonts';
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url(./../../img/bg/header-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+  }
+
+  @media only screen and (min-width: 1000px){
+    .index-banner {
+        height: 460px;
+      h1{
+        display: block;
+        width: 560px;
+        margin: 0 auto;  
+      }
+  }
+}

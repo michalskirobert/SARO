@@ -1,0 +1,106 @@
+@import './../modules/mixin';
+
+//own system for pictrues
+.image-left__center,
+.image-right__center,
+.image-center__center {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 8px;
+}
+.image-left__center--medium{
+  display: block;
+  max-width: 250px;
+  padding-right: 8px;
+  float: left;
+}
+
+@media screen and (min-width: 1000px) {
+  .image-left__center {
+    display: block;
+    max-width: 250px;
+    margin: 0;
+    float: left;
+    padding-right: 15px;
+  }
+  .image-right__center {
+    display: block;
+    max-width: 250px;
+    margin: 0;
+    float: right;
+    padding-left: 15px;
+  }
+  .image-center__center {
+    width: 100%;
+  }
+}
+
+//own system for containers for pictrues
+.pictrues-container__twoAndOne{
+  display:flex;
+  flex-direction: row;
+  &--item{
+    display: flex;
+    height: fit-content;
+    padding: 0 15px 30px 15px;
+  }
+}
+
+
+//support us
+.logo-support__us {
+  display: block;
+  background-image: url(./../../img/bg/bg2.gif);
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+//MODAL FOR PICTRUES!!!!
+.modal {
+@include modal;
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minimal(300px, 1fr));
+}
+
+@media screen and (min-width: 1000px) {
+  .modal-content {
+    max-width: 750px;
+  }
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity .3s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.myImg:hover {
+  opacity: 0.7;
+}
+

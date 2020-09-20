@@ -1,0 +1,135 @@
+@import "./../modules/mixin";
+@import "./../base/colors";
+@import "./../base/fonts";
+@import "./../modules/screens";
+
+.cases-links {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.index-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.index-links div h3 {
+  font-family: "Catamaran";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 100px;
+  color: #fff;
+  text-shadow: 4px 4px 8px #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.index-boxlink-square-foods {
+  @include square;
+  background-image: url(../../img/foods/mainDish/pierogi_thumb2.jpg);
+}
+.index-boxlink-square-trad {
+  @include square;
+  background-image: url(../../img/embl/trad.jpg);
+}
+.index-boxlink-square-dictionary {
+  @include square;
+  background-image: url(../../img/embl/dictionary.jpg);
+}
+.index-boxlink-square-quiz {
+  @include square;
+  background-image: url(../../img/embl/quiz.jpeg);
+}
+.index-boxlink-rectangle-cur {
+  @include rectangle;
+  background-image: url(../../img/embl/warsaw_wisla-emb.jpg);
+}
+.index-boxlink-rectangle-media {
+  @include rectangle;
+  background-image: url(../../img/embl/media.jpg);
+}
+.index-boxlink-rectangle-beauty {
+  @include rectangle;
+  background-image: url(../../img/embl/beauty.jpg);
+}
+.index-boxlink-square-dialog {
+  @include rectangle;
+  background-image: url(../../img/embl/dialog.jpg);
+}
+.index-boxlink-square-ort {
+  @include rectangle;
+  background-image: url(../../img/embl/ort.jpg);
+}
+
+@media screen and (min-width: #{$tablet}){
+  .index-links div h3 {
+    line-height: 230px;
+    color: #fff;
+    text-shadow: 4px 4px 8px #111;
+    font-weight: 900;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: #{$tablet}), (min-width: #{$desktop}){
+  .index-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .index-links div {
+    margin: 20px 10px 0;
+    height: 230px;
+    background-color: #f2f2f2;
+    float: left;
+  }
+  .index-boxlink-square-foods {
+    width: calc(25% - 20px) !important;
+    display: block;
+    background-image: url(../../img/foods/mainDish/pierogi_thumb2.jpg);
+  }
+  .index-boxlink-square-trad {
+    width: calc(25% - 20px) !important;
+    display: block;
+    background-image: url(../../img/embl/trad.jpg);
+  }
+  .index-boxlink-square-dictionary {
+    width: calc(25% - 20px) !important;
+    display: block;
+    background-image: url(../../img/embl/dictionary.jpg);
+  }
+  .index-boxlink-square-quiz {
+    width: calc(25% - 20px) !important;
+    display: block;
+    background-image: url(../../img/embl/quiz.jpeg);
+  }
+  .index-boxlink-rectangle-cur {
+    width: calc(50% - 20px) !important;
+    background-image: url(../../img/embl/warsaw_wisla-emb.jpg);
+  }
+  .index-boxlink-rectangle-media {
+    width: calc(50% - 20px) !important;
+    background-image: url(../../img/embl/media.jpg);
+  }
+  .index-boxlink-square-dialog {
+    width: calc(25% - 20px) !important;
+    display: block;
+    background-image: url(../../img/embl/dialog.jpg);
+  }
+  .index-boxlink-rectangle-beauty {
+    width: calc(50% - 20px) !important;
+    background-image: url(../../img/embl/beauty.jpg);
+  }
+  .index-boxlink-square-ort {
+    width: calc(25% - 20px) !important;
+    display: block;
+    background-image: url(../../img/embl/ort.jpg);
+  }
+  .index-links div h3 {
+    line-height: 230px;
+    color: #fff;
+    text-shadow: 4px 4px 8px #111;
+    font-weight: 900;
+  }
+}
