@@ -61,12 +61,9 @@ echo"  <meta http-equiv=\"refresh\" content=\"5;url=".$_SERVER['HTTP_REFERER']."
   </div>
   </section>
         <script>
-                   window.setTimeout(state, 2500);
-       function state() {
-           var stateSent = document.getElementById("state");
-           stateSent.innerHTML = `Your report has been sent. <br>
-           Thank you to help us to imporve our website <br> 
-           You will back to previous page within few seconds`;
+var stateWrong = document.getElementById("state");
+
+state.innerHTML = "We could not recive your report, please try again. <br> you will back to previous page <br> within few seconds";
 }
 </script>
   </body>
