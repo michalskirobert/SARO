@@ -1,10 +1,4 @@
 @charset "UTF-8";
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;500;600;800;900&family=Cormorant+Garamond:ital,wght@0,300;0,500;0,600;1,300;1,500&family=Noto+Sans+JP:wght@400;500;700;900&display=swap");
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,6 +49,146 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 html,
@@ -232,6 +366,7 @@ html:lang(ja) .data {
   font-family: "Noto Sans JP", fallback, sans-serif;
   font-size: 12px;
   font-weight: 300;
+  font-style: normal;
 }
 
 html:lang(ja) ruby {
@@ -252,6 +387,146 @@ html:lang(ja) :lang(en) {
 
 .dialogue h3 {
   padding-top: 17px;
+}
+
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 .image-left__center,
@@ -371,6 +646,146 @@ html:lang(ja) :lang(en) {
 
 .myImg:hover {
   opacity: 0.7;
+}
+
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 .back {
@@ -528,6 +943,146 @@ form .form__button:hover {
   line-height: 24px;
   color: #111;
   margin: 0 20px;
+}
+
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 a {
@@ -973,6 +1528,146 @@ header .header-brand--after::after {
   }
 }
 
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 header .hamburger {
   position: absolute;
   cursor: pointer;
@@ -980,14 +1675,21 @@ header .hamburger {
   top: 25px;
   transform: translate(-5%, -50%);
   z-index: 2;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
-header .bar {
+header .hamburger:hover > .bar {
+  background-color: #5f5e5e;
+}
+
+header .hamburger .bar {
   width: 35px;
   height: 5px;
   background-color: #333;
   margin: 6px 0;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 header .nav-list {
@@ -1036,22 +1738,23 @@ header .nav-links:hover {
 }
 
 header .nav li:nth-child(1) {
-  transition: all .5s ease .2s;
+  transition: all 0.5s ease 0.2s;
 }
 
 header .nav li:nth-child(2) {
-  transition: all .5s ease .4s;
+  transition: all 0.5s ease 0.4s;
 }
 
 header .nav li:nth-child(3) {
-  transition: all .5s ease .6s;
+  transition: all 0.5s ease 0.6s;
 }
 
 header li.fade {
   opacity: 1;
 }
 
-.nav__desktop, .header-cases {
+.nav__desktop,
+.header-cases {
   display: none;
 }
 
@@ -1080,7 +1783,7 @@ header li.fade {
     color: #242323;
     text-transform: uppercase;
     font-weight: 550;
-    transition: color .5s ease-in;
+    transition: color 0.5s ease-in;
   }
   nav .nav__desktop li a:hover {
     color: #ff0077;
@@ -1101,7 +1804,7 @@ header li.fade {
     font-weight: 400;
     position: relative;
     top: -55px;
-    transition: background-color .8s, color .8s;
+    transition: background-color 0.8s, color 0.8s;
   }
   nav .header-cases:hover {
     background-color: #ff0077;
@@ -1118,8 +1821,149 @@ header li.fade {
   }
 }
 
-html:lang(ja) .nav-links, html:lang(ja) .nav {
+html:lang(ja) .nav-links,
+html:lang(ja) .nav {
   font-family: "Noto Sans JP", fallback, sans-serif;
+}
+
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 .vertical-center {
@@ -1236,6 +2080,146 @@ form textarea {
   display: block;
   text-align: center;
   margin: 0 auto;
+}
+
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 .lesson .lesson {
@@ -1633,6 +2617,146 @@ form textarea {
   opacity: .7;
 }
 
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .cases-links {
   overflow: hidden;
   margin-bottom: 20px;
@@ -1935,6 +3059,146 @@ form textarea {
   }
 }
 
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .filterDiv {
   background-color: #ffbcc7;
   color: #ff0077;
@@ -1978,6 +3242,146 @@ form textarea {
 
 .btn.active {
   background: #ff0077;
+}
+
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 .report__base {
@@ -2088,6 +3492,146 @@ form textarea {
 
 html:lang(ja) .report {
   font-size: 10px;
+}
+
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 .tools-name__checker input {

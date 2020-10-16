@@ -10,14 +10,17 @@ $describe = $_POST['describe'];
 $page = $_POST['page'];
 $lang = $_POST['lang'];
 
+if($visitor_email === ""){
+  $visitor_email = "Anonymous";
+}
+
 $ID = rand(); "\n.";
 
 $email_from = 'admin@saro.website';
 $email_subject = "Report from $name ID: #repSaro-080-$ID";
 $email_subjectVisitor = "$name Hello! Here SARO! We suddenly got your report.";
 
-
-$email_body = 
+$email_body =
 "Name: $name.\n".
 "Category: $category.\n".
 "Other: $other.\n".
@@ -61,14 +64,23 @@ echo"  <meta http-equiv=\"refresh\" content=\"5;url=".$_SERVER['HTTP_REFERER']."
   </div>
   </section>
         <script>
+<<<<<<< Updated upstream
 var stateWrong = document.getElementById("state");
 
 state.innerHTML = "We could not recive your report, please try again. <br> you will back to previous page <br> within few seconds";
+=======
+                   window.setTimeout(state, 2500);
+       function state() {
+           var stateSent = document.getElementById("state");
+           stateSent.innerHTML = `Your report has been sent. <br>
+           Thank you to help us to imporve our website <br>
+           You will back to previous page within few seconds`;
+>>>>>>> Stashed changes
 }
 </script>
   </body>
   </html>';
-} 
+}
 }
 
 function japaneseReport(){
@@ -80,6 +92,10 @@ $describe = $_POST['describe'];
 $page = $_POST['page'];
 $lang = $_POST['lang'];
 
+if($visitor_email === ""){
+  $visitor_email = "Anonymous";
+}
+
 $ID = rand(); "\n.";
 
 $email_from = 'admin@saro.website';
@@ -87,7 +103,7 @@ $email_subject = "Report from $name ID: #repSaro-080-$ID";
 $email_subjectVisitor = "${name}様、こちらはSAROです。レポートを承りました。";
 
 
-$email_body = 
+$email_body =
 "Name: $name.\n".
 "Category: $category.\n".
 "Other: $other.\n".
@@ -97,7 +113,7 @@ $email_body =
 "Page: $page.\n".
 "ID of the report: #repSaro-080-$ID";
 
-$email_bodyPrimary = 
+$email_bodyPrimary =
 "名前: $name.\n".
 "カテゴリー: $category.\n".
 "その他: $other.\n".
