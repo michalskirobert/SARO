@@ -1150,7 +1150,7 @@ section:not(.home) {
   padding-top: 10px;
 }
 
-#more {
+.more {
   display: none;
   width: 100%;
   height: 100%;
@@ -3981,12 +3981,6 @@ html:lang(ja) .report {
 }
 
 .cookie-container {
-  display: none;
-}
-
-html:lang(en) .cookie-container.active {
-  font-family: "Catamaran", fallback, sans-serif;
-  display: block;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -3998,7 +3992,7 @@ html:lang(en) .cookie-container.active {
   transition: all 400ms ease;
 }
 
-html:lang(en) .cookie-container.active .cookie-container a {
+.cookie-container .cookie-container a {
   font-family: "Catamaran", fallback, sans-serif;
   color: #e84118;
   font-family: arial;
@@ -4006,11 +4000,11 @@ html:lang(en) .cookie-container.active .cookie-container a {
   transition: color 0.5s ease;
 }
 
-html:lang(en) .cookie-container.active .cookie-container a:hover {
+.cookie-container .cookie-container a:hover {
   color: #ffff;
 }
 
-html:lang(en) .cookie-container.active .cookie-btn {
+.cookie-container .cookie-btn {
   font-family: "Catamaran", fallback, sans-serif;
   background-color: #e84118;
   border: 0;
@@ -4026,7 +4020,7 @@ html:lang(en) .cookie-container.active .cookie-btn {
   font-weight: bold;
 }
 
-html:lang(en) .cookie-container.active .cookie-btn:hover {
+.cookie-container .cookie-btn:hover {
   background-color: #ffff;
   color: black;
 }

@@ -1,5 +1,5 @@
 //name-checker
-@import "./../base/fonts";
+@import './../base/fonts';
 
 .tools-name__checker {
   input {
@@ -334,91 +334,5 @@
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
-  }
-}
-
-.cookie-container {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #2f3640;
-  color: #f5f6fa;
-  padding: 0 32px;
-  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-  transition: all 400ms ease;
-  .cookie-container a {
-    font-family: $font-family__primary;
-    color: #e84118;
-    font-family: arial;
-    font-weight: bold;
-    transition: color 0.5s ease;
-    &:hover {
-      color: #ffff;
-    }
-  }
-  .cookie-btn {
-    font-family: $font-family__primary;
-    background-color: #e84118;
-    border: 0;
-    color: #f5f6fa;
-    padding: 8px 48px;
-    font-size: 18px;
-    margin-bottom: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    display: inline;
-    float: right;
-    transition: color 0.5s ease, background-color 0.7s ease-in;
-    font-weight: bold;
-    &:hover {
-      background-color: #ffff;
-      color: black;
-    }
-  }
-}
-
-html:lang(ja) {
-  .cookie-container.active {
-    font-family: $jp__family;
-    display: block;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #2f3640;
-    color: #f5f6fa;
-    padding: 0 32px;
-    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-    transition: all 400ms ease;
-    .cookie-container a {
-      font-family: $jp__family;
-      color: #e84118;
-      font-family: arial;
-      font-weight: bold;
-      transition: color 0.5s ease;
-      &:hover {
-        color: #ffff;
-      }
-    }
-    .cookie-btn {
-      font-family: $jp__family;
-      background-color: #e84118;
-      border: 0;
-      color: #f5f6fa;
-      padding: 8px 48px;
-      font-size: 18px;
-      margin-bottom: 16px;
-      border-radius: 8px;
-      cursor: pointer;
-      display: inline;
-      float: right;
-      transition: color 0.5s ease, background-color 0.7s ease-in;
-      font-weight: bold;
-      &:hover {
-        background-color: #ffff;
-        color: black;
-      }
-    }
   }
 }
