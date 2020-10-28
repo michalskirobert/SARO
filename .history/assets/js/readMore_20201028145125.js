@@ -1,10 +1,10 @@
 const dots = document.querySelectorAll(".dots");
 const moreText = document.querySelectorAll(".more");
 const btnText = document.querySelectorAll(".button__default");
-const langRead = document.querySelectorAll("html");
+const language = document.querySelectorAll("html");
 
-for (var i = 0; i < langRead.length; i++) {
-  if (langRead[i].lang === "en") {
+for (var i = 0; i < language.length; i++) {
+  if (language[i].lang === "en") {
     dots,
       moreText,
       btnText.forEach(function (item, index) {
@@ -20,18 +20,18 @@ for (var i = 0; i < langRead.length; i++) {
           }
         });
       });
-  } else if (langRead[i].lang === "ja") {
+  } else if (language[i].lang === "ja") {
     dots,
       moreText,
-      btnText.forEach(function (item, index) {
-        btnText[index].addEventListener("click", () => {
+      jpBtn.forEach(function (item, index) {
+        jpBtn[index].addEventListener("click", () => {
           if (dots[index].style.display === "none") {
             dots[index].style.display = "block";
-            btnText[index].innerHTML = "さらに読む";
+            jpBtn[index].innerHTML = "さらに読む";
             moreText[index].style.display = "none";
           } else {
             dots[index].style.display = "none";
-            btnText[index].innerHTML = "隠す";
+            jpBtn[index].innerHTML = "隠す";
             moreText[index].style.display = "block";
           }
         });

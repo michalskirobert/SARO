@@ -1236,6 +1236,12 @@ html:lang(ja) .box-news__item:last-child {
   padding: 0 10px;
 }
 
+.content--trad {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+}
+
 .tools-name__checker {
   display: flex;
   flex-direction: column;
@@ -4012,6 +4018,7 @@ html:lang(ja) .report {
 
 .cookie-container.active > p {
   color: #ffff;
+  margin-bottom: 15px;
 }
 
 .cookie-container.active .cookie-btn {
@@ -4062,6 +4069,7 @@ html:lang(ja) .cookie-container.active > a:hover {
 
 html:lang(ja) .cookie-container.active > p {
   color: #ffff;
+  margin-bottom: 15px;
 }
 
 html:lang(ja) .cookie-container.active .cookie-btn {

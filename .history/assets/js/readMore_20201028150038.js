@@ -3,7 +3,7 @@ const moreText = document.querySelectorAll(".more");
 const btnText = document.querySelectorAll(".button__default");
 const langRead = document.querySelectorAll("html");
 
-for (var i = 0; i < langRead.length; i++) {
+for (var i = 0; i < language.length; i++) {
   if (langRead[i].lang === "en") {
     dots,
       moreText,

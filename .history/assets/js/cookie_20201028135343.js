@@ -34,7 +34,7 @@ if (language[i].lang === "en") {
 
   newBtn.innerHTML = "I understood";
 
-}else if (language[i].lang === "ja") {
+} if (language[i].lang === "ja") {
   cookiesCont.innerHTML = `当サイトは、お客様により良いサービスを提供するため、Cookieを使用しています。
   これには、ユーザーに合わせたコンテンツと広告が含まれます。 詳細については、
   <a href="https://saro.website/learnmore#japanese" target="_blank">ここをクリック してください</a> 当サイトを引き続きご利用いただく際は、
