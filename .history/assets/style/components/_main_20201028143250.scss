@@ -24,13 +24,12 @@ section:not(.home) {
   padding: 0 0 15px 0;
 }
 
-.center__item {
-  //for elements that I want to be centered
+.center__item{ //for elements that I want to be centered
   margin: 0 auto;
   text-align: center;
 }
 
-.line {
+.line{
   border: 1px solid grey;
   width: 100%;
   margin-top: 25px;
@@ -63,7 +62,7 @@ section:not(.home) {
 }
 
 //JP Home
-html:lang(ja) {
+html:lang(ja){
   .box-news__item {
     line-height: 25px;
     margin-bottom: 50px;
@@ -101,11 +100,10 @@ html:lang(ja) {
   width: 100%;
   line-height: 30px;
   padding: 0 10px;
-  &--trad {
-    display: flex;
-    flex-direction: column;
-    margin: 25px 0;
-  }
+&--trad{
+display: flex;
+flex-direction: column;
+margin: 25px 0;
 }
 
 //tools
@@ -132,7 +130,7 @@ html:lang(ja) {
   padding-top: 25px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
   .contact__container {
     display: flex;
     flex-direction: row;
@@ -169,13 +167,13 @@ html:lang(ja) {
   padding: 0 15px 30px 15px;
 }
 
-@media screen and (min-width: 700px) {
-  .quiz img {
+@media screen and (min-width: 700px){
+  .quiz img{
     float: unset;
-  }
+ }
 }
 
 //about
-.introduce {
+.introduce{
   padding-bottom: 35px;
 }

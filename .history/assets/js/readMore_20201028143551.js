@@ -1,8 +1,9 @@
 const dots = document.querySelectorAll(".dots");
 const moreText = document.querySelectorAll(".more");
-const btnText = document.querySelectorAll(".button__default");
+const btnText = document.querySelectorAll("html:lang(en) .button__default");
 const jpBtn = document.querySelectorAll("html:lang(ja) .button__default");
 
+jpBtn,
   dots,
   moreText,
   btnText.forEach(function (item, index) {
@@ -17,10 +18,6 @@ const jpBtn = document.querySelectorAll("html:lang(ja) .button__default");
         moreText[index].style.display = "block";
       }
     });
-
-    dots,
-    moreText,
-    jpBtn.forEach(function (item, index){
     jpBtn[item].addEventListener("click", () => {
       if (dots[index].style.display === "none") {
         dots[index].style.display = "block";
@@ -32,4 +29,4 @@ const jpBtn = document.querySelectorAll("html:lang(ja) .button__default");
         moreText[index].style.display = "block";
       }
     });
-  });})
+  });
