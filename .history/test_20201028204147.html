@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<img src="https://via.placholder.com/50px" alt="holder" class="sound">
+<audio class="audio" src="media/unit0/alphabet/records/litery/Z.wav"></audio>
+<img src="https://via.placholder.com/50px" alt="holder" class="sound">
+<audio class="audio" src="media/unit0/alphabet/records/litery/Y.wav"></audio>
+    <script>
+const audio = document.querySelectorAll(".audio");
+const playBtn = document.querySelectorAll(".sound");
+
+audio, playBtn.forEach((item, play) => {
+playBtn[play].addEventListener("click", () => {
+audio[play].play();
+});
+});
+
+    </script>
+</body>
+</html>

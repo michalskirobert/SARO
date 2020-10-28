@@ -440,13 +440,8 @@ html:lang(ja) {
   width: 15px;
   height: 15px;
   cursor: pointer;
-  transition: transform .5s ease, opacity .8s ease-in;
+  transition: transform .5s ease;
   &:hover {
-    transform: scale(1.3);
-    opacity: .5;
+    transform: skew(15px);
   }
-}
-
-.audio {
-  display: none;
 }

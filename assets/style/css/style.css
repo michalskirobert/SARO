@@ -2242,6 +2242,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2268,6 +2269,10 @@ form textarea {
   background-image: url(./../../img/embl/wordOrder.jpg);
 }
 
+.lesson .lesson--adj {
+  background-image: url(./../../img/embl/adj.jpg);
+}
+
 .dialogue .dialogue {
   background-color: none;
   color: #fff;
@@ -2282,6 +2287,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2318,6 +2324,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2347,6 +2354,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2376,6 +2384,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2405,6 +2414,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2434,6 +2444,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2463,6 +2474,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2492,6 +2504,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2521,6 +2534,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2550,6 +2564,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2579,6 +2594,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -2608,6 +2624,7 @@ form textarea {
   margin: 1px;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center, center;
   text-shadow: 2px 2px 8px #111;
   text-align: center;
   font-weight: bold;
@@ -4091,6 +4108,22 @@ html:lang(ja) .cookie-container.active .cookie-btn {
 html:lang(ja) .cookie-container.active .cookie-btn:hover {
   background-color: #ffff;
   color: black;
+}
+
+.sound {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  transition: transform .5s ease, opacity .8s ease-in;
+}
+
+.sound:hover {
+  transform: scale(1.3);
+  opacity: .5;
+}
+
+.audio {
+  display: none;
 }
 
 .modal-content,
