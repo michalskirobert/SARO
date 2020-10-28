@@ -342,7 +342,6 @@
 }
 
 .cookie-container.active {
-  font-family: $font-family__primary;
   display: block;
   position: fixed;
   bottom: 0;
@@ -350,13 +349,13 @@
   right: 0;
   background: #2f3640;
   color: #f5f6fa;
-  padding: 32px;
+  padding: 0 32px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
   transition: all 400ms ease;
-  z-index: 255;
   & > a {
     font-family: $font-family__primary;
-    color:  #e84118!important;
+    color: #e84118;
+    font-family: arial;
     font-weight: bold;
     transition: color 0.5s ease;
     &:hover {
@@ -397,12 +396,13 @@ html:lang(ja) {
     right: 0;
     background: #2f3640;
     color: #f5f6fa;
-    padding: 32px;
+    padding: 0 32px;
     box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
     transition: all 400ms ease;
-    z-index: 255;
     & > a {
-      color: #e84118!important;
+      font-family: $jp__family;
+      color: #e84118;
+      font-family: arial;
       font-weight: bold;
       transition: color 0.5s ease;
       &:hover {

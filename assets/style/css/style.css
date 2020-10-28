@@ -3981,30 +3981,40 @@ html:lang(ja) .report {
 }
 
 .cookie-container {
+  display: none;
+}
+
+.cookie-container.active {
+  font-family: "Catamaran", fallback, sans-serif;
+  display: block;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   background: #2f3640;
   color: #f5f6fa;
-  padding: 0 32px;
+  padding: 32px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
   transition: all 400ms ease;
+  z-index: 255;
 }
 
-.cookie-container .cookie-container a {
+.cookie-container.active > a {
   font-family: "Catamaran", fallback, sans-serif;
-  color: #e84118;
-  font-family: arial;
+  color: #e84118 !important;
   font-weight: bold;
   transition: color 0.5s ease;
 }
 
-.cookie-container .cookie-container a:hover {
+.cookie-container.active > a:hover {
   color: #ffff;
 }
 
-.cookie-container .cookie-btn {
+.cookie-container.active > p {
+  color: #ffff;
+}
+
+.cookie-container.active .cookie-btn {
   font-family: "Catamaran", fallback, sans-serif;
   background-color: #e84118;
   border: 0;
@@ -4020,7 +4030,7 @@ html:lang(ja) .report {
   font-weight: bold;
 }
 
-.cookie-container .cookie-btn:hover {
+.cookie-container.active .cookie-btn:hover {
   background-color: #ffff;
   color: black;
 }
@@ -4034,20 +4044,23 @@ html:lang(ja) .cookie-container.active {
   right: 0;
   background: #2f3640;
   color: #f5f6fa;
-  padding: 0 32px;
+  padding: 32px;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
   transition: all 400ms ease;
+  z-index: 255;
 }
 
-html:lang(ja) .cookie-container.active .cookie-container a {
-  font-family: "Noto Sans JP", fallback, sans-serif;
-  color: #e84118;
-  font-family: arial;
+html:lang(ja) .cookie-container.active > a {
+  color: #e84118 !important;
   font-weight: bold;
   transition: color 0.5s ease;
 }
 
-html:lang(ja) .cookie-container.active .cookie-container a:hover {
+html:lang(ja) .cookie-container.active > a:hover {
+  color: #ffff;
+}
+
+html:lang(ja) .cookie-container.active > p {
   color: #ffff;
 }
 

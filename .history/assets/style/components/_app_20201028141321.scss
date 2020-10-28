@@ -356,7 +356,8 @@
   z-index: 255;
   & > a {
     font-family: $font-family__primary;
-    color:  #e84118!important;
+    color: #e84118;
+    font-family: arial;
     font-weight: bold;
     transition: color 0.5s ease;
     &:hover {
@@ -402,7 +403,9 @@ html:lang(ja) {
     transition: all 400ms ease;
     z-index: 255;
     & > a {
-      color: #e84118!important;
+      font-family: $jp__family;
+      color: #e84118;
+      font-family: arial;
       font-weight: bold;
       transition: color 0.5s ease;
       &:hover {
