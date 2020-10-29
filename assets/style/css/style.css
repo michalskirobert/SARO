@@ -191,6 +191,16 @@ table {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html,
 body {
   height: 100%;
@@ -220,7 +230,9 @@ h5,
 h6,
 p,
 b,
-u {
+u,
+th,
+td {
   font-family: "Catamaran", fallback, sans-serif;
   color: #161616;
 }
@@ -256,7 +268,7 @@ b {
   line-height: 24px;
 }
 
-p, u, .unique {
+p, u, .unique, th, td {
   font-size: 16px;
   font-weight: 600;
   line-height: 25px;
@@ -267,11 +279,13 @@ u {
 }
 
 i {
+  display: inline-block;
   font-family: "Catamaran", fallback, sans-serif;
   font-size: 14px;
   font-weight: 100;
   color: #a59c9c;
   font-style: italic;
+  line-height: normal;
 }
 
 .lesson .unit {
@@ -387,6 +401,17 @@ html:lang(ja) :lang(en) {
 
 .dialogue h3 {
   padding-top: 17px;
+}
+
+td:lang(pl),
+th:lang(pl),
+span:lang(pl),
+p:lang(pl),
+b:lang(pl),
+h1:lang(pl),
+h2:lang(pl),
+h3:lang(pl) {
+  font-family: "Catamaran--Polish", fallback, sans-serif;
 }
 
 /* catamaran-regular - latin */
@@ -526,6 +551,16 @@ html:lang(ja) :lang(en) {
   font-display: swap;
   font-weight: 900;
   src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -785,6 +820,16 @@ html:lang(ja) :lang(en) {
   font-display: swap;
   font-weight: 900;
   src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -1085,6 +1130,16 @@ form .form__button:hover {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 a {
   font-family: "Catamaran", fallback, sans-serif;
   font-size: 16px;
@@ -1139,6 +1194,10 @@ td {
 
 .inline__paragraf p {
   margin-right: 10px;
+}
+
+.lesson.lesson--adj + .panel > i:nth-last-child(3) {
+  margin-top: 25px;
 }
 
 .wrapper {
@@ -1239,12 +1298,22 @@ html:lang(ja) .box-news__item:last-child {
 .content--trad {
   display: flex;
   flex-direction: column;
+  margin: 25px 0;
+}
+
+.content--trad {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
 .content--dial {
   display: flex;
   flex-direction: row;
+}
+
+.content--dial--item {
+  width: 50%;
 }
 
 .container__trad--item {
@@ -1683,6 +1752,16 @@ header .header-brand--after::after {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 header .hamburger {
   position: absolute;
   cursor: pointer;
@@ -1981,6 +2060,16 @@ html:lang(ja) .nav {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .vertical-center {
   display: table-cell;
   vertical-align: middle;
@@ -2237,6 +2326,16 @@ form textarea {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .lesson .lesson {
   background-color: none;
   color: #fff;
@@ -2277,8 +2376,30 @@ form textarea {
 .lesson .lesson--wordOrder {
   background-image: url(./../../img/embl/wordOrder.jpg);
 }
+
 .lesson .lesson--adj {
   background-image: url(./../../img/embl/adj.jpg);
+}
+
+.dialogue .dialogue {
+  background-color: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 28px;
+  transition: 0.4s;
+  margin: 1px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center, center;
+  text-shadow: 2px 2px 8px #111;
+  text-align: center;
+  font-weight: bold;
+  transition: opacity .7s;
 }
 
 .dialogue .dialogue:hover {
@@ -2295,6 +2416,10 @@ form textarea {
 
 .dialogue .dialogue-first__meting {
   background-image: url(./../../img/embl/dialogue2.jpg);
+}
+
+.dialogue .dialogue-grocery__shoping {
+  background-image: url(./../../img/embl/dial-grocery.jpg);
 }
 
 #sernik-krolewski {
@@ -2767,6 +2892,16 @@ form textarea {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .cases-links {
   overflow: hidden;
   margin-bottom: 20px;
@@ -3209,6 +3344,16 @@ form textarea {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .filterDiv {
   background-color: #ffbcc7;
   color: #ff0077;
@@ -3391,6 +3536,16 @@ form textarea {
   font-display: swap;
   font-weight: 900;
   src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -3641,6 +3796,16 @@ html:lang(ja) .report {
   font-display: swap;
   font-weight: 900;
   src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 

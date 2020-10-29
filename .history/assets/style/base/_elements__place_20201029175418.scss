@@ -1,0 +1,18 @@
+//Global
+
+.inline__paragraf {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  p {
+    margin-right: 10px;
+  }
+}
+
+//Lessons
+
+//adjectives lesson
+
+.lesson.lesson--adj + .panel > i:nth-last-child(3) {
+    display: none;
+  }
