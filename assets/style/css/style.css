@@ -1239,7 +1239,16 @@ html:lang(ja) .box-news__item:last-child {
 .content--trad {
   display: flex;
   flex-direction: column;
-  margin: 25px 0;
+  flex-wrap: wrap;
+}
+
+.content--dial {
+  display: flex;
+  flex-direction: row;
+}
+
+.container__trad--item {
+  line-height: 25px;
 }
 
 .tools-name__checker {
@@ -2268,30 +2277,8 @@ form textarea {
 .lesson .lesson--wordOrder {
   background-image: url(./../../img/embl/wordOrder.jpg);
 }
-
 .lesson .lesson--adj {
   background-image: url(./../../img/embl/adj.jpg);
-}
-
-.dialogue .dialogue {
-  background-color: none;
-  color: #fff;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 28px;
-  transition: 0.4s;
-  margin: 1px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center, center;
-  text-shadow: 2px 2px 8px #111;
-  text-align: center;
-  font-weight: bold;
-  transition: opacity .7s;
 }
 
 .dialogue .dialogue:hover {

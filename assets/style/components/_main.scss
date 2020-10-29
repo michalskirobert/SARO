@@ -108,6 +108,27 @@ html:lang(ja) {
   }
 }
 
+.content{
+    &--trad {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    &--dial {
+    display: flex;
+    flex-direction: row;
+    }
+  }
+
+  .content--dial--item{
+    width: 50%;  }
+
+
+.container__trad--item {
+    line-height: 25px;
+}
+
+
 //tools
 .tools-name__checker {
   display: flex;
