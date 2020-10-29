@@ -1304,7 +1304,6 @@ html:lang(ja) .box-news__item:last-child {
 .content--trad {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .content--dial {
