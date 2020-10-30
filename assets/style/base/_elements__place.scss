@@ -7,10 +7,20 @@
   }
 }
 
+//Lessons
+
+// noun genders lesson
+
 .redLetter{
   color:#FE9A68;
 }
 
 ul{
   list-style-type: circle;
+}
+
+//adjectives lesson
+
+.lesson.lesson--adj + .panel > i:nth-last-child(3) {
+  margin-top: 25px;
 }
