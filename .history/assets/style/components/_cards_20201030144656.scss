@@ -142,13 +142,10 @@
       height: 15px;
       top: -2px;
       left: -1px;
-      font-size: 10px;
-      font-weight: bold;
-      text-align: center;
       position: relative;
-      background-color: lightgreen;
+      background-color: $color__link;
       color: $color__basic;
-      content: '✔️';
+      content: ' V';
       display: inline-block;
       visibility: visible;
       border: 2px solid white;

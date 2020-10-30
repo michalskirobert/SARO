@@ -27,7 +27,6 @@
             });
         };
     </script>
-
     <title>Welcome to SARO</title>
     <link rel="stylesheet" href="./../assets/style/css/style.css">
 </head>
@@ -59,7 +58,7 @@
        <script src="./../assets/js/menu.js"></script>
        </header>
     <main>
-
+        <br>
         <section>
             <div class="wrapper">
                 <h1>applying</h1>
@@ -75,28 +74,36 @@
                                             <label for="name">Name:*</label>
                                             <input name="name" type="text" class="form-control" id="name"
                                                 placeholder=" Your name here..." required>
+                                            <br>
                                             <label for="surname">Surname:*</label>
                                             <input name="surname" type="text" class="form-control" id="surname"
                                                 placeholder=" Your Surname..." required>
+                                            <br>
                                             <label for="age">Age:*</label>
                                             <input name="age" type="number" class="form-control" id="age" min="18"
                                                 placeholder=" Your age..." required>
+                                            <br>
                                             <label for="email">E-mail:*</label>
                                             <input name="email" type="email" class="form-control" id="email"
                                                 placeholder=" Your E-mail..." required>
+                                            <br>
                                             <label for="phone">Phone number:</label>
                                             <input name="phone" type="tel" class="form-control" id="phone"
                                                 placeholder=" E.g. +48 510-000-000" required>
+
                                             <label for="message">Introduce yourself:*</label>
+                                            <br>
                                             <textarea name="message" id="message" placeholder="Introducing..." row="4"
                                                 required></textarea>
-                                            <div class="gender__container">
+                                            <br>
+                                            <p>Gender:*</p>
+                                            <div class="gender__container" style="width: 100%;">
                                             <input type="radio" id="male" name="gender" value="male" checked>
                                             <label for="male">male</label>
                                             <input type="radio" id="female" name="gender" value="female" checked>
                                             <label for="female">female</label>
                                             </div>
-
+                                            <br>
                                             <label for="language"> Which language do you offer?*</p></label>
                                             <select name="offerLanguage" required id="language">
                                                 <option value="" disabled selected>Select Language</option>
@@ -173,7 +180,7 @@
                                                 <option value="Welsh">Welsh</option>
                                                 <option value="Xhosa">Xhosa</option>
                                             </select>
-
+                                            <br>
                                             <label for="nativeLanguage">What's your native language?*</label>
                                             <select id="nativeLanguage" name="nativeLanguage"
                                                 data-placeholder="Choose a Language..." required>
@@ -251,11 +258,11 @@
                                                 <option value="Welsh">Welsh</option>
                                                 <option value="Xhosa">Xhosa</option>
                                             </select>
-
+                                            <br>
                                             <label for="anotherLanguage">Other languages:</label>
                                             <input name="anotherLanguage" id="anotherLanguage" type="anotherLanguage" class="form-control"
                                                 placeholder=" Enter up to 5 languages.">
-
+                                            <br>
                                             <label for="policy">Read terms and policy before accepting</label>
                                             <textarea id="policy" readonly>You need to be aware that joining us is agreeing to a non-profit contract. Our aim is to spread our knowledge about Poland and Polish stuff, as well as translate Polish lessons and website content into different langauges.
 
@@ -282,7 +289,7 @@ You do enjoy our project and working with us 😉 it's the most important for us
                                                 <input type="checkbox" id="accepted" name="accepted" value="accepted"
                                                     required>
                                                 <label for="accepted">
-                                                    I agree and accept to the SARO Agreement,
+                                                    I agree and accept to the SARO Agreement, <br>
                                                     privacy policy and terms.*
                                                 </label>
                                             </div>
@@ -291,7 +298,7 @@ You do enjoy our project and working with us 😉 it's the most important for us
                                             <p id="ajaxResponseFail" role="alert">
                                             </p>
                                             <div id="html_element"></div>
-
+                                            <br>
                                             <button type="button" onclick="sendMail()" class="form__button">Apply to us</button>
                                         </form>
                                     </div>

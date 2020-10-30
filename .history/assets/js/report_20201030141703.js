@@ -50,8 +50,9 @@ function report() {
     <option value="Page does not work">ページがうまく動かない</option>
     <option value="Problem with displying">指定したページが一致しな</option>
     <option value="other">その他</option></select>
-    <input type="text" name="other" id="other" class="issue" placeholder="「その他」を選んだ方は、内容をご記入下さい?">
-    <textarea name="describe" id="describe" cols="30" rows="10" required placeholder="発生している状況やフィードバックをご記入下さい"></textarea>
+    <input type="text" name="other" id="other" class="issue" placehlder="「その他」を選んだ方は、内容をご記入下さい?">
+    <label for="describe">発生している状況やフィードバックをご記入下さい</label>
+    <textarea name="describe" id="describe" cols="30" rows="10" required></textarea>
     <i>以下の内容をご記入下さい。(任意)</i>
     <input type="text" name="name" id="name" class="issue" placeholder="お名前">
     <input type="email" name="email" id="email" class="issue" placeholder="メールアドレス">

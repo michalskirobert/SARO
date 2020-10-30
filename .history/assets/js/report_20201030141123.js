@@ -25,7 +25,7 @@ function report() {
     <option value="other">Other</option></select>
     <input type="text" name="other" id="other" class="issue" placeholder="if other, what is it?">
     <textarea name="describe" id="describe" cols="30" rows="10" placeholder="Describe your issue or feedback here" required></textarea>
-    <i>*Additional informations name, email are not requested</i>
+    <b>Additional informations, not requested</b>
     <div class="form__label__left">
     <input type="text" name="name" id="name" class="issue" placeholder="Name">
     <input type="email" name="email" id="email" class="issue" placeholder="Email">
@@ -45,18 +45,26 @@ function report() {
     <input name="language" id="language" value="${language[i].lang}" style="display: none;">
     <input name="page" id="page" value="${pageName}" style="display: none;">
     <input name="lang" id="lang" value="Japanese" style="display: none;">
+    <label for="category">カテゴリー</label>
     <select name="category" id="category" required>
     <option value="Bug">バグ</option>
     <option value="Page does not work">ページがうまく動かない</option>
     <option value="Problem with displying">指定したページが一致しな</option>
     <option value="other">その他</option></select>
-    <input type="text" name="other" id="other" class="issue" placeholder="「その他」を選んだ方は、内容をご記入下さい?">
-    <textarea name="describe" id="describe" cols="30" rows="10" required placeholder="発生している状況やフィードバックをご記入下さい"></textarea>
-    <i>以下の内容をご記入下さい。(任意)</i>
-    <input type="text" name="name" id="name" class="issue" placeholder="お名前">
-    <input type="email" name="email" id="email" class="issue" placeholder="メールアドレス">
+    <label for="other">「その他」を選んだ方は、内容をご記入下さい?</label>
+    <input type="text" name="other" id="other" class="issue">
+    <label for="describe">発生している状況やフィードバックをご記入下さい</label>
+    <textarea name="describe" id="describe" cols="30" rows="10" required></textarea>
+    <br>
+    <b>以下の内容をご記入下さい。(任意)</b> <br>
+    <div class="form__label__left">
+    <label for="name">お名前</label>
+    <input type="text" name="name" id="name" class="issue">
+    <label for="name">メールアドレス</label>
+    <input type="email" name="email" id="email" class="issue">
     <input type="submit" class="button__black" value="送信">
     </form>
+    </div>
     </div>
     </div>`;
   }
