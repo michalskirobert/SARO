@@ -40,4 +40,6 @@ audio,
 }
 }
 
+export const language;
+
 //Robert Michalski

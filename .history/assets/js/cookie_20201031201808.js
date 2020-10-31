@@ -1,4 +1,6 @@
-const languageCookie = document.querySelectorAll("html");
+import {language} from "alphabetLesson";
+
+const language = document.querySelectorAll("html");
 const cookiesContainer = document.createElement("div");
 cookiesContainer.setAttribute("class", "cookie-container");
 const cookiesCont = document.createElement("p");
@@ -23,8 +25,8 @@ setTimeout(() => {
 }, 2000);
 
 
-for(var i = 0; i < languageCookie.length; i++){
-if (languageCookie[i].lang === "en") {
+for(var i = 0; i < language.length; i++){
+if (language[i].lang === "en") {
   cookiesCont.innerHTML = `
   We use cookies to understand how you use our site and to improve your experience. This includes personalizing content and advertising.
   By continuing to use our site, you accept our use of cookies, revised,
@@ -34,7 +36,7 @@ if (languageCookie[i].lang === "en") {
 
   newBtn.innerHTML = "I understood";
 
-}else if (languageCookie[i].lang === "ja") {
+}else if (language[i].lang === "ja") {
   cookiesCont.innerHTML = `当サイトは、お客様により良いサービスを提供するため、Cookieを使用しています。
   これには、ユーザーに合わせたコンテンツと広告が含まれます。 詳細については、
   <a href="https://saro.website/learnmore#japanese" target="_blank">ここをクリック してください</a> 当サイトを引き続きご利用いただく際は、
