@@ -1182,7 +1182,15 @@ td {
 }
 
 .panel table {
-  margin: 15px 0 15px 0;
+  margin: 20px 0 20px 0;
+  border: 3px solid #1E1149;
+  border-radius: 5px;
+}
+
+.panel table th,
+.panel table td {
+  border: 3px solid #1E1149;
+  text-align: center;
 }
 
 .YouTube__center {
@@ -2276,8 +2284,7 @@ form h3 {
 form input::-webkit-input-placeholder,
 form textarea::-webkit-input-placeholder {
   font: inherit;
-  transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out,
- visibility 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
 form input,
@@ -2626,7 +2633,7 @@ html:lang(ja) form {
   background-image: url(./../../img/embl/adj.jpg);
 }
 
-.lesson .lesson--nounGrammaticalGender {
+.lesson .lesson--nounGender {
   background-image: url(./../../img/embl/n-g-g.jpg);
 }
 

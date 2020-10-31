@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Error 404 - page was not found</title>
     <link rel="stylesheet" href="https://saro.website/assets/style/css/404.css">
+    <link
+    href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,7 +19,7 @@
         <section>
             <div>
            <b>Error 404</b>
-           <p>Page path</p> <p id="path"></p>
+           <p>Page path</p> <p id="Url"></p> <p>not found</p>
            <button onclick="goTo()">Back to main page</button>
         </div>
         </section>
@@ -24,9 +27,7 @@
             function goTo(){
                 window.open("https://saro.website", "_self");
             }
-            const path = document.getElementById("path");
-            const locationPath = window.location.pathname;
-            path.innerHTML = `${locationPath} is not found`;
+            document.getElementById("Url").innerHTML='"'+window.location.pathname+'"';
         </script>
     </main>
 </body>
