@@ -990,6 +990,12 @@ form .form__button:hover {
   margin: 0 20px;
 }
 
+.noun-gender {
+  list-style: decimal;
+  font-family: "Catamaran";
+  margin: 10px;
+}
+
 /* catamaran-regular - latin */
 @font-face {
   font-family: 'Catamaran';
@@ -1170,6 +1176,18 @@ td {
   margin-top: 18px;
 }
 
+.panel table {
+  margin: 20px 0 20px 0;
+  border: 3px solid #1E1149;
+  border-radius: 5px;
+}
+
+.panel table th,
+.panel table td {
+  border: 3px solid #1E1149;
+  text-align: center;
+}
+
 .YouTube__center {
   display: block;
   margin: 0 auto;
@@ -1194,6 +1212,10 @@ td {
 
 .inline__paragraf p {
   margin-right: 10px;
+}
+
+.redLetter {
+  color: #FE9A68;
 }
 
 .lesson.lesson--adj + .panel > i:nth-last-child(3) {
@@ -1299,24 +1321,6 @@ html:lang(ja) .box-news__item:last-child {
   display: flex;
   flex-direction: column;
   margin: 25px 0;
-}
-
-.content--trad {
-  display: flex;
-  flex-direction: column;
-}
-
-.content--dial {
-  display: flex;
-  flex-direction: row;
-}
-
-.content--dial--item {
-  width: 50%;
-}
-
-.container__trad--item {
-  line-height: 25px;
 }
 
 .tools-name__checker {
