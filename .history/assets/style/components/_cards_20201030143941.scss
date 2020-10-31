@@ -1,0 +1,115 @@
+.column {
+    width: 97%;
+    display: block;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+  .container__card {
+    padding: 0 16px;
+  }
+
+.card img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 100%;
+    padding: 15px;
+  }
+
+.container__card::after,
+.row::after {
+  content: ".";
+  color: white;
+  clear: both;
+  display: table;
+}
+
+.container__card .title {
+  font-weight: 0;
+  color: grey;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 10px;
+  font-style: italic;
+}
+
+@media screen and (min-width: 1000px) {
+    .column {
+      float: left;
+      width: 32%;
+    }
+  }
+
+
+
+  //join us page
+.row{
+  &--joinUs{
+    display: flex;
+    justify-content: center;
+  }
+  .column{
+    &--joinUs{
+      width: 100%;
+      float: unset;
+    }
+    form{
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      textarea:read-only {
+      width:calc(100% - 35px);
+      height:100%;
+      overflow-y: scroll;
+      }
+    }
+    .card{
+      &--joinUs{
+        padding-bottom: 35px;
+      }
+    }
+    .gender__container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      margin: 25px 0;
+      input[type="radio"]{
+        margin: 0;
+        padding: 0;
+      }
+      label {
+        padding: 0;
+        margin: 0 15px 0 5px;
+      }
+    }
+    .policy{
+        max-width: 450px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        input{
+          margin-right: 15px;
+      }
+      }
+      select{
+        box-shadow: none;
+        background-color: $color__link--hover;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1000px){
+    .column--joinUs{
+    &--joinUs{
+        width: 50%;
+      }
+  }
+}

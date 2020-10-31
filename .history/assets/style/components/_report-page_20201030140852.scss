@@ -1,0 +1,98 @@
+@import "./../base/fonts";
+@import "./../base/colors";
+@import "./../modules/mixin";
+
+//base for report page
+.report__base {
+  @include modal;
+  display: block;
+}
+
+//report container
+.report__content {
+  margin: 0 auto;
+  max-width: 650px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 50px;
+  padding: 20px;
+  h3 {
+    font-family: $font-family__primary;
+    color: $color__default;
+    font-size: 40px;
+    text-align: center;
+  }
+  label {
+    font-family: $font-family__primary;
+    color: $color__default;
+    font-weight: 900;
+    line-height: 40px;
+  }
+  input[type="submit"] {
+    background: $color__link;
+    color: $color__basic;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    border-radius: 50px;
+    font-family: $font-family__primary;
+    margin-top: 35px;
+    transition: background-color .8s;
+    &:hover {
+      background-color: $color__link--hover;
+    }
+  }
+}
+
+.report__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  select {
+    box-shadow: none;
+  }
+  .issue {
+    max-width: 100%;
+    height: 45px;
+  }
+  #describe {
+    height: 35px!important;
+    height: 100%;
+  }
+  input {
+    max-width: 100%;
+  }
+}
+
+.report {
+  background: $color__default;
+  color: $color__basic;
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  &:hover {
+    background: red;
+    color: $color__basic;
+    transition: 0.7s;
+  }
+}
+
+.form__label__left {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+html:lang(ja){
+  .report {
+    font-size: 10px;
+}
+}

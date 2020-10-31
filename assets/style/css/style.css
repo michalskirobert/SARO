@@ -234,11 +234,11 @@ u,
 th,
 td {
   font-family: "Catamaran", fallback, sans-serif;
-  color: #161616;
+  color: #554149;
 }
 
 h1 {
-  color: #161616;
+  color: #554149;
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
@@ -249,7 +249,7 @@ h1 {
 h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #161616;
+  color: #554149;
   text-align: center;
   text-transform: uppercase;
   line-height: 60px;
@@ -283,7 +283,7 @@ i {
   font-family: "Catamaran", fallback, sans-serif;
   font-size: 14px;
   font-weight: 100;
-  color: #a59c9c;
+  color: #008F86;
   font-style: italic;
   line-height: normal;
 }
@@ -306,14 +306,14 @@ strong {
 }
 
 .data {
-  color: grey;
+  color: #008F86;
   font-style: italic;
   font-size: 12px;
   font-weight: 500;
 }
 
 .unique {
-  color: #ff0077;
+  color: #B98196;
   text-decoration-line: underline;
   font-family: "Cormorant", fallback, sans-serif;
 }
@@ -325,9 +325,9 @@ strong {
   font-weight: 300;
   font-style: italic;
   line-height: 40px;
-  color: #fff;
+  color: #ffff;
   text-align: center;
-  text-shadow: 2px 2px 8px #111;
+  text-shadow: 2px 2px 8px #554149;
 }
 
 .index-banner h2 {
@@ -335,16 +335,16 @@ strong {
   font-size: 60px;
   font-weight: 900;
   line-height: 70px;
-  color: #fff;
+  color: #ffff;
   text-align: center;
-  text-shadow: 2px 2px 8px #111;
+  text-shadow: 2px 2px 8px #554149;
 }
 
 label {
   font-size: 16px;
   font-weight: 800;
   line-height: 24px;
-  color: #111;
+  color: #554149;
   padding: 0;
   font-family: "Catamaran", fallback, sans-serif;
 }
@@ -834,16 +834,16 @@ h3:lang(pl) {
 }
 
 .back {
-  color: #fff;
+  color: #ffff;
   border: none;
-  background-color: #ffbcc7;
+  background-color: #DE0085;
   width: 100%;
   position: fixed;
   z-index: 2;
 }
 
 .back:hover {
-  color: #ff0077;
+  color: #B98196;
   border: transparent;
 }
 
@@ -853,9 +853,9 @@ h3:lang(pl) {
 
 @media only screen and (min-width: 1000px) {
   .back {
-    color: #fff;
+    color: #ffff;
     border: none;
-    background-color: #ffbcc7;
+    background-color: #DE0085;
     border-radius: 12px;
     transition: background-color 0.8s;
     width: fit-content;
@@ -863,13 +863,13 @@ h3:lang(pl) {
     left: 150px;
   }
   .back:hover {
-    background-color: #ff0077;
+    background-color: #B98196;
     border-radius: 12px;
-    color: #fff;
+    color: #ffff;
   }
-  .back:active {
+  .back:focus {
     border-radius: 12px;
-    background-color: pink;
+    background-color: #B98196;
     border: none;
     border-radius: none;
   }
@@ -883,8 +883,8 @@ h3:lang(pl) {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: #fff;
-  background-color: #161616;
+  color: #ffff;
+  background-color: #554149;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -897,9 +897,9 @@ h3:lang(pl) {
 
 form .form__button {
   font-family: "Catamaran", fallback, sans-serif;
-  background-color: #ffbcc7;
+  background-color: #DE0085;
   border-color: transparent;
-  color: #fff;
+  color: #ffff;
   font-size: 17px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -914,14 +914,14 @@ form .form__button {
 }
 
 form .form__button:hover {
-  background-color: #ff0077;
+  background-color: #B98196;
 }
 
 .button__default {
   font-family: "Catamaran", fallback, sans-serif;
-  background-color: #ffbcc7;
+  background-color: #DE0085;
   border-color: transparent;
-  color: #fff;
+  color: #ffff;
   font-size: 14px;
   font-weight: bold;
   padding: 5px;
@@ -931,8 +931,8 @@ form .form__button:hover {
 }
 
 .button__default:hover {
-  background-color: #ff0077;
-  color: #fff;
+  background-color: #B98196;
+  color: #ffff;
 }
 
 .form__contact .form__button {
@@ -994,6 +994,11 @@ form .form__button:hover {
   list-style: decimal;
   font-family: "Catamaran";
   margin: 10px;
+  font-weight: 600;
+}
+
+.noun-gender li {
+  line-height: normal;
 }
 
 /* catamaran-regular - latin */
@@ -1151,12 +1156,12 @@ a {
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
-  color: #ffbcc7;
+  color: #DE0085;
   transition: color .8s;
 }
 
 a:hover {
-  color: #ff0077;
+  color: #B98196;
 }
 
 table,
@@ -1177,15 +1182,7 @@ td {
 }
 
 .panel table {
-  margin: 20px 0 20px 0;
-  border: 3px solid #1E1149;
-  border-radius: 5px;
-}
-
-.panel table th,
-.panel table td {
-  border: 3px solid #1E1149;
-  text-align: center;
+  margin: 15px 0 15px 0;
 }
 
 .YouTube__center {
@@ -1216,6 +1213,10 @@ td {
 
 .redLetter {
   color: #FE9A68;
+}
+
+.lesson--nounGrammaticalGender.active + .panel > p:nth-child(2) {
+  margin: 25px 0;
 }
 
 .lesson.lesson--adj + .panel > i:nth-last-child(3) {
@@ -1791,7 +1792,7 @@ header .hamburger .bar {
 
 header .nav-list {
   position: fixed;
-  background: pink;
+  background: #FF5FBC;
   height: 100vh;
   width: 100%;
   flex-direction: column;
@@ -1883,7 +1884,7 @@ header li.fade {
     transition: color 0.5s ease-in;
   }
   nav .nav__desktop li a:hover {
-    color: #ff0077;
+    color: #B98196;
     font-weight: 550;
     font-weight: 600;
   }
@@ -1904,7 +1905,7 @@ header li.fade {
     transition: background-color 0.8s, color 0.8s;
   }
   nav .header-cases:hover {
-    background-color: #ff0077;
+    background-color: #B98196;
     color: white;
   }
   nav .header-cases:hover::after {
@@ -2099,34 +2100,269 @@ html:lang(ja) .nav {
   }
 }
 
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 form {
+  position: relative;
+  font-family: "Catamaran", fallback, sans-serif;
   margin: 0 auto;
-  display: flex;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding: 0 0 40px;
+  border-radius: 3px;
+  color: #554149;
   flex-direction: column;
+  max-width: 400px;
+  display: flex;
+  padding: 15px;
 }
 
-form .form-control {
-  width: 280px;
-  background-color: #fff;
-  border: 1px solid;
+form h3 {
+  max-width: 100%;
+  background: #FF5FBC;
+  padding: 20px;
+  color: #ffff;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 3px 3px 0 0;
+}
+
+form input::-webkit-input-placeholder,
+form textarea::-webkit-input-placeholder {
+  font: inherit;
+  transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out,
+ visibility 0.3s ease-in-out;
+}
+
+form input,
+form textarea {
+  font: inherit;
+  font-size: 0.8em;
+  margin: 28px 25px 10px;
+  max-width: 400px;
+  display: block;
+  border: none;
+  padding: 20px 0 10px;
+  border-bottom: solid 1px #FF5FBC;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #FF5FBC 4%);
+  background-position: -400px 0;
+  background-size: 400px 100%;
+  background-repeat: no-repeat;
+  transition: background-color 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  resize: none;
+  overflow: hidden;
+}
+
+form input:focus::-webkit-input-placeholder,
+form textarea:focus::-webkit-input-placeholder {
+  color: #FF5FBC;
+}
+
+form input:focus,
+form input:valid form input:optional,
+form textarea:focus,
+form textarea:valid form input:optional,
+form input:valid
+form textarea:optional,
+form textarea:valid
+form textarea:optional {
+  box-shadow: none;
   outline: none;
-  color: #111;
-  margin: 0 0 10px 0;
+  background-position: 0 0;
+  color: #554149;
 }
 
-form input {
-  height: 50px;
+form input:focus::-webkit-input-placeholder,
+form input:valid form input:optional::-webkit-input-placeholder,
+form textarea:focus::-webkit-input-placeholder,
+form textarea:valid form input:optional::-webkit-input-placeholder,
+form input:valid
+form textarea:optional::-webkit-input-placeholder,
+form textarea:valid
+form textarea:optional::-webkit-input-placeholder {
+  font-size: 0.8em;
+  transform: translateY(-20px);
+  visibility: visible !important;
+  opacity: 1;
 }
 
 form textarea {
+  max-width: 100%;
+}
+
+form button {
+  font-family: "Catamaran", fallback, sans-serif;
+  transition: transform 0.2s cubic-bezier(0.64, 0.09, 0.08, 1), box-shadow 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+  border: none;
+  background: #FF5FBC;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  margin: 0 auto;
   width: 300px;
-  height: 150px;
+  color: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+html:lang(ja) form {
+  font-family: "Noto Sans JP", fallback, sans-serif !important;
 }
 
 #ajaxResponseFail {
-  color: #fff;
-  background-color: lightcoral;
-  border: 1px dashed red;
+  color: #DE0085;
+  background-color: #FF9EF5;
+  border: 1px dashed #FF5FBC;
   font-weight: 900;
   font-size: 16px;
   padding: 5px;
@@ -2135,9 +2371,9 @@ form textarea {
 }
 
 #ajaxResponseSuccess {
-  color: #fff;
-  background-color: lightgreen;
-  border: 1px dashed green;
+  color: #ffff;
+  background-color: #008F86;
+  border: 1px dashed #554149;
   font-weight: 900;
   font-size: 16px;
   padding: 5px;
@@ -2148,6 +2384,12 @@ form textarea {
 #ajaxResponseSuccess, #ajaxResponseFail {
   display: none;
   margin-top: 10px;
+}
+
+#emailValid, #nameValid, #msgValid {
+  display: block;
+  text-align: center;
+  font-size: .8rem;
 }
 
 .sign {
@@ -2382,6 +2624,10 @@ form textarea {
 
 .lesson .lesson--adj {
   background-image: url(./../../img/embl/adj.jpg);
+}
+
+.lesson .lesson--nounGrammaticalGender {
+  background-image: url(./../../img/embl/n-g-g.jpg);
 }
 
 .dialogue .dialogue {
@@ -3107,21 +3353,176 @@ form textarea {
   }
 }
 
-.column {
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local(""), url("../fonts/catamaran-v7-latin-500.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local(""), url("../fonts/catamaran-v7-latin-600.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-800 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: local(""), url("../fonts/catamaran-v7-latin-800.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local(""), url("../fonts/catamaran-v7-latin-900.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Regular"), local("CormorantGaramond-Regular"), url("../fonts/cormorant-garamond-v8-latin-regular.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Cormorant Garamond Italic"), local("CormorantGaramond-Italic"), url("../fonts/cormorant-garamond-v8-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700 - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold"), local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v8-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* cormorant-garamond-700italic - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Cormorant Garamond Bold Italic"), local("CormorantGaramond-BoldItalic"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v8-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-100 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Noto Sans Japanese Thin"), local("NotoSansJapanese-Thin"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-jp-900 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: local("Noto Sans Japanese Black"), local("NotoSansJapanese-Black"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff2") format("woff2"), url("./../fonts/noto-sans-jp-v27-latin_japanese-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* catamaran-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: 'Catamaran--Polish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.row .column {
   width: 97%;
   display: block;
 }
 
-.card {
+.row .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
 
-.container__card {
+.row .container__card {
   padding: 0 16px;
 }
 
-.card img {
+.row .card img {
   display: block;
   width: 80%;
   margin: 0 auto;
@@ -3129,15 +3530,15 @@ form textarea {
   padding: 15px;
 }
 
-.container__card::after,
-.row::after {
+.row .container__card::after,
+.row .row::after {
   content: ".";
   color: white;
   clear: both;
   display: table;
 }
 
-.container__card .title {
+.row .container__card .title {
   font-weight: 0;
   color: grey;
   font-size: 13px;
@@ -3146,11 +3547,25 @@ form textarea {
   font-style: italic;
 }
 
-@media screen and (min-width: 1000px) {
-  .column {
-    float: left;
-    width: 32%;
+@media screen and (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+  .row .column {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .row .column {
+    width: calc(100% / 3);
+  }
+}
+
+.row + h3 {
+  padding: 20px 0;
 }
 
 .row--joinUs {
@@ -3168,7 +3583,12 @@ form textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+.row .column form textarea:read-only {
+  width: calc(100% - 35px);
+  height: 100%;
+  overflow-y: scroll;
 }
 
 .row .column .card--joinUs {
@@ -3181,7 +3601,81 @@ form textarea {
   align-items: center;
   justify-content: center;
   padding: 0;
+  margin: 25px 0;
+}
+
+.row .column .gender__container input[type="radio"] {
   margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+
+.row .column .gender__container input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.row .column .gender__container input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #DE0085;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.row .column .gender__container label {
+  padding: 0;
+  margin: 0 15px 0 5px;
+}
+
+.row .column input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+}
+
+.row .column input[type="checkbox"]:after {
+  width: 15px;
+  height: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.row .column input[type="checkbox"]:checked:after {
+  width: 15px;
+  height: 15px;
+  top: -2px;
+  left: -1px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  background-color: lightgreen;
+  color: #ffff;
+  content: "✔️";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
 }
 
 .row .column .policy {
@@ -3198,7 +3692,7 @@ form textarea {
 
 .row .column select {
   box-shadow: none;
-  background-color: #ff0077;
+  background-color: #B98196;
 }
 
 @media screen and (min-width: 1000px) {
@@ -3358,8 +3852,8 @@ form textarea {
 }
 
 .filterDiv {
-  background-color: #ffbcc7;
-  color: #ff0077;
+  background-color: #DE0085;
+  color: #B98196;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -3382,8 +3876,8 @@ form textarea {
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: #ffbcc7;
-  color: #fff;
+  background-color: #DE0085;
+  color: #ffff;
   cursor: pointer;
   margin: 3px 0;
   -webkit-appearance: none;
@@ -3394,12 +3888,12 @@ form textarea {
 }
 
 .btn:hover {
-  background: #ff0077;
+  background: #B98196;
   font-weight: 900;
 }
 
 .btn.active {
-  background: #ff0077;
+  background: #B98196;
 }
 
 /* catamaran-regular - latin */
@@ -3590,21 +4084,21 @@ form textarea {
 
 .report__content h3 {
   font-family: "Catamaran", fallback, sans-serif;
-  color: #161616;
+  color: #554149;
   font-size: 40px;
   text-align: center;
 }
 
 .report__content label {
   font-family: "Catamaran", fallback, sans-serif;
-  color: #161616;
+  color: #554149;
   font-weight: 900;
   line-height: 40px;
 }
 
 .report__content input[type="submit"] {
-  background: #ffbcc7;
-  color: #fff;
+  background: #DE0085;
+  color: #ffff;
   border: none;
   font-size: 16px;
   font-weight: 900;
@@ -3620,12 +4114,13 @@ form textarea {
 }
 
 .report__content input[type="submit"]:hover {
-  background-color: #ff0077;
+  background-color: #B98196;
 }
 
 .report__form {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .report__form select {
@@ -3633,13 +4128,26 @@ form textarea {
 }
 
 .report__form .issue {
-  width: 100%;
+  max-width: 100%;
   height: 45px;
 }
 
+.report__form #describe {
+  height: 35px !important;
+  height: 100%;
+}
+
+.report__form input {
+  max-width: 100%;
+}
+
+.report__form i {
+  text-align: center;
+}
+
 .report {
-  background: #161616;
-  color: #fff;
+  background: #554149;
+  color: #ffff;
   font-size: 16px;
   padding: 5px;
   border: none;
@@ -3648,7 +4156,7 @@ form textarea {
 
 .report:hover {
   background: red;
-  color: #fff;
+  color: #ffff;
   transition: 0.7s;
 }
 
