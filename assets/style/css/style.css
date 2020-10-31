@@ -990,6 +990,17 @@ form .form__button:hover {
   margin: 0 20px;
 }
 
+.noun-gender {
+  list-style: decimal;
+  font-family: "Catamaran";
+  margin: 10px;
+  font-weight: 600;
+}
+
+.noun-gender li {
+  line-height: normal;
+}
+
 /* catamaran-regular - latin */
 @font-face {
   font-family: 'Catamaran';
@@ -1170,6 +1181,10 @@ td {
   margin-top: 18px;
 }
 
+.panel table {
+  margin: 15px 0 15px 0;
+}
+
 .YouTube__center {
   display: block;
   margin: 0 auto;
@@ -1194,6 +1209,14 @@ td {
 
 .inline__paragraf p {
   margin-right: 10px;
+}
+
+.redLetter {
+  color: #FE9A68;
+}
+
+.lesson--nounGrammaticalGender.active + .panel > p:nth-child(2) {
+  margin: 25px 0;
 }
 
 .lesson.lesson--adj + .panel > i:nth-last-child(3) {
@@ -2602,6 +2625,10 @@ html:lang(ja) form {
   background-image: url(./../../img/embl/adj.jpg);
 }
 
+.lesson .lesson--nounGrammaticalGender {
+  background-image: url(./../../img/embl/n-g-g.jpg);
+}
+
 .dialogue .dialogue {
   background-color: none;
   color: #fff;
@@ -3475,21 +3502,26 @@ html:lang(ja) form {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-.column {
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.row .column {
   width: 97%;
   display: block;
 }
 
-.card {
+.row .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
 
-.container__card {
+.row .container__card {
   padding: 0 16px;
 }
 
-.card img {
+.row .card img {
   display: block;
   width: 80%;
   margin: 0 auto;
@@ -3497,15 +3529,15 @@ html:lang(ja) form {
   padding: 15px;
 }
 
-.container__card::after,
-.row::after {
+.row .container__card::after,
+.row .row::after {
   content: ".";
   color: white;
   clear: both;
   display: table;
 }
 
-.container__card .title {
+.row .container__card .title {
   font-weight: 0;
   color: grey;
   font-size: 13px;
@@ -3514,11 +3546,25 @@ html:lang(ja) form {
   font-style: italic;
 }
 
-@media screen and (min-width: 1000px) {
-  .column {
-    float: left;
-    width: 32%;
+@media screen and (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+  .row .column {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .row .column {
+    width: calc(100% / 3);
+  }
+}
+
+.row + h3 {
+  padding: 20px 0;
 }
 
 .row--joinUs {
@@ -3563,7 +3609,7 @@ html:lang(ja) form {
   background-color: pink;
 }
 
-.row .column .gender__container input[type='radio']:after {
+.row .column .gender__container input[type="radio"]:after {
   width: 15px;
   height: 15px;
   border-radius: 15px;
@@ -3571,13 +3617,13 @@ html:lang(ja) form {
   left: -1px;
   position: relative;
   background-color: #d1d3d1;
-  content: '';
+  content: "";
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
 }
 
-.row .column .gender__container input[type='radio']:checked:after {
+.row .column .gender__container input[type="radio"]:checked:after {
   width: 15px;
   height: 15px;
   border-radius: 15px;
@@ -3585,7 +3631,7 @@ html:lang(ja) form {
   left: -1px;
   position: relative;
   background-color: #DE0085;
-  content: '';
+  content: "";
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
@@ -3601,20 +3647,20 @@ html:lang(ja) form {
   padding: 0;
 }
 
-.row .column input[type='checkbox']:after {
+.row .column input[type="checkbox"]:after {
   width: 15px;
   height: 15px;
   top: -2px;
   left: -1px;
   position: relative;
   background-color: #d1d3d1;
-  content: '';
+  content: "";
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
 }
 
-.row .column input[type='checkbox']:checked:after {
+.row .column input[type="checkbox"]:checked:after {
   width: 15px;
   height: 15px;
   top: -2px;
@@ -3625,7 +3671,7 @@ html:lang(ja) form {
   position: relative;
   background-color: lightgreen;
   color: #ffff;
-  content: '✔️';
+  content: "✔️";
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
