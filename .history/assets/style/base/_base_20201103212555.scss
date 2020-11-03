@@ -241,3 +241,7 @@ html:lang(kr) {
 rt {
   font-family: $jp__family;
 }
+
+p > ruby rt {
+  margin-top: 5px;
+}

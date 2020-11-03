@@ -268,7 +268,11 @@ b {
   line-height: 24px;
 }
 
-p, u, .unique, th, td {
+p,
+u,
+.unique,
+th,
+td {
   font-size: 16px;
   font-weight: 600;
   line-height: 25px;
@@ -359,15 +363,15 @@ html:lang(ja) p,
 html:lang(ja) b,
 html:lang(ja) i,
 html:lang(ja) u,
-html:lang(ja) a
-button,
+html:lang(ja) a button,
 html:lang(ja) input,
 html:lang(ja) strong,
 html:lang(ja) label {
   font-family: "Noto Sans JP", fallback, sans-serif;
 }
 
-html:lang(ja) .index-banner h1, html:lang(ja) .index-banner h2 {
+html:lang(ja) .index-banner h1,
+html:lang(ja) .index-banner h2 {
   font-family: "Catamaran", fallback, sans-serif;
 }
 
@@ -410,8 +414,23 @@ p:lang(pl),
 b:lang(pl),
 h1:lang(pl),
 h2:lang(pl),
-h3:lang(pl) {
-  font-family: "Catamaran--Polish", fallback, sans-serif;
+h3:lang(pl),
+ruby:lang(pl) {
+  font-family: "Catamaran--Polish", fallback, sans-serif !important;
+}
+
+html:lang(ja) p:lang(pl), html:lang(ja) ruby:lang(pl), html:lang(ja) span:lang(pl),
+html:lang(zh) p:lang(pl),
+html:lang(zh) ruby:lang(pl),
+html:lang(zh) span:lang(pl),
+html:lang(kr) p:lang(pl),
+html:lang(kr) ruby:lang(pl),
+html:lang(kr) span:lang(pl) {
+  font-weight: 600;
+}
+
+rt {
+  font-family: "Noto Sans JP", fallback, sans-serif;
 }
 
 /* catamaran-regular - latin */
@@ -4813,6 +4832,38 @@ html:lang(ja) .cookie-container.active .cookie-btn:hover {
   }
 }
 
+.youtube {
+  background-image: url(./../../img/icons/youtube.svg);
+  background-size: contain;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in;
+}
+
+.youtube:hover {
+  background-color: #1111;
+}
+
+.netflix {
+  background-image: url(./../../img/icons/netflix.svg);
+  background-size: contain;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in;
+}
+
+.netflix:hover {
+  background-color: #1111;
+}
+
 .modal-content,
 #caption {
   -webkit-animation-name: zoom;
@@ -4828,5 +4879,37 @@ html:lang(ja) .cookie-container.active .cookie-btn:hover {
   to {
     transform: scale(1);
   }
+}
+
+.youtube {
+  background-image: url(./../../img/icons/youtube.svg);
+  background-size: contain;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in;
+}
+
+.youtube:hover {
+  background-color: #1111;
+}
+
+.netflix {
+  background-image: url(./../../img/icons/netflix.svg);
+  background-size: contain;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in;
+}
+
+.netflix:hover {
+  background-color: #1111;
 }
 /*# sourceMappingURL=style.css.map */

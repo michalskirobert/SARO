@@ -223,21 +223,15 @@ p:lang(pl),
 b:lang(pl),
 h1:lang(pl),
 h2:lang(pl),
-h3:lang(pl),
-ruby:lang(pl) {
-  font-family: $ff-polish!important;
+h3:lang(pl) {
+  font-family: $ff-polish;
 }
 
 
 html:lang(ja),
 html:lang(zh),
 html:lang(kr) {
-  p:lang(pl), ruby:lang(pl), span:lang(pl) {
+  p:lang(pl), span:lang(pl) {
     font-weight: 600;
   }
-}
-
-
-rt {
-  font-family: $jp__family;
 }

@@ -1,7 +1,7 @@
 $colors: (
   youtube: #850000,
   netflix: red,
-  another: pink,
+  another: pink;
 );
 
 @each $name, $color in $colors {

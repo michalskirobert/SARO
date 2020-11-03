@@ -1,0 +1,11 @@
+$colors: (
+  youtube: red,
+  netflix: red,
+);
+
+@each $name, $color in $colors {
+  .#{$name} {
+    color: $color;
+    font-weight: bold;
+  }
+}

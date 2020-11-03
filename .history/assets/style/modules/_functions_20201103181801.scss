@@ -1,0 +1,20 @@
+$colors: (
+  youtube: #850000,
+  netflix: red,
+);
+
+@each $name, $color in $colors {
+  .#{$name} {
+    background-color: $color;
+    color: #fff;
+    &:hover {
+      background-color: #1111;
+    }
+  }
+}
+
+@function hello($colors) {
+    @if(color == #fff) {
+        @return red;
+    }
+}
