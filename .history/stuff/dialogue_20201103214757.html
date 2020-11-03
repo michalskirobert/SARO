@@ -425,6 +425,16 @@
             <script src="./../assets/js/gallery.js"></script>
             <script src="./../assets/js/report.js"></script>
             <div id="reportWindow"></div>
+            <div class="loader-wrapper">
+                <h1 class="loaderHeading">SARO</h1>
+                <p class="loaderP">LOADING...</p>
+                <span class="loader"><span class="loader-inner"></span></span>
+            </div>
+            <script>
+                $(window).on("load", function () {
+                    $(".loader-wrapper").fadeOut("slow");
+                });
+            </script>
         </section>
     </main>
     <div class="wrapper">
