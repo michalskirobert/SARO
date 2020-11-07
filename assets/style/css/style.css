@@ -201,6 +201,42 @@ table {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html,
 body {
   height: 100%;
@@ -433,6 +469,10 @@ rt {
   font-family: "Noto Sans JP", fallback, sans-serif;
 }
 
+html:lang(zh) * {
+  font-family: "Noto Sans SC", fallback, sans-serif;
+}
+
 /* catamaran-regular - latin */
 @font-face {
   font-family: 'Catamaran';
@@ -580,6 +620,42 @@ rt {
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -849,6 +925,42 @@ rt {
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -1167,6 +1279,42 @@ form .form__button:hover {
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -1793,6 +1941,42 @@ header .header-brand--after::after {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 header .hamburger {
   position: absolute;
   cursor: pointer;
@@ -2101,6 +2285,42 @@ html:lang(ja) .nav {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .vertical-center {
   display: table-cell;
   vertical-align: middle;
@@ -2274,6 +2494,42 @@ html:lang(ja) .nav {
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -2604,6 +2860,42 @@ html:lang(ja) form {
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -3177,6 +3469,42 @@ html:lang(ja) form {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .cases-links {
   overflow: hidden;
   margin-bottom: 20px;
@@ -3529,6 +3857,42 @@ html:lang(ja) form {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .row {
   display: flex;
   flex-direction: column;
@@ -3877,6 +4241,42 @@ html:lang(ja) form {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .filterDiv {
   background-color: #DE0085;
   color: #B98196;
@@ -4069,6 +4469,42 @@ html:lang(ja) form {
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -4343,6 +4779,42 @@ html:lang(ja) .report {
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-regular - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-500 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-700 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* noto-sans-sc-900 - chinese-simplified */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -4799,6 +5271,57 @@ html:lang(ja) .cookie-container.active .cookie-btn:hover {
   color: black;
 }
 
+html:lang(zh) .cookie-container.active {
+  font-family: "Noto Sans SC", fallback, sans-serif;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2f3640;
+  color: #f5f6fa;
+  padding: 32px;
+  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+  transition: all 400ms ease;
+  z-index: 255;
+}
+
+html:lang(zh) .cookie-container.active > a {
+  color: #e84118 !important;
+  font-weight: bold;
+  transition: color 0.5s ease;
+}
+
+html:lang(zh) .cookie-container.active > a:hover {
+  color: #ffff;
+}
+
+html:lang(zh) .cookie-container.active > p {
+  color: #ffff;
+  margin-bottom: 15px;
+}
+
+html:lang(zh) .cookie-container.active .cookie-btn {
+  font-family: "Noto Sans SC", fallback, sans-serif;
+  background-color: #e84118;
+  border: 0;
+  color: #f5f6fa;
+  padding: 8px 48px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline;
+  float: right;
+  transition: color 0.5s ease, background-color 0.7s ease-in;
+  font-weight: bold;
+}
+
+html:lang(zh) .cookie-container.active .cookie-btn:hover {
+  background-color: #ffff;
+  color: black;
+}
+
 .sound {
   width: 15px;
   height: 15px;
@@ -4864,6 +5387,22 @@ html:lang(ja) .cookie-container.active .cookie-btn:hover {
   background-color: #1111;
 }
 
+.another {
+  background-image: url(./../../img/icons/another.svg);
+  background-size: contain;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in;
+}
+
+.another:hover {
+  background-color: #1111;
+}
+
 .modal-content,
 #caption {
   -webkit-animation-name: zoom;
@@ -4910,6 +5449,22 @@ html:lang(ja) .cookie-container.active .cookie-btn:hover {
 }
 
 .netflix:hover {
+  background-color: #1111;
+}
+
+.another {
+  background-image: url(./../../img/icons/another.svg);
+  background-size: contain;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in;
+}
+
+.another:hover {
   background-color: #1111;
 }
 /*# sourceMappingURL=style.css.map */

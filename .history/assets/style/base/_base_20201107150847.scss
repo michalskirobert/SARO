@@ -1,0 +1,279 @@
+@import "colors";
+@import "fonts";
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+main {
+  padding-top: 75px;
+}
+
+//EN
+:lang(ja) {
+  font-family: $jp__family;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+u,
+th,
+td {
+  font-family: $font-family__primary;
+  color: $color__default;
+}
+
+h1 {
+  color: $color__default;
+  font-size: $font-size__large;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 75px;
+}
+
+h2 {
+  font-size: $font-size__medium;
+  font-weight: 600;
+  color: $color__default;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+h3 {
+  font-size: $font-size__medium;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+b {
+  font-size: $font-size__default;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+p,
+u,
+.unique,
+th,
+td {
+  font-size: $font-size__default;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+u {
+  text-decoration-line: underline;
+}
+
+i {
+  display: inline-block;
+  font-family: $font-family__primary;
+  font-size: 14px;
+  font-weight: 100;
+  color: $color__default--special;
+  font-style: italic;
+  line-height: normal;
+}
+
+.lesson {
+  .unit {
+    font-size: $font-size__medium;
+    font-family: $font-family__tertiary;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 35px;
+  }
+}
+
+strong {
+  font-weight: 900;
+  font-size: 20px;
+  font-family: "Cormorant";
+  text-align: center;
+  margin: 5px;
+}
+
+.data {
+  color: $color__default--special;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.unique {
+  color: $color__link--hover;
+  text-decoration-line: underline;
+  font-family: $font-family__tertiary;
+}
+
+//hero
+
+.index-banner {
+  h1 {
+    font-family: $font-family__secondary;
+    font-size: $font-size__huge;
+    font-size: $font-size__medium;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 40px;
+    color: $color__basic;
+    text-align: center;
+    text-shadow: 2px 2px 8px $color__default;
+  }
+  h2 {
+    font-family: "Catamaran";
+    font-size: $font_size__huge;
+    font-weight: 900;
+    line-height: 70px;
+    color: $color__basic;
+    text-align: center;
+    text-shadow: 2px 2px 8px $color__default;
+  }
+}
+
+//form
+label {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  color: $color__default;
+  padding: 0;
+  font-family: $font-family__primary;
+}
+
+//JP
+html:lang(ja) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  b,
+  i,
+  u,
+  a button,
+  input,
+  strong,
+  label {
+    font-family: $jp__family;
+  }
+  .index-banner {
+    h1,
+    h2 {
+      font-family: $font-family__primary;
+    }
+  }
+  p {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .data {
+    font-family: $jp__family;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+  }
+  ruby {
+    font-family: $font-family__primary;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  rt {
+    font-size: 9px;
+    font-weight: 600;
+    font-family: $jp__family;
+  }
+  :lang(en) {
+    font-family: $font-family__primary;
+  }
+}
+
+.dialogue {
+  h3 {
+    padding-top: 17px;
+  }
+}
+
+//Polish words
+
+td:lang(pl),
+th:lang(pl),
+span:lang(pl),
+p:lang(pl),
+b:lang(pl),
+h1:lang(pl),
+h2:lang(pl),
+h3:lang(pl),
+ruby:lang(pl) {
+  font-family: $ff-polish!important;
+}
+
+
+html:lang(ja),
+html:lang(zh),
+html:lang(kr) {
+  p:lang(pl), ruby:lang(pl), span:lang(pl) {
+    font-weight: 600;
+  }
+}
+
+
+rt {
+  font-family: $jp__family;
+}
+
+
+html:lang(zh) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  b,
+  i,
+  u,
+  a button,
+  input,
+  strong,
+  label {
+    font-family: $ff-chinese;
+  }
+  .index-banner {
+    h1,
+    h2 {
+      font-family: $ff-chinese;
+    }
+  }
+  p {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .data {
+    font-family: $ff-chinese;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+  }
+}
