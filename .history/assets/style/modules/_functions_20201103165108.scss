@@ -1,0 +1,13 @@
+$colors: (
+  youtube: #850000,
+  netflix: red,
+);
+
+@each $name, $color in $colors {
+  .#{$name} {
+    color: $color;
+  }
+  .#{name}:hover {
+      color: #1111;
+  }
+}
