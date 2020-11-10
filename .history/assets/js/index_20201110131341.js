@@ -22,6 +22,4 @@ window.onload = () => {
       window.open("https://saro.website/index", "_self");
       break;
   }
-}
-
-//Detectig language przy użyciu switch i case
+};

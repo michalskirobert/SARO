@@ -23,5 +23,3 @@ window.onload = () => {
       break;
   }
 }
-
-//Detectig language przy użyciu switch i case

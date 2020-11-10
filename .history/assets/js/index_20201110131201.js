@@ -7,7 +7,6 @@ window.onload = () => {
       window.open("https://saro.website/jp/index.html", "_self");
       break;
     case "ko":
-    case "ko-kr":
       window.open("https://saro.website/ko/index.html", "_self");
       break;
     case "zh":
@@ -22,6 +21,4 @@ window.onload = () => {
       window.open("https://saro.website/index", "_self");
       break;
   }
-}
-
-//Detectig language przy użyciu switch i case
+};
