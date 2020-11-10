@@ -6,8 +6,8 @@ window.onload = () => {
 }
 
 function getLanguage() {
-
   "use strict";
+
   const userLanguage =
     window.navigator.userLanguage || window.navigator.language;
 

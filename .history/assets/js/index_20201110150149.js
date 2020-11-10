@@ -1,23 +1,14 @@
-window.onload = () => {
-  if(window.location.href !== "https://saro.website/index") {
-    getLanguage();
-  }else {
-  }
-}
-
-function getLanguage() {
 
   "use strict";
-  const userLanguage =
+  const Getlanguage =
     window.navigator.userLanguage || window.navigator.language;
-
-  switch (userLanguage) {
+  switch (Getlanguage) {
     case "en":
     case "en-GB":
     case "en-US":
     case "vi":
     default:
-      break;
+    break;
     case "ja":
       window.open("https://saro.website/jp/index.html", "_self");
       break;
@@ -33,6 +24,6 @@ function getLanguage() {
       window.open("https://saro.website/ch/index.html", "_self");
       break;
   }
-}
+
 
 //Detectig language przy użyciu switch i case

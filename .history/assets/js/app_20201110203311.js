@@ -1,5 +1,5 @@
 function showNotification() {
-  const notification = new Notification("Hello, we are SARO!", {
+  const notification = new Notification("new message from Robert :)", {
     body: "Wiadomość",
     icon: "Ikona do powiadomienia",
   });

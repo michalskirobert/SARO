@@ -1,11 +1,7 @@
 function showNotification() {
-  const notification = new Notification("Hello, we are SARO!", {
-    body: "Wiadomość",
-    icon: "Ikona do powiadomienia",
+  const notification = new Notification("new message from Robert :)", {
+    body: "hey mate, how are ya?",
   });
-  notification.onclick = (e) => {
-    window.location.href = "URL DO NOWOŚCI";
-  };
 }
 
 console.log(Notification.permission);

@@ -1,17 +1,10 @@
-window.onload = () => {
-  if(window.location.href !== "https://saro.website/index") {
-    getLanguage();
-  }else {
-  }
-}
-
 function getLanguage() {
-
   "use strict";
-  const userLanguage =
+
+  const getLanguage =
     window.navigator.userLanguage || window.navigator.language;
 
-  switch (userLanguage) {
+  switch (getLanguage) {
     case "en":
     case "en-GB":
     case "en-US":

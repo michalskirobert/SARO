@@ -6,12 +6,12 @@ window.onload = () => {
 }
 
 function getLanguage() {
-
   "use strict";
-  const userLanguage =
+
+  const getLanguage =
     window.navigator.userLanguage || window.navigator.language;
 
-  switch (userLanguage) {
+  switch (getLanguage) {
     case "en":
     case "en-GB":
     case "en-US":
