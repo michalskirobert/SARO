@@ -1,9 +1,9 @@
 const acc = document.getElementsByClassName("lesson");
+let panel;
 
 for (let i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
-    let panel;
     panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
@@ -13,13 +13,11 @@ for (let i = 0; i < acc.length; i++) {
   });
 }
 
-
 const btnDialogue = document.getElementsByClassName("dialogue");
 
 for (let i = 0; i < btnDialogue.length; i++) {
-  btnDialogue[i].addEventListener("click", function() {
+  btnDialogue[i].addEventListener("click", function () {
     this.classList.toggle("active");
-    let panel;
     panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
@@ -32,9 +30,8 @@ for (let i = 0; i < btnDialogue.length; i++) {
 const buttonMusic = document.getElementsByClassName("buttonMusic");
 
 for (let i = 0; i < buttonMusic.length; i++) {
-  buttonMusic[i].addEventListener("click", function() {
+  buttonMusic[i].addEventListener("click", function () {
     this.classList.toggle("active");
-    let panel;
     panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
@@ -47,9 +44,8 @@ for (let i = 0; i < buttonMusic.length; i++) {
 const buttonMovies = document.getElementsByClassName("buttonMovies");
 
 for (let i = 0; i < buttonMovies.length; i++) {
-  buttonMovies[i].addEventListener("click", function() {
+  buttonMovies[i].addEventListener("click", function () {
     this.classList.toggle("active");
-    let panel;
     panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
@@ -62,9 +58,8 @@ for (let i = 0; i < buttonMovies.length; i++) {
 const buttonGames = document.getElementsByClassName("buttonGames");
 
 for (let i = 0; i < buttonGames.length; i++) {
-  buttonGames[i].addEventListener("click", function() {
+  buttonGames[i].addEventListener("click", function () {
     this.classList.toggle("active");
-    let panel;
     panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
@@ -77,9 +72,8 @@ for (let i = 0; i < buttonGames.length; i++) {
 const buttonSeries = document.getElementsByClassName("buttonSeries");
 
 for (let i = 0; i < buttonSeries.length; i++) {
-  buttonSeries[i].addEventListener("click", function() {
+  buttonSeries[i].addEventListener("click", function () {
     this.classList.toggle("active");
-    let panel;
     panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";

@@ -2656,13 +2656,17 @@ html:lang(ja) form {
   font-family: "Noto Sans JP", fallback, sans-serif !important;
 }
 
-#quiz {
+form#quiz {
   width: 100%;
   font-family: "Catamaran", fallback, sans-serif;
   margin: 0 auto;
   border-radius: 3px;
   display: flex;
   padding: 15px;
+}
+
+form#quiz #submitButton {
+  background-color: #f0f0f0;
 }
 
 #ajaxResponseFail {
@@ -2970,6 +2974,14 @@ html:lang(ja) form {
 
 .lesson .lesson--nounGender {
   background-image: url(./../../img/embl/n-g-g.jpg);
+}
+
+.lesson .lesson--to-be {
+  background-image: url(./../../img/embl/to-be.jpg);
+}
+
+.lesson .lesson--polish-idioms {
+  background-image: url(./../../img/embl/polishIdioms.jpg);
 }
 
 .dialogue .dialogue {
@@ -4115,6 +4127,25 @@ html:lang(ja) form {
   .column--joinUs--joinUs {
     width: 50%;
   }
+}
+
+#root {
+  margin-bottom: 25px;
+}
+
+.container-card__item--button {
+  display: flex;
+  align-items: flex-end;
+  height: 50px;
+  margin-top: 35px;
+}
+
+.container-card__item {
+  height: calc(350px - 50px);
+}
+
+#root:lang(zh) .container-card__item {
+  height: 230px;
 }
 
 /* catamaran-regular - latin */

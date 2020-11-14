@@ -1,8 +1,12 @@
-var button = document.getElementsByClassName("button__black");
-var i;
+import dataBuilderEn from "./data/components/en/dataBuilder.js";
+import dataBuilderJa from "./data/components/ja/dataBuilder.js";
+import dataBuilderZh from "./data/components/zh/dataBuilder.js";
+import { root } from "./data/components/en/dataBuilder.js";
 
-for (i = 0; i < button.length; i++) {
-  button[i].addEventListener("click", () => {
-    window.open("./contact.html", "_self")
-  });
+if (root.lang === "en") {
+  dataBuilderEn();
+} else if (root.lang === "ja") {
+  dataBuilderJa();
+} else if (root.lang === "zh") {
+  dataBuilderZh();
 }
