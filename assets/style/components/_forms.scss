@@ -100,4 +100,16 @@ html:lang(ja){
   }
 }
 
+// lesson quiz form
 
+#quiz{
+  width: 100%;
+  font-family: $font-family__primary;
+  margin: 0 auto;
+  border-radius: 3px;
+  display: flex;
+  padding: 15px;
+}
+#submitButton{
+  background-color: #f0f0f0;
+}
