@@ -17,6 +17,24 @@
   color:#FE9A68;
 }
 
+//to be verb lesson
+.accent{
+  color: #B2179D;
+}
+
+#after_submit{
+  visibility:hidden;
+  padding:10px;
+  width:100%;
+  font-size:30px;
+}
+
+// idioms lesson
+
+.example {
+  color: #B2179D;
+}
+
 .lesson--nounGrammaticalGender.active + .panel > p:nth-child(2) {
   margin: 25px 0;
 }
