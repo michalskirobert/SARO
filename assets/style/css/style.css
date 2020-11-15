@@ -1394,11 +1394,9 @@ td {
   color: #B2179D;
 }
 
-#after_submit {
-  visibility: hidden;
+#afterSubmit {
   padding: 10px;
   width: 100%;
-  font-size: 30px;
 }
 
 .example {
@@ -2656,13 +2654,35 @@ html:lang(ja) form {
   font-family: "Noto Sans JP", fallback, sans-serif !important;
 }
 
-#quiz {
-  width: 100%;
+form#quiz {
+  max-width: 100%;
   font-family: "Catamaran", fallback, sans-serif;
   margin: 0 auto;
   border-radius: 3px;
-  display: flex;
+  display: block;
   padding: 15px;
+}
+
+form#quiz input {
+  display: inline;
+}
+
+form#quiz input.textbox {
+  border: 1px solid #FF9EF5;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 16px;
+}
+
+form#quiz input#submitButton {
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+  font-size: 16px;
+}
+
+#submitButton {
+  background-color: #f0f0f0;
 }
 
 #ajaxResponseFail {
