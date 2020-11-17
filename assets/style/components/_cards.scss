@@ -197,3 +197,23 @@
     }
   }
 }
+
+#root {
+  margin-bottom: 25px;
+}
+
+.container-card__item--button {
+  display: flex;
+  align-items: flex-end;
+  height: 50px;
+  margin-top: 35px;
+}
+.container-card__item {
+  height: calc(350px - 50px);
+}
+
+#root:lang(zh) {
+  .container-card__item {
+    height: 230px;
+  }
+}
