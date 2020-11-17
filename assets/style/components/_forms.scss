@@ -101,30 +101,39 @@ html:lang(ja) {
 
 // lesson quiz form
 
-form#quiz{
+form#quiz {
   max-width: 100%;
   font-family: $font-family__primary;
   margin: 0 auto;
   border-radius: 3px;
   display: block;
   padding: 15px;
-  input{
+  input {
     display: inline;
   }
-  input.textbox{
-    border: 1px solid #FF9EF5;
+  input.textbox {
+    border: 1px solid $color-tetiary;
     border-radius: 5px;
     padding: 2px;
     font-size: 16px;
   }
-  input#submitButton{
-    border-radius: 5px;
-    padding: 2px;
-    margin: 2px;
+  input#submitButton {
+    display: flex;
     font-size: 16px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border: none;
+    border-radius: 1.5rem;
+    outline: none;
+    gap: 1rem;
+    padding: 10px;
+    font-weight: 600;
+    transition: background-color 0.5s ease-in, color 0.6s ease-out;
+    margin: 0 auto;
+    &:hover,
+    &:focus {
+      background-color: $color-tetiary;
+      color: $color__basic;
+    }
   }
-}
-
-#submitButton{
-  background-color: #f0f0f0;
 }

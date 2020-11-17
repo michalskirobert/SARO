@@ -89,3 +89,5 @@ function report() {
 function showOld() {
   document.getElementById("myReport").style.display = "none";
 }
+
+//by Robert Michalski

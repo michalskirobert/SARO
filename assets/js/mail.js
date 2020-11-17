@@ -1,5 +1,3 @@
-
-
 function sendMail() {
   var email = document.getElementById("email").value;
   var name = document.getElementById("name").value;
@@ -22,7 +20,6 @@ function sendMail() {
       var emailValid = "Email";
       var nameValid = "Name";
       var messageValid = "Message";
-
     } else if (language[i].lang === "ja") {
       var successMsg =
         "メッセージが送信されました。 <br /> お問い合わせありがとうございます。 <br /> ご記入いただいたメールアドレス宛に、<br> 確認メールを送信しております。";
@@ -35,16 +32,16 @@ function sendMail() {
       var emailValid = "メールアドレス(必須)";
       var nameValid = "お名前(必須)";
       var messageValid = "メッセージ(必須)";
-    } else if (language[i].lang === "zh"){
+    } else if (language[i].lang === "zh") {
       var successMsg =
-      "你的 消息 已经 发送 成功。 <br /> 谢 谢。 <br /> 你 也 将 <br> 收到 我们的 确认邮件。";
-    var failMsg = "邮件 不能 成功 发送。 <br /> 请 再试 一次";
-    var failCaptcha = "检测 验证 :) <br> 除非 你 是 一个 机器人 🤖";
-    var captchaIssue =
-      "这 只是 验证 问题... <br> 请 通过 发送 报告 联系我们 并 加以 说明";
-    var emailValid = "邮件";
-    var nameValid = "名字";
-    var messageValid = "信息";
+        "你的 消息 已经 发送 成功。 <br /> 谢 谢。 <br /> 你 也 将 <br> 收到 我们的 确认邮件。";
+      var failMsg = "邮件 不能 成功 发送。 <br /> 请 再试 一次";
+      var failCaptcha = "检测 验证 :) <br> 除非 你 是 一个 机器人 🤖";
+      var captchaIssue =
+        "这 只是 验证 问题... <br> 请 通过 发送 报告 联系我们 并 加以 说明";
+      var emailValid = "邮件";
+      var nameValid = "名字";
+      var messageValid = "信息";
     }
   }
   if (name === "") {
@@ -53,7 +50,6 @@ function sendMail() {
     document.querySelector("#name").style.border = "#e91e63;";
     document.querySelector("#name").focus();
     return false;
-
   } else {
     nameVald.style.color = "#008F86";
     nameVald.innerHTML = `${nameValid} ✓`;
@@ -66,8 +62,7 @@ function sendMail() {
     document.querySelector("#email").style.border = "#e91e63;";
     document.querySelector("#email").focus();
     return false;
-
-  }else {
+  } else {
     emailVald.style.color = "#008F86";
     emailVald.innerHTML = `${email} ✓`;
     document.querySelector("#email").style.border = "1px solid #52E5BA";
@@ -79,13 +74,11 @@ function sendMail() {
     document.querySelector("#email").style.border = "#e91e63;";
     document.querySelector("#email").focus();
     return false;
-
-  }else {
+  } else {
     msgValid.style.color = "#008F86";
     msgValid.innerHTML = `${messageValid} ✓`;
     document.querySelector("#email").style.border = "1px solid #52E5BA";
   }
-
 
   //captcha valid..
   if (grecaptcha === undefined) {
@@ -128,3 +121,4 @@ function sendMail() {
 }
 
 //I'm sorry for my code, but I'm not good at AJAX...
+//by Robert Michalski

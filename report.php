@@ -256,3 +256,6 @@ if($langauge === 'en'){
 }
 
 ?>
+
+
+<!-- Made by Robert Michalski -->

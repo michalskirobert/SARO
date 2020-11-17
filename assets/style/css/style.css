@@ -53,7 +53,7 @@ table {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -63,7 +63,7 @@ table {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -73,7 +73,7 @@ table {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -83,7 +83,7 @@ table {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -93,7 +93,7 @@ table {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -103,7 +103,7 @@ table {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -113,7 +113,7 @@ table {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -123,7 +123,7 @@ table {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -133,7 +133,7 @@ table {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -143,7 +143,7 @@ table {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -153,7 +153,7 @@ table {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -163,7 +163,7 @@ table {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -173,7 +173,7 @@ table {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -183,7 +183,7 @@ table {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -194,7 +194,7 @@ table {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -203,7 +203,7 @@ table {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -212,7 +212,7 @@ table {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -221,7 +221,7 @@ table {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -230,10 +230,30 @@ table {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -475,7 +495,7 @@ html:lang(zh) * {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -485,7 +505,7 @@ html:lang(zh) * {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -495,7 +515,7 @@ html:lang(zh) * {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -505,7 +525,7 @@ html:lang(zh) * {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -515,7 +535,7 @@ html:lang(zh) * {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -525,7 +545,7 @@ html:lang(zh) * {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -535,7 +555,7 @@ html:lang(zh) * {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -545,7 +565,7 @@ html:lang(zh) * {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -555,7 +575,7 @@ html:lang(zh) * {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -565,7 +585,7 @@ html:lang(zh) * {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -575,7 +595,7 @@ html:lang(zh) * {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -585,7 +605,7 @@ html:lang(zh) * {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -595,7 +615,7 @@ html:lang(zh) * {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -605,7 +625,7 @@ html:lang(zh) * {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -616,7 +636,7 @@ html:lang(zh) * {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -625,7 +645,7 @@ html:lang(zh) * {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -634,7 +654,7 @@ html:lang(zh) * {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -643,7 +663,7 @@ html:lang(zh) * {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -652,10 +672,30 @@ html:lang(zh) * {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -780,7 +820,7 @@ html:lang(zh) * {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -790,7 +830,7 @@ html:lang(zh) * {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -800,7 +840,7 @@ html:lang(zh) * {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -810,7 +850,7 @@ html:lang(zh) * {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -820,7 +860,7 @@ html:lang(zh) * {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -830,7 +870,7 @@ html:lang(zh) * {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -840,7 +880,7 @@ html:lang(zh) * {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -850,7 +890,7 @@ html:lang(zh) * {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -860,7 +900,7 @@ html:lang(zh) * {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -870,7 +910,7 @@ html:lang(zh) * {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -880,7 +920,7 @@ html:lang(zh) * {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -890,7 +930,7 @@ html:lang(zh) * {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -900,7 +940,7 @@ html:lang(zh) * {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -910,7 +950,7 @@ html:lang(zh) * {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -921,7 +961,7 @@ html:lang(zh) * {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -930,7 +970,7 @@ html:lang(zh) * {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -939,7 +979,7 @@ html:lang(zh) * {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -948,7 +988,7 @@ html:lang(zh) * {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -957,10 +997,30 @@ html:lang(zh) * {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -1134,7 +1194,7 @@ form .form__button:hover {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -1144,7 +1204,7 @@ form .form__button:hover {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -1154,7 +1214,7 @@ form .form__button:hover {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -1164,7 +1224,7 @@ form .form__button:hover {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -1174,7 +1234,7 @@ form .form__button:hover {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -1184,7 +1244,7 @@ form .form__button:hover {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -1194,7 +1254,7 @@ form .form__button:hover {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -1204,7 +1264,7 @@ form .form__button:hover {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -1214,7 +1274,7 @@ form .form__button:hover {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -1224,7 +1284,7 @@ form .form__button:hover {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -1234,7 +1294,7 @@ form .form__button:hover {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -1244,7 +1304,7 @@ form .form__button:hover {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -1254,7 +1314,7 @@ form .form__button:hover {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -1264,7 +1324,7 @@ form .form__button:hover {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -1275,7 +1335,7 @@ form .form__button:hover {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -1284,7 +1344,7 @@ form .form__button:hover {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -1293,7 +1353,7 @@ form .form__button:hover {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -1302,7 +1362,7 @@ form .form__button:hover {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -1311,10 +1371,30 @@ form .form__button:hover {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -1558,20 +1638,23 @@ html:lang(ja) .box-news__item:last-child {
   padding-top: 30px;
 }
 
-.container.quiz {
+.container.quiz,
+.container.tools {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.quiz__box--item {
+.quiz__box--item,
+.tools__box {
   flex-basis: 50%;
   padding: 0 15px 30px 15px;
 }
 
 @media screen and (min-width: 700px) {
-  .quiz img {
+  .quiz img,
+  .tools img {
     float: unset;
   }
 }
@@ -1806,7 +1889,7 @@ header .header-brand--after::after {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -1816,7 +1899,7 @@ header .header-brand--after::after {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -1826,7 +1909,7 @@ header .header-brand--after::after {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -1836,7 +1919,7 @@ header .header-brand--after::after {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -1846,7 +1929,7 @@ header .header-brand--after::after {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -1856,7 +1939,7 @@ header .header-brand--after::after {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -1866,7 +1949,7 @@ header .header-brand--after::after {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -1876,7 +1959,7 @@ header .header-brand--after::after {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -1886,7 +1969,7 @@ header .header-brand--after::after {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -1896,7 +1979,7 @@ header .header-brand--after::after {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -1906,7 +1989,7 @@ header .header-brand--after::after {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -1916,7 +1999,7 @@ header .header-brand--after::after {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -1926,7 +2009,7 @@ header .header-brand--after::after {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -1936,7 +2019,7 @@ header .header-brand--after::after {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -1947,7 +2030,7 @@ header .header-brand--after::after {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -1956,7 +2039,7 @@ header .header-brand--after::after {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -1965,7 +2048,7 @@ header .header-brand--after::after {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -1974,7 +2057,7 @@ header .header-brand--after::after {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -1983,10 +2066,30 @@ header .header-brand--after::after {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -2150,7 +2253,7 @@ html:lang(ja) .nav {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -2160,7 +2263,7 @@ html:lang(ja) .nav {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -2170,7 +2273,7 @@ html:lang(ja) .nav {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -2180,7 +2283,7 @@ html:lang(ja) .nav {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -2190,7 +2293,7 @@ html:lang(ja) .nav {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -2200,7 +2303,7 @@ html:lang(ja) .nav {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -2210,7 +2313,7 @@ html:lang(ja) .nav {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -2220,7 +2323,7 @@ html:lang(ja) .nav {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -2230,7 +2333,7 @@ html:lang(ja) .nav {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -2240,7 +2343,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -2250,7 +2353,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -2260,7 +2363,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -2270,7 +2373,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -2280,7 +2383,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -2291,7 +2394,7 @@ html:lang(ja) .nav {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -2300,7 +2403,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -2309,7 +2412,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -2318,7 +2421,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -2327,10 +2430,30 @@ html:lang(ja) .nav {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -2362,7 +2485,7 @@ html:lang(ja) .nav {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -2372,7 +2495,7 @@ html:lang(ja) .nav {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -2382,7 +2505,7 @@ html:lang(ja) .nav {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -2392,7 +2515,7 @@ html:lang(ja) .nav {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -2402,7 +2525,7 @@ html:lang(ja) .nav {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -2412,7 +2535,7 @@ html:lang(ja) .nav {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -2422,7 +2545,7 @@ html:lang(ja) .nav {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -2432,7 +2555,7 @@ html:lang(ja) .nav {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -2442,7 +2565,7 @@ html:lang(ja) .nav {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -2452,7 +2575,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -2462,7 +2585,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -2472,7 +2595,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -2482,7 +2605,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -2492,7 +2615,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -2503,7 +2626,7 @@ html:lang(ja) .nav {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -2512,7 +2635,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -2521,7 +2644,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -2530,7 +2653,7 @@ html:lang(ja) .nav {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -2539,10 +2662,30 @@ html:lang(ja) .nav {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -2572,8 +2715,7 @@ form h3 {
 form input::-webkit-input-placeholder,
 form textarea::-webkit-input-placeholder {
   font: inherit;
-  transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out,
- visibility 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
 form input,
@@ -2676,14 +2818,23 @@ form#quiz input.textbox {
 }
 
 form#quiz input#submitButton {
-  border-radius: 5px;
-  padding: 2px;
-  margin: 2px;
+  display: flex;
   font-size: 16px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border: none;
+  border-radius: 1.5rem;
+  outline: none;
+  gap: 1rem;
+  padding: 10px;
+  font-weight: 600;
+  transition: background-color 0.5s ease-in, color 0.6s ease-out;
+  margin: 0 auto;
 }
 
-#submitButton {
-  background-color: #f0f0f0;
+form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
+  background-color: #FF9EF5;
+  color: #ffff;
 }
 
 #ajaxResponseFail {
@@ -2760,7 +2911,7 @@ form#quiz input#submitButton {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -2770,7 +2921,7 @@ form#quiz input#submitButton {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -2780,7 +2931,7 @@ form#quiz input#submitButton {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -2790,7 +2941,7 @@ form#quiz input#submitButton {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -2800,7 +2951,7 @@ form#quiz input#submitButton {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -2810,7 +2961,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -2820,7 +2971,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -2830,7 +2981,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -2840,7 +2991,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -2850,7 +3001,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -2860,7 +3011,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -2870,7 +3021,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -2880,7 +3031,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -2890,7 +3041,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -2901,7 +3052,7 @@ form#quiz input#submitButton {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -2910,7 +3061,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -2919,7 +3070,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -2928,7 +3079,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -2937,10 +3088,30 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -3374,7 +3545,7 @@ form#quiz input#submitButton {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -3384,7 +3555,7 @@ form#quiz input#submitButton {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -3394,7 +3565,7 @@ form#quiz input#submitButton {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -3404,7 +3575,7 @@ form#quiz input#submitButton {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -3414,7 +3585,7 @@ form#quiz input#submitButton {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -3424,7 +3595,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -3434,7 +3605,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -3444,7 +3615,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -3454,7 +3625,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -3464,7 +3635,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -3474,7 +3645,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -3484,7 +3655,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -3494,7 +3665,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -3504,7 +3675,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -3515,7 +3686,7 @@ form#quiz input#submitButton {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -3524,7 +3695,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -3533,7 +3704,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -3542,7 +3713,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -3551,10 +3722,30 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -3762,7 +3953,7 @@ form#quiz input#submitButton {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -3772,7 +3963,7 @@ form#quiz input#submitButton {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -3782,7 +3973,7 @@ form#quiz input#submitButton {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -3792,7 +3983,7 @@ form#quiz input#submitButton {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -3802,7 +3993,7 @@ form#quiz input#submitButton {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -3812,7 +4003,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -3822,7 +4013,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -3832,7 +4023,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -3842,7 +4033,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -3852,7 +4043,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -3862,7 +4053,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -3872,7 +4063,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -3882,7 +4073,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -3892,7 +4083,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -3903,7 +4094,7 @@ form#quiz input#submitButton {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -3912,7 +4103,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -3921,7 +4112,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -3930,7 +4121,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -3939,10 +4130,30 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -4167,7 +4378,7 @@ form#quiz input#submitButton {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -4177,7 +4388,7 @@ form#quiz input#submitButton {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -4187,7 +4398,7 @@ form#quiz input#submitButton {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -4197,7 +4408,7 @@ form#quiz input#submitButton {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -4207,7 +4418,7 @@ form#quiz input#submitButton {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -4217,7 +4428,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -4227,7 +4438,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -4237,7 +4448,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -4247,7 +4458,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -4257,7 +4468,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -4267,7 +4478,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -4277,7 +4488,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -4287,7 +4498,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -4297,7 +4508,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -4308,7 +4519,7 @@ form#quiz input#submitButton {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -4317,7 +4528,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -4326,7 +4537,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -4335,7 +4546,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -4344,10 +4555,30 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -4398,7 +4629,7 @@ form#quiz input#submitButton {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -4408,7 +4639,7 @@ form#quiz input#submitButton {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -4418,7 +4649,7 @@ form#quiz input#submitButton {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -4428,7 +4659,7 @@ form#quiz input#submitButton {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -4438,7 +4669,7 @@ form#quiz input#submitButton {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -4448,7 +4679,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -4458,7 +4689,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -4468,7 +4699,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -4478,7 +4709,7 @@ form#quiz input#submitButton {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -4488,7 +4719,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -4498,7 +4729,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -4508,7 +4739,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -4518,7 +4749,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -4528,7 +4759,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -4539,7 +4770,7 @@ form#quiz input#submitButton {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -4548,7 +4779,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -4557,7 +4788,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -4566,7 +4797,7 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -4575,10 +4806,30 @@ form#quiz input#submitButton {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -4708,7 +4959,7 @@ html:lang(ja) .report {
 
 /* catamaran-regular - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -4718,7 +4969,7 @@ html:lang(ja) .report {
 
 /* catamaran-500 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -4728,7 +4979,7 @@ html:lang(ja) .report {
 
 /* catamaran-600 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -4738,7 +4989,7 @@ html:lang(ja) .report {
 
 /* catamaran-800 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 800;
@@ -4748,7 +4999,7 @@ html:lang(ja) .report {
 
 /* catamaran-900 - latin */
 @font-face {
-  font-family: 'Catamaran';
+  font-family: "Catamaran";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -4758,7 +5009,7 @@ html:lang(ja) .report {
 
 /* cormorant-garamond-regular - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -4768,7 +5019,7 @@ html:lang(ja) .report {
 
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
@@ -4778,7 +5029,7 @@ html:lang(ja) .report {
 
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -4788,7 +5039,7 @@ html:lang(ja) .report {
 
 /* cormorant-garamond-700italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -4798,7 +5049,7 @@ html:lang(ja) .report {
 
 /* noto-sans-jp-100 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 100;
@@ -4808,7 +5059,7 @@ html:lang(ja) .report {
 
 /* noto-sans-jp-regular - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -4818,7 +5069,7 @@ html:lang(ja) .report {
 
 /* noto-sans-jp-500 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
@@ -4828,7 +5079,7 @@ html:lang(ja) .report {
 
 /* noto-sans-jp-700 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
@@ -4838,7 +5089,7 @@ html:lang(ja) .report {
 
 /* noto-sans-jp-900 - latin_japanese */
 @font-face {
-  font-family: 'Noto Sans JP';
+  font-family: "Noto Sans JP";
   font-style: normal;
   font-display: swap;
   font-weight: 900;
@@ -4849,7 +5100,7 @@ html:lang(ja) .report {
 /* catamaran-regular - latin-ext */
 @font-face {
   display: swap;
-  font-family: 'Catamaran--Polish';
+  font-family: "Catamaran--Polish";
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../fonts/catamaran-v7-latin-ext-regular.woff2") format("woff2"), url("../fonts/catamaran-v7-latin-ext-regular.woff") format("woff");
@@ -4858,7 +5109,7 @@ html:lang(ja) .report {
 
 /* noto-sans-sc-regular - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-regular.woff") format("woff");
@@ -4867,7 +5118,7 @@ html:lang(ja) .report {
 
 /* noto-sans-sc-500 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 500;
   src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-500.woff") format("woff");
@@ -4876,7 +5127,7 @@ html:lang(ja) .report {
 
 /* noto-sans-sc-700 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans SC Bold"), local("NotoSansSC-Bold"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-700.woff") format("woff");
@@ -4885,10 +5136,30 @@ html:lang(ja) .report {
 
 /* noto-sans-sc-900 - chinese-simplified */
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 900;
   src: local("Noto Sans SC Black"), local("NotoSansSC-Black"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-chinese-simplified-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pacifico-regular - latin */
+@font-face {
+  display: swap;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"), url("../fonts/pacifico-v17-latin-regular.woff2") format("woff2"), url("../fonts/pacifico-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poiret-one-regular - latin-ext */
+@font-face {
+  display: swap;
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -5400,16 +5671,108 @@ html:lang(zh) .cookie-container.active .cookie-btn:hover {
   width: 15px;
   height: 15px;
   cursor: pointer;
-  transition: transform .5s ease, opacity .8s ease-in;
+  transition: transform 0.5s ease, opacity 0.8s ease-in;
 }
 
 .sound:hover {
   transform: scale(1.3);
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .audio {
   display: none;
+}
+
+.api__name {
+  margin-top: 70px !important;
+}
+
+.api__name .nameChecker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.api__name .nameChecker__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.api__name .names__item {
+  padding: 0 15px 30px 15px;
+  width: 250px;
+}
+
+.api__name #root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  height: 65vh;
+  overflow-y: scroll;
+  justify-content: center;
+}
+
+.api__name .logo {
+  color: red;
+  font-size: 35px;
+  font-weight: 900;
+  text-decoration: underline;
+  font-family: "Pacifico";
+}
+
+.api__name h2 {
+  color: black;
+  font-size: 35px;
+  font-weight: 900;
+  font-family: "Poiret One";
+}
+
+.api__name input {
+  margin-bottom: 10px;
+}
+
+.api__name i {
+  text-align: center;
+}
+
+.api__name .result {
+  font-size: 15px;
+  color: red;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.api__name button {
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: #fff;
+  transition: background-color 0.5s ease-in, color 0.3s ease;
+  font-weight: 600;
+}
+
+.api__name button:hover {
+  background-color: #fff;
+  color: red;
+  border: 2px solid red;
+}
+
+.api__name b {
+  font-weight: bold;
+  color: red;
+}
+
+.api__name a {
+  text-decoration: underline;
+  color: red;
 }
 
 .modal-content,

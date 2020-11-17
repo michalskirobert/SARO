@@ -24,11 +24,9 @@ function getNameJapanese() {
 function getNameChinese() {
   var name = document.getElementById("name").value;
   if (name.endsWith("a") && !name.match("Kosma") && !name.match("Kuba")) {
-    result = document.getElementById("result").innerHTML =
-      name + " 是 女士";
+    result = document.getElementById("result").innerHTML = name + " 是 女士";
   } else {
-    result = document.getElementById("result").innerHTML =
-      name + " 是 男士";
+    result = document.getElementById("result").innerHTML = name + " 是 男士";
   }
 }
 
@@ -47,3 +45,5 @@ $(function () {
     $("audio").attr("src", url).get(0).play();
   });
 });
+
+//by Robert Michalski
