@@ -74,7 +74,6 @@ form {
     max-width: 100%;
   }
 
-
   button {
     font-family: $font-family__primary;
     transition: transform 0.2s $cubic, box-shadow 0.2s $cubic;
@@ -94,9 +93,9 @@ form {
   }
 }
 
-html:lang(ja){
+html:lang(ja) {
   form {
-    font-family: $jp__family!important;
+    font-family: $jp__family !important;
   }
 }
 

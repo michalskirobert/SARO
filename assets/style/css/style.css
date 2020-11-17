@@ -2572,7 +2572,8 @@ form h3 {
 form input::-webkit-input-placeholder,
 form textarea::-webkit-input-placeholder {
   font: inherit;
-  transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out,
+ visibility 0.3s ease-in-out;
 }
 
 form input,
@@ -2990,6 +2991,14 @@ form#quiz input#submitButton {
 
 .lesson .lesson--nounGender {
   background-image: url(./../../img/embl/n-g-g.jpg);
+}
+
+.lesson .lesson--to-be {
+  background-image: url(./../../img/embl/to-be.jpg);
+}
+
+.lesson .lesson--polish-idioms {
+  background-image: url(./../../img/embl/polishIdioms.jpg);
 }
 
 .dialogue .dialogue {
@@ -4135,6 +4144,25 @@ form#quiz input#submitButton {
   .column--joinUs--joinUs {
     width: 50%;
   }
+}
+
+#root {
+  margin-bottom: 25px;
+}
+
+.container-card__item--button {
+  display: flex;
+  align-items: flex-end;
+  height: 50px;
+  margin-top: 35px;
+}
+
+.container-card__item {
+  height: calc(350px - 50px);
+}
+
+#root:lang(zh) .container-card__item {
+  height: 230px;
 }
 
 /* catamaran-regular - latin */
