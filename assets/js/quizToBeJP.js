@@ -10,7 +10,7 @@ function check() {
     const question8 = document.quiz.question8.value;
     const question9 = document.quiz.question9.value;
     const question10 = document.quiz.question10.value;
-    const correct = 0;
+    let correct = 0;
 
 
     if (question1 == "2") {
