@@ -1119,20 +1119,21 @@
             <input type="radio" id="mc" name="question5" value="3"><span lang="pl">Ty jesteś...</span><br> <br>
 
 
-            <p> You can also try to translate following sentences:</p>
+            <p> You can also try to translate following sentences:<br></p>
+
               <p>You are a university student.</p>
-              <input id="textbox" type="text" name="question6"> studentem. <br>
+              <input class="textbox" type="text" name="question6"> studentem. <br><br>
               <p>He is a teacher. </p>
-              <input id="textbox" type="text" name="question7"> nauczycielem. <br>
+              <input class="textbox" type="text" name="question7"> nauczycielem. <br><br>
               <p>They are my friends.</p>
-              <input id="textbox" type="text" name="question8"> moimi przyjaciółmi. <br>
+              <input class="textbox" type="text" name="question8"> moimi przyjaciółmi. <br><br>
               <p>They are my female friends.</p>
-              <input id="textbox" type="text" name="question9"> moimi przyjaciółmi. <br>
+              <input class="textbox" type="text" name="question9"> moimi przyjaciółmi. <br><br>
               <p>I am your neighbour.</p>
-              <input id="textbox" type="text" name="question10"> twoim sąsiadem. <br>
-              <input id="submitButton" type="button" value="Check my answers">
+              <input class="textbox" type="text" name="question10"> twoim sąsiadem. <br><br>
+              <input id="submitButton" type="button" value="Check my answers" onclick="check()">
             </form>
-            <div id="afterSubmit"> </div>
+            <div id="afterSubmit"></div>
               <p id="messages"></p>
               <p id="numberCorrect"></p>
               <script src="./assets/js/quizToBe.js"></script>

@@ -63,8 +63,23 @@ function check() {
     range = 3;
   }
 
-  document.getElementById("afterSubmit").style.visibility = "visible";
-  document.getElementById("messages").innerHTML = messages[range];
-  document.getElementById("numberCorrect").innerHTML =
-    "&rarr;you got " + correct + " correct.";
+    let range = 0;
+    let messages = ["You need to study more!", "You can do better, keep trying!", "That's fine but keep trying!", "Awesome!"];
+
+    if (correct == 0) {
+        range = 0;
+    }
+    if (correct > 0 && correct < 7) {
+        range = 1;
+    }
+    if (correct > 6 && correct < 10) {
+        range = 2;
+    }
+    if (correct == 10) {
+        range = 3;
+    }
+
+    document.getElementById("afterSubmit").style.visibility = "visible";
+    document.getElementById("messages").innerHTML = messages[range];
+    document.getElementById("numberCorrect").innerHTML = "&rarr;You got " + correct + " correct.";
 }
