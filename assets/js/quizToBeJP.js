@@ -45,7 +45,7 @@ function check() {
     }
 
     let range = 0;
-    let messages = ["You need to study more!", "You can do better, keep trying!", "That's fine but keep trying!", "Awesome!"];
+    let messages = ["もっと勉強すればいい", "もっとうまくできるよ。頑張ってください", "良かったです", "完璧です！"];
 
     if (correct == 0) {
         range = 0;
@@ -62,5 +62,4 @@ function check() {
 
     document.getElementById("afterSubmit").style.visibility = "visible";
     document.getElementById("messages").innerHTML = messages[range];
-    document.getElementById("numberCorrect").innerHTML = "&rarr;You got " + correct + " correct.";
-}
+    document.getElementById("numberCorrect").innerHTML = "&rarr;　点数: " + correct + "/10";
