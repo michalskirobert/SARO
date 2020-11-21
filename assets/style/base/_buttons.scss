@@ -19,6 +19,12 @@
   content: "⇦";
 }
 
+section.quiz {
+  .back {
+    top: 0;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   .back {
     color: $color__basic;

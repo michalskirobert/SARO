@@ -1,13 +1,14 @@
 //reportJS by Robert Michalski
 
 function report() {
-  var reportWindow = document.getElementById("reportWindow");
-  var pageName = window.location.pathname;
-  var language = document.getElementsByTagName("html");
+  const reportWindow = document.getElementById("reportWindow");
+  const pageName = window.location.pathname;
+  const language = document.getElementsByTagName("html");
+  let codeBlock = "";
 
-  for (var i = 0; i < language.length; i++) {
+  for (let i = 0; i < language.length; i++) {
     if (language[i].lang === "en") {
-      var codeBlock = `
+      codeBlock = `
     <div class="report__base" id="myReport">
     <span id="close" onclick="showOld()">&times;</span>
     <div class="report__content" id="report01">
@@ -33,7 +34,7 @@ function report() {
     </div>
     </div>`;
     } else if (language[i].lang === "ja") {
-      var codeBlock = `
+      codeBlock = `
     <div class="report__base" id="myReport">
     <span id="close" onclick="showOld()">&times;</span>
     <div class="report__content" id="report01">
@@ -57,7 +58,7 @@ function report() {
     </div>
     </div>`;
     } else if (language[i].lang === "zh") {
-      var codeBlock = `
+      codeBlock = `
     <div class="report__base" id="myReport">
     <span id="close" onclick="showOld()">&times;</span>
     <div class="report__content" id="report01">
