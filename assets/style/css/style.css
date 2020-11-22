@@ -5242,12 +5242,16 @@ html:lang(ja) .report {
   font-size: 20px;
   font-weight: 600;
   margin: 15px 0;
+  background-color: transparent;
+  transition: background-color 0.5s ease, color 0.7s ease-in;
 }
 
 #container .choice:hover,
 .container__quiz .choice:hover {
   border: 2px solid grey;
   font-weight: bold;
+  background-color: #FF9EF5;
+  color: #ffff;
 }
 
 #container #timer,

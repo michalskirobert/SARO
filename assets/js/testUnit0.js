@@ -114,7 +114,7 @@ const questions = [
       "Is it correct to say „Mieszkam w Polsce” instead of „Ja mieszkam w Polsce”?",
     choiceA: "Yes",
     choiceB: "No",
-    choiceC: " ",
+    choiceC: "",
     correct: "A",
   },
   {
@@ -133,7 +133,7 @@ const questions = [
             „(Ty) mieszkasz w Polsce?”`,
     choiceA: "Yes",
     choiceB: "No",
-    choiceC: " ",
+    choiceC: "",
     correct: "B",
   },
   {
@@ -351,8 +351,8 @@ function scoreRender() {
       : scorePerCent >= 40
       ? "You need to little more study. Not passed."
       : scorePerCent >= 20
-      ? "F"
-      : "Try again.. Not passed";
+      ? "Try again.."
+      : "Not passed..";
 
   scoreDiv.innerHTML = "<img src=" + img + ">";
   scoreDiv.innerHTML += "<p>" + text + "<br>" + scorePerCent + "%</p>";

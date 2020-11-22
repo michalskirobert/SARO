@@ -1,6 +1,7 @@
 function report() {
   const translationMap = {
     en: {
+      language: "English",
       title: "Report page",
       category: {
         bug: "bug",
@@ -16,6 +17,7 @@ function report() {
       send: "send",
     },
     ja: {
+      language: "日本語",
       title: "レポート",
       category: {
         bug: "バグ",
@@ -31,6 +33,7 @@ function report() {
       send: "送信",
     },
     zh: {
+      language: "中文",
       title: "问题反馈",
       category: {
         bug: "问题",
@@ -67,8 +70,9 @@ function report() {
   <div class="report__content" id="report01">
   <h3>${translationMap[lang].title}</h3>
   <form method="post" action="https://saro.website/report.php" class="report__form">
-  <input name="language" id="language" value="${language}" style="display: none;">
-  <input name="page" id="page" value="${pageName}" style="display: none;">
+  <input name="lang" value="${translationMap[lang].language}" style="display: none;">
+  <input name="language" value="${language}" style="display: none;">
+  <input name="page" value="${pageName}" style="display: none;">
   <select name="category" id="category" required>
   <option value="${translationMap[lang]["category"].bug}">${translationMap[lang]["category"].bug}</option>
   <option value="${translationMap[lang]["category"].pgdsw}">${translationMap[lang]["category"].pgdsw}</option>
