@@ -18,7 +18,7 @@ const questions = {
     },
     {
       id: 3,
-      question: `Which word is spoken? <img class="sound" src="./../../../assets/img/icons/speaker.svg" onclick="play()" alt="Speaker icon" ><audio class="audio" src="./../../../media/unit0/alphabet/records/spółgłoski ex1.wav"></audio>`,
+      question: `Which word is spoken? <img class="sound" src="./../../../assets/img/icons/speaker.svg" onclick="play()" alt="Speaker icon" ><audio class="audio" src="./../../../media/unit0/alphabet/records/litery/J.wav"></audio>`,
       choiceA: "Jajko",
       choiceB: "Dom",
       choiceC: "Igła",

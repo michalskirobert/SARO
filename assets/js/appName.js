@@ -42,9 +42,9 @@ const loadData = async () => {
     if (isLang === "ja") {
       namesArray.map((person) => {
         if (person.gender == "female") {
-          person.gender = "女性の名前";
+          person.gender = "女性";
         } else if (person.gender == "male") {
-          person.gender = "男性の名";
+          person.gender = "男性";
         }
       });
     }

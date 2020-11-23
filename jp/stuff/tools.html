@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description"
@@ -22,6 +23,7 @@
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <title>Welcome to SARO - ツール</title>
 </head>
+
 <body>
     <header>
         <a href="index.html" class="header-brand">SARO</a>
@@ -60,16 +62,23 @@
                 <h1>ツール</h1>
                 <article>
                     <h2>アプリ</h2>
-                    <div class="tools-name__checker">
-                        <label for="name" class="check">ポーランド名、チェック!</label>
-                        <input type="text" id="name" placeholder='例： "Paulina"'>
-                        <div class="result" id="result">名前：</div>
-                        <a href="#" onclick="getNameJapanese()" class="button__default">チェック</a>
+                    <div class="container quiz">
+                        <div class="quiz__box quiz__box--item">
+                            <div class="quiz__box">
+                                <h2>Polish name-chcker</h2>
+                                <img src="https://michalskirobert.github.io/img/portfolio__api-02.jpg"
+                                    alt="Polish name checker" class="image-left__center--medium">
+                                <b>Describe:</b>
+                                <p>このアプリでは、ポーランド人の名前をチェックする事ができます。皆さんに楽しんでいただけると嬉しいです(^^)
+                                    もしお探しの名前が見つからなかった場合は、レポートにてお知らせ下さい。すぐにアップデートさせていただきます。
+                                </p>
+                                <a href="./api/polishNames/" class="button__default">Check out</a>
+                            </div>
+                        </div>
                     </div>
-                </article>
-                <div class="reportButton">
-                    <button class="report" onclick="report()">レポート</button>
-                </div>
+                    <div class="reportButton">
+                        <button class="report" onclick="report()">Report</button>
+                    </div>
             </div>
         </section>
         <script src="./../../assets/js/tools.js"></script>
@@ -92,10 +101,10 @@
                 <div class="custom-select">
                     <select id="language" onchange="window.location=this.options[this.selectedIndex].value">
                         <option value="" disabled selected>日本語</option>
-                        <option value="https://saro.website/stuff/dictionary">English</option>
-                        <option value="https://saro.website/kr/stuff/dictionary">한국어</option>
-                        <option value="https://saro.website/ch/stuff/dictionary">中文</option>
-                        <option value="https://saro.website/vi/stuff/dictionary">Tiếng Việt</option>
+                        <option value="https://saro.website/stuff/tools">English</option>
+                        <option value="https://saro.website/kr/stuff/toolsy">한국어</option>
+                        <option value="https://saro.website/ch/stuff/tools">中文</option>
+                        <option value="https://saro.website/vi/stuff/tools">Tiếng Việt</option>
                     </select>
                     <span class="custom-arrow"></span>
                 </div>
