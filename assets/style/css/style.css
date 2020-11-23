@@ -432,7 +432,7 @@ html:lang(ja) .index-banner h2 {
 }
 
 html:lang(ja) p {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
 }
 
@@ -471,11 +471,14 @@ b:lang(pl),
 h1:lang(pl),
 h2:lang(pl),
 h3:lang(pl),
+button.choice,
 ruby:lang(pl) {
   font-family: "Catamaran--Polish", fallback, sans-serif !important;
 }
 
-html:lang(ja) p:lang(pl), html:lang(ja) ruby:lang(pl), html:lang(ja) span:lang(pl),
+html:lang(ja) p:lang(pl),
+html:lang(ja) ruby:lang(pl),
+html:lang(ja) span:lang(pl),
 html:lang(zh) p:lang(pl),
 html:lang(zh) ruby:lang(pl),
 html:lang(zh) span:lang(pl),
@@ -5254,6 +5257,17 @@ html:lang(ja) .report {
   color: #ffff;
 }
 
+#container .choice:empty,
+.container__quiz .choice:empty {
+  display: none;
+}
+
+#container button.choice,
+.container__quiz button.choice {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
 #container #timer,
 .container__quiz #timer {
   height: 100px;
@@ -5342,6 +5356,11 @@ html:lang(ja) .report {
 #container #question p,
 .container__quiz #question p {
   text-align: center;
+}
+
+#container img.sound,
+.container__quiz img.sound {
+  margin: 0 5px 0;
 }
 
 .cookie-container {

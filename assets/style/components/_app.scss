@@ -71,6 +71,13 @@
       color: $color__basic;
     }
   }
+  .choice:empty {
+    display: none;
+  }
+  button.choice {
+    font-weight: 500;
+    font-size: 1rem;
+  }
   #timer {
     height: 100px;
     max-width: 200px;
@@ -140,6 +147,9 @@
   }
   #question p {
     text-align: center;
+  }
+  img.sound {
+    margin: 0 5px 0;
   }
 }
 

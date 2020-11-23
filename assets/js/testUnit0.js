@@ -42,10 +42,10 @@ let score = 0;
 function renderQuestion() {
   let q = questions[lang][runningQuestion];
 
-  question.innerHTML = '<p lang="pl">' + q.question + "</p>";
-  choiceA.innerHTML = `<p lang="pl">${q.choiceA}</p>`;
-  choiceB.innerHTML = `<p lang="pl">${q.choiceB}</p>`;
-  choiceC.innerHTML = `<p lang="pl">${q.choiceC}</p>`;
+  question.innerHTML = `<p lang="pl">${q.question}</p>`;
+  choiceA.innerHTML = q.choiceA;
+  choiceB.innerHTML = q.choiceB;
+  choiceC.innerHTML = q.choiceC;
 }
 
 start.addEventListener("click", startQuiz);

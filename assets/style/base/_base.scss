@@ -184,7 +184,7 @@ html:lang(ja) {
     }
   }
   p {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
   }
   .data {
@@ -224,19 +224,20 @@ b:lang(pl),
 h1:lang(pl),
 h2:lang(pl),
 h3:lang(pl),
+button.choice,
 ruby:lang(pl) {
-  font-family: $ff-polish!important;
+  font-family: $ff-polish !important;
 }
-
 
 html:lang(ja),
 html:lang(zh),
 html:lang(kr) {
-  p:lang(pl), ruby:lang(pl), span:lang(pl) {
+  p:lang(pl),
+  ruby:lang(pl),
+  span:lang(pl) {
     font-weight: 600;
   }
 }
-
 
 rt {
   font-family: $jp__family;
@@ -244,7 +245,7 @@ rt {
 
 //ZH
 html:lang(zh) {
-  *{
+  * {
     font-family: $ff-chinese;
   }
 }
