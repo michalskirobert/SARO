@@ -47,7 +47,7 @@ for (var i = 0; i < langRead.length; i++) {
             moreText[index].style.display = "none";
           } else {
             dots[index].style.display = "none";
-            btnText[index].innerHTML = "少读";
+            btnText[index].innerHTML = "收起";
             moreText[index].style.display = "block";
           }
         });
