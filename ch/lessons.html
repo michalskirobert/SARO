@@ -912,6 +912,202 @@
               <a href="about.html" target="_blank">@Martyna</a>
             </div>
           </div>
+          <button class="acc lesson lesson--to-be">To be verb</button>
+          <div class="panel">
+            <h2>To be verb</h2>
+            <p>Verb „to be” is usually the first verb you learn when studying a new language. So, let’s see what is
+              looks
+              like in Polish. <br><br>
+              First, let’s take a look at the infinitive form – it’s <span lang="pl">być.</span> <br> <br>
+              Polish verbs conjugate according to many factors but today to make things simple we will look just at
+              present tense conjugation. <br><br>
+            </p>
+            <table>
+              <tr>
+                <th><span lang="pl">Być</span> </th>
+                <th>to be</th>
+              </tr>
+              <tr>
+                <td>Ja jestem</td>
+                <td>I am</td>
+              </tr>
+              <tr>
+                <td><span lang="pl">Ty jesteś</span></td>
+                <td>You are</td>
+              </tr>
+              <tr>
+                <td>On/ona/ono jest</td>
+                <td>He/she/it is (also to jest – this is)</td>
+              </tr>
+              <tr>
+                <td><span lang="pl">My jesteśmy</span></td>
+                <td>we are</td>
+              </tr>
+              <tr>
+                <td><span lang="pl">Wy jesteście</span></td>
+                <td>you are</td>
+              </tr>
+              <tr>
+                <td><span lang="pl">Oni/one są</span></td>
+                <td>they are</td>
+              </tr>
+            </table>
+            <p>
+              Here are some example sentences: <br><br>
+              <span lang="pl"> <span class="accent">Ja jestem</span> studentem – I am a university student (male
+                speaker)<br>
+                <span class="accent">Ja jestem</span> studentką – I am a university student (female speaker)<br>
+                <span class="accent">Ty jesteś</span> studentem – You are a university student (male listener)<br>
+                <span class="accent">Ty jesteś</span> studentką – You are a university student (female listener)<br>
+                <span class="accent">On jest</span> studentem – He is a university student.<br>
+                <span class="accent">Ona jest</span> studentką – She is a university student.<br>
+                <span class="accent">Ono jest</span> dzieckiem. – It is a child.<br>
+                <span class="accent">My jesteśmy</span> studentami – We are university students (the speaker and the
+                group
+                are either all males or mixed – males and females) <br>
+                <span class="accent">My jesteśmy</span> studentkami – We are university students (the speaker and the
+                group are all females)<br>
+                <span class="accent">Wy jesteście</span> studentami – You are university students (the listeners are all
+                males or males + females)<br>
+                <span class="accent">Wy jesteście</span> studentkami – You are university students (the listeners are
+                all
+                females)<br>
+                <span class="accent">Oni są</span> studentami – They are university students (they = all males or males
+                +
+                females)<br>
+                <span class="accent">One są</span> studentkami – They are university students (they = all females)<br>
+                <span class="accent">To jest</span> uniwersytet – This is a university. <br></span>
+            </p>
+            <p>You might see that in this case meaning slightly changes depending on the noun or pronoun, <b>not the
+                verb</b>. Don’t worry about nouns declension too much in this acc lesson – just focus on getting <span
+                lang="pl">być</span>
+              right.
+              <br><br>
+              Would you like to try and form a few sentences by yourself?
+            </p>
+            <form id="quiz" name="quiz">
+              <p>You see a group of males and can clearly see they are university students. How would you start
+                describing
+                them?</p>
+              <input type="radio" name="question1" value="1">Ja jestem...
+              <input type="radio" name="question1" value="2"><span lang="pl">Oni są...</span>
+              <input type="radio" name="question1" value="3">On jest...
+
+              <p>If your mum was a teacher, how would you start this sentence? </p>
+              <input type="radio" name="question2" value="1">Ona jest...
+              <input type="radio" name="question2" value="2">Ono jest...
+              <input type="radio" name="question2" value="3"><span lang="pl">Oni są...</span>
+
+              <p>You are Korean – how would you start introducing yourself? </p>
+              <input type="radio" name="question3" value="1"><span lang="pl">Ty jesteś...</span>
+              <input type="radio" name="question3" value="2"><span lang="pl">One są...</span>
+              <input type="radio" name="question3" value="3">Ja jestem...
+
+              <p>Your female friends you came to a party with are all university students – how would you introduce them
+                to other people?</p>
+              <input type="radio" name="question4" value="1"><span lang="pl">Wy jesteście...</span>
+              <input type="radio" name="question4" value="2"><span lang="pl">Ty jesteś...</span>
+              <input type="radio" name="question4" value="3"><span lang="pl">One są...</span>
+
+              <p>Your Polish friends are with you. What would you say to them? </p>
+              <input type="radio" name="question5" value="1"><span lang="pl">Wy jesteście...</span>
+              <input type="radio" name="question5" value="2"><span lang="pl">One są...</span>
+              <input type="radio" name="question5" value="3"><span lang="pl">Ty jesteś...</span>
+
+
+              <p> You can also try to translate following sentences:<br></p>
+
+              <p>You are a university student.</p>
+              <input class="textbox" type="text" name="question6"> studentem.
+              <p>He is a teacher. </p>
+              <input class="textbox" type="text" name="question7"> nauczycielem.
+              <p>They are my friends.</p>
+              <input class="textbox" type="text" name="question8"> moimi przyjaciółmi.
+              <p>They are my female friends.</p>
+              <input class="textbox" type="text" name="question9"> moimi przyjaciółkami.
+              <p>I am your neighbour.</p>
+              <input class="textbox" type="text" name="question10"> twoim sąsiadem.
+              <input id="submitButton" type="button" value="Check my answers" onclick="check()">
+            </form>
+            <div id="afterSubmit"></div>
+            <p id="messages"></p>
+            <p id="numberCorrect"></p>
+            <script src="./assets/js/quizToBe.js"></script>
+            <div class="sign">
+              <p class="sign--person">编辑</p>
+              <a href="about.html" target="_blank">@Martyna</a>
+            </div>
+          </div>
+          <button class="acc lesson lesson--polish-idioms">十个波兰语熟语</button>
+          <div class="panel">
+            <h2>十个波兰语熟语</h2>
+            <p>今天我们来上比较有意思的课 ——我们会学习关于一批波兰语的俗语。</p>
+            <p style="margin-bottom: 15px">俗语一般是几个单词组成在一起，它们共同具有某种含义。不过将每一个词单独分析的话，或
+              者看俗语字面意思的话，要么没有太多的意义，要么字面意思和比喻意思完全不同。
+              下面让我介绍给你10个我比较喜欢的俗语：</p>
+            <p>
+              ● <span lang="pl">Udawać Greka</span> (字面意义: 假装自己是希腊人) – 假装自己对某个事情浑然不知，却实际
+              上对这件事很熟悉 <br>
+              <span class="example">列子:</span> <br>
+              <span lang="pl">Nie udawaj Greka, wiem że wziąłeś moje pieniądze.</span> <br>
+              别假装，我知道你将我的钱拿走了。 <br> <br>
+              ● <span lang="pl">Złota rączka</span> (字面意思：金色手) – 来描写人，指很善于维修东西的人（通常是家里的
+              东西，家具，设备等）<br>
+              <span class="example">例子:</span> <br>
+              <span lang="pl">Mój tata to prawdziwa złota rączka, sąsiedzi proszą go o pomoc w naprawie ich
+                pralek.</span>
+              <br>
+              我爸爸真是个金色手，邻居们都找他的帮助维修他们的洗衣机。 <br> <br>
+              ● <span lang="pl">Bułka z masłem </span>(字面意思：上面有奶油的面包) – 来描写很简单的事<br>
+              <span class="example">例子:</span> <br>
+              <span lang="pl">Nauka języka polskiego to dla mnie bułka z masłem.</span> <br>
+              学习波兰语对我来说非常简单。 <br> <br>
+              ● <span lang="pl">Flaki z olejem </span>(字面意思：肠内有油) – 某种事情非常无聊<br>
+              <span class="example">例子:</span> <br>
+              <span lang="pl">Ta lekcja jest nudna jak flaki z olejem.</span> <br>
+              这门课无聊死了。 <br> <br>
+              ● <span lang="pl">Nie kiwnąć palcem</span> (字面意思：连一个手指都不动) – 什么都不做，通常用在帮忙别人的
+              语境 <br>
+              <span class="example">例子:</span> <br>
+              <span lang="pl">On jest moim najlepszym przyjacielem, ale nawet nie kiwnął palcem by mi pomóc w
+                przeprowadzce.</span> <br>
+              他是我的最好朋友，不过我搬家的时候他没有帮助我，连一个手指都没动。
+              <br><br>
+              ● <span lang="pl">Kopnąć w kalendarz</span> (字面的意思：踢日历) – 死了(这是不太礼貌的说法，送葬的时候不
+              要用；和英文的kick the bucket意思差不多) <br>
+              <span class="example">例子:</span> <br>
+              <span lang="pl">Mój ojciec kopnął w kalendarz rok temu.</span> <br>
+              我爸爸去年死了。 <br><br>
+              ● <span lang="pl">Niebo w gębie</span> (字面：口里有天堂) – 非常好吃的意思 <br>
+              <span class="example">例子:</span> <br>
+              <span lang="pl">Pierogi z kapustą to niebo w gębie.</span> <br>
+              白菜馅的pierogi好吃极了。<br><br>
+              ● <span lang="pl">Upaść na głowę</span> (字面意思：摔到头上) – 描写很白痴/疯狂的人（这样的人一般可能很聪
+              明，但是他/她刚才说的事让“我”觉得他/她太白痴）<br>
+              <span class="example">例子</span> <br>
+              <span lang="pl">Jeśli myślisz, że Ci pomogę to upadłeś na głowę.</span> <br>
+              如果你觉得我会帮忙你，那你就很白痴了。 <br><br>
+              ● <span lang="pl">Być nie w sosie</span> (字面意思：不在酱中) – 心情不好，脾气不好的意思
+              <br>
+              <span class="example">例子:</span> <br>
+              <span lang="pl">Co ty taki jesteś nie w sosie dzisiaj?</span> <br>
+              你今天怎么了，心情那么不好？ <br> <br>
+              ● <span lang="pl">Rzucać grochem o ścianę</span> (字面意思：将豌豆扔到墙壁上) – 说的话对对方什么影响都没<br>
+              <span class="example">例子:</span> <br>
+              Próbowałam ją przekonać, że powinna częściej odpoczywać, ale to jak rzucanie grochem o ścianę.</span> <br>
+              我试着说服她多休息，但我的话没什么用。<br> <br> <br>
+
+              我希望你今天学到了至少一个新的东西，也希望你喜欢上面写的说法。记住了以后，我建议你
+              试着自己造句，因为波兰语里的俗语很多。
+            </p>
+            <div class="sign">
+              <p class="sign--person">编辑</p>
+              <a href="about.html" target="_blank">@Martyna</a>
+            </div>
+          </div>
+          <a href="./test/unit0/" target="_blank">
+            <button class="acc lesson lesson--testUnit0">小考试</button>
+          </a>
         </div>
 
         <!--

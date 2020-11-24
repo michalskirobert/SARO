@@ -20,6 +20,8 @@ if (language === "en") {
   lang = "en";
 } else if (language === "ja") {
   lang = "ja";
+} else if (language === "zh") {
+  lang = "zh";
 }
 
 //addEvent listeners to buttons
