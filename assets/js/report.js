@@ -1,89 +1,95 @@
-//reportJS by Robert Michalski
-
 function report() {
-  var reportWindow = document.getElementById("reportWindow");
-  var pageName = window.location.pathname;
-  var language = document.getElementsByTagName("html");
+  const translationMap = {
+    en: {
+      language: "English",
+      title: "Report page",
+      category: {
+        bug: "bug",
+        pgdsw: "page doesn't work",
+        pwd: "problem with desplaying",
+        other: "other",
+      },
+      additional: "*Additional informations name, email are not requested",
+      issue: "if another, what is it?",
+      describe: "Describe your problem or give your feedback here",
+      name: "Name",
+      email: "Email",
+      send: "send",
+    },
+    ja: {
+      language: "日本語",
+      title: "レポート",
+      category: {
+        bug: "バグ",
+        pgdsw: "ページがうまく動かない",
+        pwd: "指定したページが一致しな",
+        other: "その他",
+      },
+      additional: "以下の内容をご記入下さい。(任意)",
+      issue: "「その他」を選んだ方は、内容をご記入下さい?",
+      describe: "発生している状況やフィードバックをご記入下さい",
+      name: "お名前",
+      email: "メールアドレス",
+      send: "送信",
+    },
+    zh: {
+      language: "中文",
+      title: "问题反馈",
+      category: {
+        bug: "问题",
+        pgdsw: "页面 没 有 反应",
+        pwd: "页面 显示 错误",
+        other: "其他",
+      },
+      additional: "附加 信息， 不 需要<",
+      issue: "如果 是其他问题， 是 什 么？",
+      describe: "在这里描述下 你的 问题 或 反馈",
+      name: "名字",
+      email: "邮件",
+      send: "发送",
+    },
+  };
 
-  for (var i = 0; i < language.length; i++) {
-    if (language[i].lang === "en") {
-      var codeBlock = `
-    <div class="report__base" id="myReport">
-    <span id="close" onclick="showOld()">&times;</span>
-    <div class="report__content" id="report01">
-    <h3>Report page</h3>
-    <form method="post" action="https://saro.website/report.php" class="report__form">
-    <input name="language" id="language" value="${language[i].lang}" style="display: none;">
-    <input name="page" id="page" value="${pageName}" style="display: none;">
-    <input name="lang" id="lang" value="English" style="display: none;">
-    <select name="category" id="category" required>
-    <option value="Bug">Bug</option>
-    <option value="Page does not work">Page does not work</option>
-    <option value="Problem with displying">Page displays incorrectly</option>
-    <option value="other">Other</option></select>
-    <input type="text" name="other" id="other" class="issue" placeholder="if other, what is it?">
-    <textarea name="describe" id="describe" cols="30" rows="10" placeholder="Describe your issue or feedback here" required></textarea>
-    <i>*Additional informations name, email are not requested</i>
-    <div class="form__label__left">
-    <input type="text" name="name" id="name" class="issue" placeholder="Name">
-    <input type="email" name="email" id="email" class="issue" placeholder="Email">
-    <input type="submit" class="button__black" value="Send">
-    </form>
-    </div>
-    </div>
-    </div>`;
-    } else if (language[i].lang === "ja") {
-      var codeBlock = `
-    <div class="report__base" id="myReport">
-    <span id="close" onclick="showOld()">&times;</span>
-    <div class="report__content" id="report01">
-    <h3>レポート</h3>
-    <form method="post" action="https://saro.website/report.php" class="report__form">
-    <input name="language" id="language" value="${language[i].lang}" style="display: none;">
-    <input name="page" id="page" value="${pageName}" style="display: none;">
-    <input name="lang" id="lang" value="Japanese" style="display: none;">
-    <select name="category" id="category" required>
-    <option value="Bug">バグ</option>
-    <option value="Page does not work">ページがうまく動かない</option>
-    <option value="Problem with displying">指定したページが一致しな</option>
-    <option value="other">その他</option></select>
-    <input type="text" name="other" id="other" class="issue" placeholder="「その他」を選んだ方は、内容をご記入下さい?">
-    <textarea name="describe" id="describe" cols="30" rows="10" required placeholder="発生している状況やフィードバックをご記入下さい"></textarea>
-    <i>以下の内容をご記入下さい。(任意)</i>
-    <input type="text" name="name" id="name" class="issue" placeholder="お名前">
-    <input type="email" name="email" id="email" class="issue" placeholder="メールアドレス">
-    <input type="submit" class="button__black" value="送信">
-    </form>
-    </div>
-    </div>`;
-    } else if (language[i].lang === "zh") {
-      var codeBlock = `
-    <div class="report__base" id="myReport">
-    <span id="close" onclick="showOld()">&times;</span>
-    <div class="report__content" id="report01">
-    <h3>问题反馈</h3>
-    <form method="post" action="https://saro.website/report.php" class="report__form">
-    <input name="language" id="language" value="${language[i].lang}" style="display: none;">
-    <input name="page" id="page" value="${pageName}" style="display: none;">
-    <input name="lang" id="lang" value="Chinese" style="display: none;">
-    <select name="category" id="category" required>
-    <option value="Bug">问题</option>
-    <option value="Page does not work">页面 没 有 反应</option>
-    <option value="Problem with displying">页面 显示 错误</option>
-    <option value="other">其他</option></select>
-    <input type="text" name="other" id="other" class="issue" placeholder="如果 是其他问题， 是 什 么？">
-    <textarea name="describe" id="describe" cols="30" rows="10" required placeholder="在这里描述下 你的 问题 或 反馈 "></textarea>
-    <i>附加 信息， 不 需要</i>
-    <input type="text" name="name" id="name" class="issue" placeholder="名字">
-    <input type="email" name="email" id="email" class="issue" placeholder="邮件">
-    <input type="submit" class="button__black" value="发送">
-    </form>
-    </div>
-    </div>`;
-    }
+  const reportWindow = document.getElementById("reportWindow");
+  const pageName = window.location.pathname;
+  const language = document.querySelector("html").lang;
+  let codeBlock = "";
+  let lang = "";
 
-    reportWindow.innerHTML = codeBlock;
+  if (language === "en") {
+    lang = "en";
+  } else if (language === "ja") {
+    lang = "ja";
+  } else if (language === "zh") {
+    lang = "zh";
   }
+
+  codeBlock = `
+  <div class="report__base" id="myReport">
+  <span id="close" onclick="showOld()">&times;</span>
+  <div class="report__content" id="report01">
+  <h3>${translationMap[lang].title}</h3>
+  <form method="post" action="https://saro.website/report.php" class="report__form">
+  <input name="lang" value="${translationMap[lang].language}" style="display: none;">
+  <input name="language" value="${language}" style="display: none;">
+  <input name="page" value="${pageName}" style="display: none;">
+  <select name="category" id="category" required>
+  <option value="${translationMap[lang]["category"].bug}">${translationMap[lang]["category"].bug}</option>
+  <option value="${translationMap[lang]["category"].pgdsw}">${translationMap[lang]["category"].pgdsw}</option>
+  <option value="${translationMap[lang]["category"].pwd}">${translationMap[lang]["category"].pwd}</option>
+  <option value="${translationMap[lang]["category"].other}">${translationMap[lang]["category"].other}</option></select>
+  <input type="text" name="other" id="other" class="issue" placeholder="${translationMap[lang].issue}">
+  <textarea name="describe" id="describe" cols="30" rows="10" placeholder="${translationMap[lang].describe}" required></textarea>
+  <i>${translationMap[lang].additional}</i>
+  <div class="form__label__left">
+  <input type="text" name="name" id="name" class="issue" placeholder="${translationMap[lang].name}">
+  <input type="email" name="email" id="email" class="issue" placeholder="${translationMap[lang].email}">
+  <input type="submit" class="button__black" value="${translationMap[lang].send}">
+  </form>
+  </div>
+  </div>
+  </div>`;
+  reportWindow.innerHTML = codeBlock;
 }
 
 function showOld() {

@@ -14,9 +14,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
   {
-    question:
-      'It answers on "kto co"',
-    imgSrc: "./../../../../assets/img/embl/quiz.jpeg",
+    question: 'It answers on "kto co"',
     choiceA: "Dopełniacz",
     choiceB: "Mianownik",
     choiceC: "Celownik",
@@ -24,7 +22,6 @@ let questions = [
   },
   {
     question: '"Jadę samochodem", in this sentence which declension was used?',
-    imgSrc: "./../../../../assets/img/embl/quiz.jpeg",
     choiceA: "Narzędnik",
     choiceB: "Biernik",
     choiceC: "Miejscownik",
@@ -32,7 +29,6 @@ let questions = [
   },
   {
     question: '"To jest mój telefon" - answers on?',
-    imgSrc: "./../../../../assets/img/embl/quiz.jpeg",
     choiceA: "Kto, co?",
     choiceB: "Kogo, czego?",
     choiceC: "O kim, oczym?",
@@ -40,15 +36,13 @@ let questions = [
   },
   {
     question: "on what Celownik answers?",
-    imgSrc: "./../../../../assets/img/embl/quiz.jpeg",
     choiceA: "Komu, Czemu? (Komu dajesz prezent?)",
     choiceB: "Kogo, co? (widzę)",
     choiceC: "Oczym, O kim? (myślę)",
     correct: "A",
   },
   {
-    question: 'Kogo zaprosiłaś dzisiaj na kolację?',
-    imgSrc: "./../../../../assets/img/embl/quiz.jpeg",
+    question: "Kogo zaprosiłaś dzisiaj na kolację?",
     choiceA: "Celownik",
     choiceB: "Narzędnik",
     choiceC: "Biernik",
@@ -56,7 +50,6 @@ let questions = [
   },
   {
     question: '"Czym jedziesz na wakację?"',
-    imgSrc: "./../../../../assets/img/embl/quiz.jpeg",
     choiceA: "Mianownik",
     choiceB: "Celownik",
     choiceC: "Narzędnik",
@@ -64,7 +57,6 @@ let questions = [
   },
   {
     question: '"O kim myślisz?"',
-    imgSrc: "./../../../../assets/img/embl/quiz.jpeg",
     choiceA: "Wołacz",
     choiceB: "Miejscownik",
     choiceC: "Biernik",
@@ -72,15 +64,13 @@ let questions = [
   },
   {
     question: 'is correct "Komu, czemu - narzędnik"?',
-    imgSrc: "./../../../../assets/img/embl/quiz.jpeg",
     choiceA: "yes",
     choiceB: "no",
     choiceC: "Pass..",
     correct: "B",
   },
   {
-    question: 'With whom did you go last night?',
-    imgSrc: "./../../../../assets/img/embl/quiz.jpeg",
+    question: "With whom did you go last night?",
     choiceA: "Narzędnik",
     choiceB: "Mianownik",
     choiceC: "Miejscownik",
@@ -104,7 +94,6 @@ function renderQuestion() {
   let q = questions[runningQuestion];
 
   question.innerHTML = "<p>" + q.question + "</p>";
-  qImg.innerHTML = "<img src=" + q.imgSrc + ">";
   choiceA.innerHTML = q.choiceA;
   choiceB.innerHTML = q.choiceB;
   choiceC.innerHTML = q.choiceC;

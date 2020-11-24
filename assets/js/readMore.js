@@ -36,7 +36,7 @@ for (var i = 0; i < langRead.length; i++) {
           }
         });
       });
-  } else if (langRead[i].lang === "zh"){
+  } else if (langRead[i].lang === "zh") {
     dots,
       moreText,
       btnText.forEach(function (item, index) {
@@ -54,3 +54,5 @@ for (var i = 0; i < langRead.length; i++) {
       });
   }
 }
+
+//by Robert Michalski

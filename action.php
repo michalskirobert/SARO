@@ -89,3 +89,5 @@ if($lang === 'ja'){
 }
 
 ?>
+
+<!-- Made by Robert Michalski -->

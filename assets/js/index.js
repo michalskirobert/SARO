@@ -1,12 +1,11 @@
 window.onload = () => {
-  if(window.location.href !== "https://saro.website/index") {
+  if (window.location.href !== "https://saro.website/index") {
     getLanguage();
-  }else {
+  } else {
   }
-}
+};
 
 function getLanguage() {
-
   "use strict";
   const userLanguage =
     window.navigator.userLanguage || window.navigator.language;
@@ -36,3 +35,5 @@ function getLanguage() {
 }
 
 //Detectig language przy użyciu switch i case
+
+//by Robert Michalski

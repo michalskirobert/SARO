@@ -10,3 +10,5 @@ if (root.lang === "en") {
 } else if (root.lang === "zh") {
   dataBuilderZh();
 }
+
+//by Robert Michalski
