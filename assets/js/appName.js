@@ -11,9 +11,19 @@ const mapLang = {
     gender: "性別: ",
     findMore: "この名前については",
     here: "こちら",
-    write: `<p>名前を入力して下さい例<b>「Paulina」<b></p`,
+    write: `<p>名前を入力して下さい例<b>「Paulina」<b></p>`,
     notif: `<i>男性の名を知りたければ、<b>「g-m」</b>と入力して下さい。<br>
-    もしくは、女性の名前だったら、<b>g-f</b></i>`,
+    もしくは、女性の名前だったら、<b>「g-f」</b></i>`,
+  },
+  zh: {
+    gender: "性别: ",
+    findMore: "查看更多关于这个名字的信息",
+    here: "这里",
+    write: `<p>Write some name e.g.
+    输入一些名字，比如
+     <b>"Paulina"<b></p>`,
+    notif: `<i>仅搜索男性名字<b>「g-m」</b><br>
+    仅搜索女性名字 <b>「g-f」</b></i>`,
   },
 };
 const root = document.getElementById("root");
@@ -39,7 +49,7 @@ const loadData = async () => {
     const res = await fetch("./../../../../assets/js/data/polishNames.json");
     namesArray = await res.json();
     displayData(namesArray);
-    if (isLang === "ja") {
+    if (isLang === "ja" || isLang === "zh") {
       namesArray.map((person) => {
         if (person.gender == "female") {
           person.gender = "女性";
@@ -57,6 +67,8 @@ if (isLang === "en") {
   lang = "en";
 } else if (isLang === "ja") {
   lang = "ja";
+} else if (isLang === "zh") {
+  lang = "zh";
 }
 
 const displayData = (data) => {
