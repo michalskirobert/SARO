@@ -19,8 +19,7 @@ const mapLang = {
     gender: "性别: ",
     findMore: "查看更多关于这个名字的信息",
     here: "这里",
-    write: `<p>Write some name e.g.
-    输入一些名字，比如
+    write: `<p>输入一些名字，比如
      <b>"Paulina"<b></p>`,
     notif: `<i>仅搜索男性名字<b>「g-m」</b><br>
     仅搜索女性名字 <b>「g-f」</b></i>`,

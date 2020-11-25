@@ -135,14 +135,14 @@ function scoreRender() {
   // choose the image based on the scorePerCent
   let img =
     scorePerCent >= 80
-      ? "./../../stuff/games/quiz/declension/img/5.png"
+      ? "./../../../stuff/games/quiz/declension/img/5.png"
       : scorePerCent >= 60
-      ? "./../../stuff/games/quiz/declension/img/4.png"
+      ? "./../../../stuff/games/quiz/declension/img/4.png"
       : scorePerCent >= 40
-      ? "./../../stuff/games/quiz/declension/img/3.png"
+      ? "./../../../stuff/games/quiz/declension/img/3.png"
       : scorePerCent >= 20
-      ? "./../../stuff/games/quiz/declension/img/2.png"
-      : "./../../stuff/games/quiz/declension/img/1.png";
+      ? "./../../../stuff/games/quiz/declension/img/2.png"
+      : "./../../../stuff/games/quiz/declension/img/1.png";
   let text =
     scorePerCent >= 80
       ? `${unit0[lang].passed}`
