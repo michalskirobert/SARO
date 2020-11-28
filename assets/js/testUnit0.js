@@ -12,8 +12,8 @@ const counter = document.getElementById("counter");
 const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
-const language = document.querySelector("html").lang;
-let lang = "";
+export const language = document.querySelector("html").lang;
+export let lang = "";
 
 //detecting language
 if (language === "en") {

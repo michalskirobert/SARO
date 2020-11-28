@@ -1,3 +1,6 @@
+//components
+import { quizToBeMap } from "./data/quizToBeMap.js";
+
 function check() {
   const question1 = document.quiz.question1.value;
   const question2 = document.quiz.question2.value;
@@ -9,7 +12,21 @@ function check() {
   const question8 = document.quiz.question8.value;
   const question9 = document.quiz.question9.value;
   const question10 = document.quiz.question10.value;
+  const language = document.querySelector("html").lang;
+  let lang = "";
   let correct = 0;
+
+  switch (language) {
+    case "ja":
+      lang = "ja";
+      break;
+    case "zh":
+      lang = "zh";
+      break;
+    default:
+      lang = "en";
+      break;
+  }
 
   if (question1 == "2") {
     correct++;
@@ -58,10 +75,10 @@ function check() {
   }
 
   let messages = [
-    "You need to study more!",
-    "You can do better, keep trying!",
-    "That's fine but keep trying!",
-    "Awesome!",
+    quizToBeMap[lang].message1,
+    quizToBeMap[lang].message2,
+    quizToBeMap[lang].message3,
+    quizToBeMap[lang].message4,
   ];
 
   if (correct == 0) {
@@ -79,6 +96,19 @@ function check() {
 
   document.getElementById("afterSubmit").style.visibility = "visible";
   document.getElementById("messages").innerHTML = messages[range];
-  document.getElementById("numberCorrect").innerHTML =
-    "&rarr;You got " + correct + " correct.";
+  document.getElementById(
+    "numberCorrect"
+  ).innerHTML = `&rarr; ${quizToBeMap[lang].got} ${correct} ${quizToBeMap[lang].correct}`;
 }
+
+document
+  .querySelector("#submitButton")
+  .addEventListener("click", () => check());
+
+//made by Anna
+
+//  Poprawiłem trochę i zrobiłem mapowanie,
+//  nad tym testem trzeba jeszcze poprawcować
+//  np zamiast korzystać z ifów najlpiej zrobić jeden if sprawdzający correct z obiektu.
+// PS, używaj label z inputami :)
+// -- Robert
