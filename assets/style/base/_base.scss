@@ -32,7 +32,9 @@ p,
 b,
 u,
 th,
-td {
+td,
+ul,
+li {
   font-family: $font-family__primary;
   color: $color__default;
 }
