@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="We are SARO. We offer free Polish lessons! This project was created as a result of a desire to help people, teaching the Polish language and share our culture and curiosities">
+    <meta name="keywords"
+        content="Polish lessons, Polish lessons online, online, lessons online, Polish online, free Polish lessons, polish lessons, Polska, polskie lekcje, lekcje języka polskiego, przepisy, recipes, recipe, polish foods recipe, recipes of Polish foods, żurek, naleśniki, gołąbki, żurek recipe, naleśniki recipe, gołąbki recipe, Polish cabbage rolls recipe, Polish free lessons, how to learn Polish, where to learn Polish, przypadki, polish declensions, how to make Polish words, how to make Polish sentences, SARO, SARO Polish lessons for free, SARO Polish, saro Polish lessons, Polish, Poland, Polska, polski, język polski, Polish hangman, saro, course, online, courses, english, japanese, Polish, Polish lessons, Polish curiosities, Polish tradition, Saro Polish langauge lessons online, Polish grammar, Polish media, Polish movies, Polish music, Polish foods, Polish food, pierogi, naleśniki, the best website for studying Polish, Polish lessons, Polish dictionary, Saro, Sa, Ro, Saki, Robert, Polish pronunciation, how to speak Polish, Warszawa, Warsaw, Wrocław, Wroclaw, Gdańsk, Polish cases, przypadki, Polish ortography, Polish culture, Polish traditions">
+    <meta name="author" content="Robert Michalski">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Saro.Website with free Polish lessons" />
+    <meta property="og:url" content="www.saro.website" />
+    <meta property="og:type" content="website" />
+    <meta name="title" property="og:title" content="Saro.Website with free Polish lessons" />
+    <meta name="image" property="og:image" content="https://saro.website/assets/img/bg/header-banner.jpg" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <script defer src="https://saro.website/assets/js/cookie.js"></script>
+    <script data-ad-client="ca-pub-5704095251892500" defer
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link rel="stylesheet" href="../../assets/style/css/style.css">
+    <title>Chào mừng bạn đến với SARO - Món ăn</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://saro.website" class="header-brand">SARO</a>
+        <nav>
+            <button class="hamburger" aria-expanded="false">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+            <ul class="nav__desktop">
+                <li><a class="nav" href="./../index.html">Trang chủ</a></li>
+                <li><a class="nav" href="./../lessons.html">Bài học</a></li>
+                <li><a class="nav" href="./index.html">Các mục khác</a></li>
+                <li><a class="nav" href="./../about.html">Về SARO</a></li>
+                <li><a class="navs" href="./../contact.html">Liên hệ</a></li>
+                <li><a class="nav" href="./../join/">Tham gia SARO❤</a></li>
+            </ul>
+            <a href="./../support_us.html" class="header-cases">Ủng hộ chúng tôi</a>
+        </nav>
+        <ul class="nav-list">
+            <li><a href="./../index.html" class="header-brand--after">SARO</a></li>
+            <li><a class="nav-links" href="./../index.html">Trang chủ</a></li>
+            <li><a class="nav-links" href="./../lessons.html">Bài học</a></li>
+            <li><a class="nav-links" href="./index.html">Các mục khác</a></li>
+            <li><a class="nav-links" href="./../about.html">Về SARO</a></li>
+            <li><a class="nav-links" href="./../contact.html">Liên hệ</a></li>
+            <li><a class="nav-links" href="./../join/">Tham gia SARO❤</a></li>
+            <li><a class="nav-links" href="./../support_us.html">Ủng hộ chúng tôi❤</a></li>
+        </ul>
+        <script src="../../assets/js/menu.js"></script>
+    </header>
+    <main>
+        <button class="back" onclick="goBack()">Quay lại</button>
+        <section class="foods">
+            <div class="wrapper">
+                <article>
+                    <h1>Foods</h1>
+                    <div id="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('all')"> Tất cả</button>
+                        <button class="btn" onclick="filterSelection('ap')"> Món khai vị</button>
+                        <button class="btn" onclick="filterSelection('soup')"> Món súp</button>
+                        <button class="btn" onclick="filterSelection('mainDishes')"> Món chính</button>
+                        <button class="btn" onclick="filterSelection('dsrt')"> Món tráng miệng và bánh</button>
+                        <button class="btn" onclick="filterSelection('brd')"> Bánh mì</button>
+                        <button class="btn" onclick="filterSelection('alc')"> Rượu bia</button>
+                        <button class="btn" onclick="filterSelection('snk')"> Đồ ăn nhẹ</button>
+                    </div>
+
+                    <div class="myContainer">
+                        <button class="filterDiv ap" id="jajka-w-majonezie">Jajka w majonezie</button>
+                        <div class="panel">
+                            <h2>Jajka w majonezie</h2>
+                            <img src="../../assets/img/foods/app/jajka-w-majonezie.jpg"
+                                alt="Jajka w majonezie. Picture taken from www.kwestiasmaku.pl"
+                                class="myImg image-left__center">
+                            <p>Jajka w majonezie thường xuất hiện trong lễ phục sinh nhưng cũng trong giao thừa, Giáng
+                                sinh và năm mới!. <br>
+                                Jajka w majonezie chỉ được phục vụ như một món khai vị.
+                                Khi ăn với gia đình, tôi ăn nó với "śledzie w oleju" - trộn lại rất là ngon. Tôi thích
+                                cho lá hẹ vào cuối giai đoạn nấu nó :)<br>
+                                <br>
+                                Thành phần: <br>
+                                - 6 quả trứng luộc <br>
+                                - 300g nấm <br>
+                                - 1/2 củ hành tây <br>
+                                - 1 thìa dầu <br>
+                                - 1 thìa bơ <br>
+                                - 1/2 mớ rau mùi tây <br>
+                                - Muối và tiêu đen <br>
+                                - Mayonnaise 150ml</p>
+                            <ol class="recipe">
+                                <li>Trứng luộc chín, đổ nước lạnh vào, đập dập vỏ và để sang một bên để nguội (nếu cần
+                                    bạn có thể thay nước lạnh hơn).</li>
+                                <li>Bóc vỏ, cắt dọc trứng thành hai nửa.</li>
+                                <li>Lấy lòng đỏ từ trứng ra bát và dùng nĩa đánh tan.</li>
+                                <li>Nấm rửa sạch và để thật khô rồi cắt thành từng lát</li>
+                                <li>Hành tây thái nhỏ</li>
+                                <li>Cho hành tây vào chảo tráng men sau đó cho bơ và nấm vào xào cùng cho đến khi chuyển
+                                    sang màu vàng thì cho ít muối và tiêu đen vào.</li>
+                                <li>Vớt nấm và hành tây ra khỏi chảo, để qua một bên cho nguội rồi nghiền nhuyễn với mùi
+                                    tây.</li>
+                                <li>Cuối cùng, trộn chúng với lòng đỏ trứng, cho muối và hạt tiêu đen và trộn với 2 ~ 3
+                                    thìa mayonnaise.</li>
+                                <li>Nhồi và ấn tất cả vào lòng trắng trứng</li>
+                                <li>Bày xuống đĩa, thêm chút mayonnaise, trang trí với mùi tây và cùng thưởng thức thôi
+                                    nào!</li>
+                                <li>Smacznego!</li>
+                            </ol>
+                            <p>
+                                Công thức từ <a
+                                    href="https://www.kwestiasmaku.com/przepis/jajka-faszerowane-pieczarkami"
+                                    target="_blank">www.kwestiasmaku.com</a> <br>
+                                Ảnh từ <a href="https://www.kwestiasmaku.com/przepis/jajka-faszerowane-pieczarkami"
+                                    target="_blank">www.kwestiasmaku.com</a>
+                            </p>
+                        </div>
+                        <button class="filterDiv soup" id="zurek">Żurek</button>
+                        <div class="panel">
+                            <h2>Żurek</h2>
+                            <img src="../../assets/img/foods/soup/zurek.jpg" alt="Żurek picture taken from Winiary.pl"
+                                class="myImg image-left__center">
+                            <p>Żurek là một món súp truyền thông Ba Lan!<br>
+                                Hương vị và phương pháp phục vụ độc đáo nhất! <br>
+                                Theo truyền thống, chúng tôi phục vụ súp bên trong bánh mì! Giống như bạn có thể thấy
+                                trên hình ảnh :) <br>
+                                <br>
+                                <b>Thành phần:</b> <br>
+                                8,5 chén (2 lít, 0,5 gallon) thịt kho (gà, thịt trộn, rosół cũng rất tuyệt)<br>
+                                7 oz (200g) thịt xông khói không cắt lát<br>
+                                1 (200g, 7 oz) hành tây trắng vừa <br>
+                                2 ủ cà rốt vừa (khoảng 4.2 oz, 120g) <br>
+                                2 rễ mùi tây (khoảng 4.2 oz, 120g) - có thể được thay thế bằng rễ cần tây) <br>
+                                4 mắt xích (500g, 1.1 lb) xúc xích kiełbasa trắng (tươi, chưa nấu chín) <br>
+                                2 ¼ cốc (500ml) Bột lúa mạch đen (công thức trong phần ghi chú) <br>
+                                1 tép tỏi <br>
+                                3 muỗng canh kem whipping (optional, 30-36% fat) <br>
+                                1 muỗng canh kinh giới khô <br>
+                                Muối để nếm <br>
+                                Hạt tiêu (mới xay) để nếm <br>
+                                IF USING A HOMEMADE 'ZAKWAS' FERMENTED WITHOUT SPICES: <br>
+                                4 lá nguyệt quế <br>
+                                5 all-spice berries <br>
+                                5 hạt tiêu đen <br>
+                                PHỤC VỤ: <br>
+                                4 boiled eggs, halved <br>
+                                Fresh marjoram to garnish <br>
+                                <br>
+                                <b>HƯỚNG DẪN:</b>
+
+                            <ol class="recipe">
+                                <li>Lấy một cái nồi đun. Đổ nước kho vào và bắt đầu hâm nóng (lửa vừa).</li>
+                                <li>Cắt thịt xông khói và hành tây thành miếng nhỏ. Dùng chảo để chiên thịt xông khói
+                                    trước.
+                                    Bạn không cần thêm dầu ăn vào, vì thịt xông khói sẽ tiết ra mỡ của nó.</li>
+                                <li>Khi mỡ thịt xông khói đã sánh lại, thêm hành tây vào và tiếp tục chiên cho đến khi
+                                    cả hai nguyên liệu chuyển sang màu vàng.</li>
+                                <li>Cho các nguyên liệu trên vào nồi đang nấu. Nếu món khai vị ‘zakwas’ của bạn lên men
+                                    mà không có gia vị
+                                    (lá ​​nguyệt quế, quả mọng và hạt tiêu), thì đây là thời điểm tốt để thêm chúng trực
+                                    tiếp vào súp.
+                                    Tôi thường đặt gia vị bên trong túi gia vị lưới / gói dự trữ, để sau tôi không phải
+                                    vất vả vớt chúng.
+                                </li>
+                                <li> Peel carrots and parsley roots, drop them whole into the stock. </li>
+                                <li>Add white kiełbasa (uncut, whole links) as well and continue cooking for 30-40
+                                    minutes,
+                                    until the stock becomes meaty in aroma and flavour (you’ll have to test that
+                                    empirically).</li>
+                                <li>If you haven’t boiled the eggs already, now is a good moment to do so. Once cooked,
+                                    allow
+                                    them to cool down.</li>
+                                <li>The next step would be to remove the spices. If you used the spice bag, just take it
+                                    out.
+                                    Otherwise, you can fish them out manually with a spoon, or get rid of them using a
+                                    sieve
+                                    -
+                                    and return the soup into the pot.</li>
+                                <li>Now it’s time to add rye 'zakwas' starter. Add 1⅓ cup (300ml) of zakwas for a mild
+                                    Żurek, up
+                                    to 2 cups (or more; khoảng 500ml) for a more sour result. If you’re not sure how
+                                    much
+                                    you
+                                    should add, just pour it over gradually, tasting along the way.
+
+                                <li><i>There are two ways to do it: <br>
+                                        • Mix the contents of the jar/bottle, so that the liquid part blends with the
+                                        floury
+                                        part,
+                                        • Or start by adding the liquid only, topping with the muddy floury part later
+                                        on -
+                                        spoonful
+                                        by spoonful, until you reach the desired thickness. That’s how I do it.</i></li>
+
+                                <li>Add 1 tablespoon of dried marjoram and one garlic clove (crushed or khoảng chopped),
+                                    cook
+                                    for another 4-5 minutes.</li>
+                                <li>Remove the pot from heat. Remove the sausage and vegetables with a slotted spoon,
+                                    slice
+                                    them
+                                    all and return to the pot. You can also leave the sausage unsliced - that’s up to
+                                    you.
+                                </li>
+                                <li>Adding cream is optional, but it balances the flavours very nicely. Place 3
+                                    tablespoons
+                                    of
+                                    whipping cream into a cup or a small bowl. Add in a tablespoon of Żurek, mix well
+                                    with a
+                                    fork. And another spoonful of soup and mix again. Repeat with 2 more tablespoons of
+                                    Żurek.
+                                    Pour the mixture into the pot.</li>
+                                <li>Have a taste. Does it need any more salt or a pinch of pepper? If so, add some to
+                                    taste.
+                                    Garnish with fresh marjoram or chopped parsley and serve with boiled egg halves.
+                                </li>
+                                <li>Smacznego!</li>
+                            </ol>
+                            <br>
+                            <p> recipe taken from <a href="https://www.polonist.com/polish-zurek-soup/"
+                                    target="_blank">kissmeimpolish</a> <br>
+                                picture taken from the <a href="https://winiary.pl" target="_blank">Winiary.pl</a>
+                            </p>
+                        </div>
+                        <button class="filterDiv mainDishes" id="schabowy-z-ziemniakami">Schabowy z ziemniakami</button>
+                        <div class="panel">
+                            <h2>Schabowy z ziemniakami</h2>
+                            <img src="../../assets/img/foods/mainDish/schabowy-z-ziemniakami.jpg"
+                                alt="Schabowy z ziemniakami taken from www.doradcasmaku.pl"
+                                class="myImg image-left__center">
+                            <p>This dish is really important for each Polish person! It's eaten every week/weekend as a
+                                main
+                                dish
+                                Usually we eat rosół and then schabowy z ziemniakami! Warning! In Poland we call it as
+                                "drugie danie" which in English it means literally "second Dish".
+                            </p>
+                            <b>ingredients:</b>
+                            <br>
+                            <table class="foodsTable">
+                                <tr>
+                                    <td>Basic:</td>
+                                    <td>Mizeria:</td>
+                                </tr>
+                                <tr>
+                                    <th>Pork chops</th>
+                                    <th>Cucumber(0,5-1kg)</th>
+                                </tr>
+                                <tr>
+                                    <th>Young potatoes(3-4 pieces)</th>
+                                    <th>Sour cream(1-2 pieces)</th>
+                                </tr>
+                                <tr>
+                                    <th>Sea, salt</th>
+                                    <th>Sea, salt</th>
+                                </tr>
+                                <tr>
+                                    <th>Dill</th>
+                                </tr>
+                                <tr>
+                                    <th>Egg</th>
+                                </tr>
+                                <tr>
+                                    <th>Bread crumbs</th>
+                                </tr>
+                            </table>
+                            <b>Method:</b>
+                            <br>
+                            <ol class="recipe">
+                                <li>Mash the chops thokhoảng with a pestle, turning them from time to time. The
+                                    thickness
+                                    of the cutlets should be about 5 mm. Sprinkle the meat with salt and pepper and set
+                                    aside. Beat the egg well with a fork in a deep plate. Pour flour into the second
+                                    plate
+                                    and breadcrumbs into the third plate.</li>
+                                <li>Dip the chops in the flour, then dip them in the egg and finally coat them in
+                                    breadcrumbs. Always shake off excess breading. Heat the oil in a large frying pan
+                                    and
+                                    place the chops on the hot fat. Fry until golden brown over low heat.</li>
+                                <li>And bonus! Mizeria! Wash the cucumbers, peel them and cut them into thin slices. Put
+                                    the
+                                    sliced cucumbers
+                                    into a bowl, add the cream and the chopped envelopes. Season with salt and pepper.
+                                    All
+                                    thokhoảng mixed. I put it in the fridge for about 15 minutes.</li>
+                                <li>Smacznego! It's done! You can try the most traditional main dish from Poland :)</li>
+                            </ol>
+                            <br>
+                            <p> recipe and picture taken from <a
+                                    href="https://www.doradcasmaku.pl/przepis-klasyczny-obiadek-kotlet-z-ziemniakami-i-mizeria-321957"
+                                    target="_blank">doradcasmaku.pl</a>
+                            </p>
+                        </div>
+                        <button class="filterDiv dsrt" id="sernik-krolewski">Sernik królewski</button>
+                        <div class="panel">
+                            <h2>Sernik królewski</h2>
+                            <img src="../../assets/img/foods/dsrt/sernik-z-kruszonka.jpg"
+                                alt="Sernik królewski picture taken from Winiary.pl" class="myImg image-left__center">
+                            <p>Sernik has really long tradition and it's one of traditional cakes from Poland <br>
+                                And one of the most delicious cakes from Poland~</p>
+                            <b>ingredients:</b>
+                            <br>
+                            <table class="foodsTable">
+                                <tr>
+                                    <th>For the base</th>
+                                    <th>For the filling</th>
+                                </tr>
+                                <tr>
+                                    <td>200g plain flour</td>
+                                    <td>2 tablespoons butter, softened</td>
+                                </tr>
+                                <tr>
+                                    <td>100g butter, softened</td>
+                                    <td>3 eggs, separated</td>
+                                </tr>
+                                <tr>
+                                    <td>100g icing sugar</td>
+                                    <td>6 tablespoons icing sugar</td>
+                                </tr>
+                                <tr>
+                                    <td>3 tablespoons unsweetened cocoa powder</td>
+                                    <td>1 tablespoon vanilla sugar</td>
+                                </tr>
+                                <tr>
+                                    <td>1 egg</td>
+                                    <td>500g twarog or quark</td>
+                                </tr>
+                                <tr>
+                                    <td>1 teaspoon baking powder</td>
+                                    <td>1 tablespoon potato starch</td>
+                                </tr>
+                                <tr>
+                                    <td>breadcrumbs</td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <b>Method:</b>
+                            <br>
+                            <span class="prep">Prep:20min › Cook:1hr › Ready in:1hr20min </span>
+                            <ol class="recipe">
+                                <li>In a bowl, combine flour, butter, icing sugar, cocoa, egg and baking powder. Mix
+                                    till
+                                    evenly
+                                    combined. Divide into two equal parts.</li>
+                                <li> Butter the bottom of a round 22cm baking tin and sprinkle with breadcrumbs.
+                                    Transfer
+                                    one
+                                    part of the mixture to the tin and evenly press to the bottom. Wrap the other part
+                                    in
+                                    cling
+                                    film and refrigerate.</li>
+                                <li> Preheat oven to 180 C / Gas 4.</li>
+                                <li> For the filling beat butter, egg yolks, sugar and vanilla sugar. Mix until all is
+                                    well
+                                    combined and sugar has dissolved. Keep mixing and gradually add twarog. At teh end,
+                                    add
+                                    potato starch and stir till well combined.</li>
+                                <li> Beat egg whites till stiff and fold into the twarog mixture. Tip into the baking
+                                    tin.
+                                <li> Shred or pinch small pieces of the refrigerated dough and sprinkle evenly over the
+                                    filling.</li>
+                                <li> Bake for 1 hour in the preheated oven.</li>
+                            </ol>
+                            <br>
+                            <p> recipe taken from <a
+                                    href="http://allrecipes.co.uk/recipe/43565/polish-royal-cheesecake.aspx"
+                                    target="_blank">allrecipes.co.uk</a> <br>
+                                picture taken from the <a href="https://winiary.pl" target="_blank">Winiary.pl</a>
+                            </p>
+                        </div>
+                        <button class="filterDiv ap mainDishes" id="pierogi">Pierogi</button>
+                        <div class="panel">
+                            <h2>Pierogi</h2>
+                            <img src="../../assets/img/foods/mainDish/pierogi.jpg" alt="Pierogi ruskie"
+                                class="myImg image-left__center">
+                            <p>
+                                The most famous Polish dish are Pierogi. <br>
+                                Pierogi is like Polish dumplings, has a wide variety of contents and cooking methods,
+                                and is familiar to Polish people as a home-cooked dish. <br>
+                                The standard ingredients are meat, mushrooms, cabbage, sauerkraut, cheese etc. <br>
+                                but in the summer, you can also eat piergoi made with fruits like strawberries,
+                                raspberry
+                                and sour cream as a dessert. <br>
+                                introduce “Pierogi ruskie”, a pierogi made from potatoes, which is the staple food of
+                                Polish
+                                Small curiosity is that during christmas we eat with cabbage and mushrooms one! <br>
+                                <br>
+                                Picture and recipe of dumplings are made by <a href="../about.html">@Saki</a>
+                            </p>
+                            <br>
+                            <b>ingredients: (for 20pieces)</b> <br>
+                            <p>[Dough] <br>
+                                40ml water <br>
+                                160g flour <br>
+                                1/2 teaspoon salt <br>
+                                1 egg</p>
+
+                            <b>Filling:</b> <br>
+                            <p>2 potatoes
+                                1/2 cut onion
+                                Cheese to taste
+                                Olive oil
+                                Salt and pepper
+                                Basil for topping</p>
+
+                            <b>Method:</b> <br>
+                            <ol class="recipe">
+                                <li>Melt eggs, put flour and salt in a bowl, add water and egg and mix until the
+                                    whole is put together. At this time, be careful not to knead too much.</li>
+                                <li>Wrap in wrap and let the dough rest at room temperature for about 30 minutes.</li>
+                                <li>While the dough is resting, prepare the
+                                    filling.</li>
+                            </ol>
+
+
+                            <b>Filling:</b> <br>
+                            <ol class="recipe">
+                                <li>Cut potatoes into small pieces, put them in boiling water and boil them with
+                                    salt.</li>
+                                <li>While cooking the potatoes, chop the onions. (Half for fillings and half the other
+                                    one
+                                    will be baked later as toppings, so divide them beforehand.)</li>
+                                <li>When the potatoes are soft, drain the water, place in a bowl and mash.</li>
+                                <li>Add onion, cheese, salt and pepper to mashed potatoes.</li>
+                            </ol>
+
+                            <b>Formation:</b> <br>
+                            <ol class="recipe">
+                                <li>Spread the dough thinly on a flour-flooded table and make a round shape.</li>
+                                <li>Put filling in the center of the rounded dough, and water the inside of
+                                    the remaining part and wrap it in half.</li>
+                                <li>After wrapping, pattern around the skin with a fork. Meanwhile, boil hot
+                                    water in a pan.</li>
+                                <li> Put pierogi in boiling water and boil.</li>
+                                <li>It will come up after a while, so boil for 4-5 minutes after it comes up.</li>
+                                <li>While boiling, fry the remaining onions in olive oil until they are
+                                    colored and season with salt and pepper.</li>
+                                <li>When the pierogi has been boiled, drain the water and put pierogi on a
+                                    plate.</li>
+                                <li>Put fried onions and olive oil on pierogi and finish with basil topping.</li>
+                                <li>Smacznego!! Enjoy your Pierogi ^^</li>
+                            </ol>
+                        </div>
+                        <button class="filterDiv mainDish" id="golabki">Gołąbki</button>
+                        <div class="panel">
+                            <h2>Gołąbki(Cabbage rolls)</h2>
+                            <img src="../../assets/img/foods/mainDish/golabki.jpg" alt="Gołąbki"
+                                class="myImg image-left__center">
+
+                            <p>Gołąbki are Polish-style cabbage rolls. <br>
+                                Gołąbki are characterized by the fact that rice is used with hamburg, and it is
+                                basically
+                                <br>
+                                cooked with tomato sauce or tomato puree. At home, <br>
+                                it is common to boil an entire cabbage and cook. For this time, we will introduce the
+                                recipe
+                                of the peeled off the leaves.</p>
+                            <br>
+                            <p>Gołąbki and picture was made by <a href="../about.html">@Saki</a>
+                            </p>
+                            <br>
+                            <b>ingredients (for 8 pieces)</b> <br>
+                            <p>8 cabbage leaves <br>
+                                1/2 cut onion <br>
+                                Ground pork meat 300g <br>
+                                Rice about 100g (Cooked or boiled) <br>
+                                1 can of tomato sauce <br>
+                                A little salt <br>
+                                A little pepper <br>
+                                1 tbsp yogurt <br>
+                                Parsley for topping <br></p>
+                            <br>
+                            <b>Method:</b>
+                            <br>
+                            <ol class="recipe">
+                                <li>Cut off the cabbage leaf core and boil in boiling water for 1-2 minutes. At this
+                                    time,
+                                    boil the core together.</li>
+                                <li> After boiling, drain water and let cool.</li>
+                                <li>After cooling, scrape off the hard part of the cabbage and finely cut the hard part
+                                    and
+                                    core.</li>
+                                <li>Finely chop the onion and fry in oil until clear./li>
+                                <li>Mix minced pork, rice and fried onion and season with salt and pepper</li>
+                                <li>Wrap hamburg in cabbage.</li>
+                                <li>Spread the finely chopped cabbage in a pan and put the wrapped cabbage on top.</li>
+                                <li>Cover with tomato sauce and simmer for 20-30 minutes.</li>
+                                <li>Add yogurt and simmer for another 2-3 minutes.</li>
+                                <li>Put wrapped cabbages, sauce and parsley on the plate.</li>
+                                <li>Smacznego :)</li>
+                            </ol>
+                            <ol class="recipe">
+
+                            </ol>
+                        </div>
+                        <button class="filterDiv dsrt" id="nalesniki">Naleśniki</button>
+                        <div class="panel">
+                            <h2>Naleśniki(Pancakes)</h2>
+                            <img src="../../assets/img/foods/dsrt/nalesniki.jpg" alt="Naleśniki z dżemem"
+                                class="myImg image-left__center">
+                            <p>
+                                Naleśnik is a Polish pancake. It looks like a crepe, but the dough is a little thicker,
+                                and
+                                it is common to wrap it with jam, fruits, or cheese for eating. Since the dough is not
+                                too
+                                sweet, it can be eaten as a meal type as well as a dessert type. Best one are after
+                                applying
+                                sour cream and sugar over wrapped naleśniki
+                            </p>
+                            <b>Thành phần:</b> <br>
+                            <p>8 cabbage leaves <br>
+                                1/2 cut onion <br>
+                                Ground pork meat 300g <br>
+                                Rice about 100g (Cooked or boiled) <br>
+                                1 can of tomato sauce <br>
+                                A little salt <br>
+                                A little pepper <br>
+                                1 tbsp yogurt <br>
+                                Parsley for topping</p> <br>
+                            <ol class="recipe">
+                                <li>Put all the ingredients in a bowl and mix to avoid lumps to make dough.</li>
+                                <li>Pour the dough into a pan with a thin layer of oil and bake on low heat.</li>
+                                <li>Finish by baking on both sides.</li>
+                                <li>Please sprinkle your favorite dough with jam, fruits, cream cheese and sugar and
+                                    wrap
+                                    it.</li>
+                                <li>Smacznego :)</li>
+                            </ol>
+                            <p>First picture and recipe made by <a href="../about.html">@Saki</a></p>
+                            <i>*Note if you put cheese you need to fry it twice to white cheese put some sugar, vanilla
+                                sugar and an egg then mix it</i>
+                        </div>
+                </article>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="../../assets/js/category.js"></script>
+            <div class="reportButton">
+                <button class="report" onclick="report()">Báo cáo</button>
+            </div>
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+            </div>
+            <script src="../../assets/js/gallery.js"></script>
+            <div id="reportWindow"></div>
+            <script src="../../assets/js/report.js"></script>
+            </div>
+        </section>
+    </main>
+    <div class="wrapper">
+        <footer>
+            <ul>
+                <li><a href="../index.html">Trang chủ</a></li>
+                <li><a href="../lessons.html">Bài học</a></li>
+                <li><a href="./index.html">Các mục khác</a></li>
+                <li><a href="../about.html">Về SARO</a></li>
+                <li><a href="../contact.html">Liên hệ</a></li>
+                <li><a href="../support_us.html">Ủng hộ chúng tôi</a></li>
+                <li><a href="../join/">Tham gia SARO❤</a></li>
+            </ul>
+            <div class="footer-links-cases">
+                <label for="language" class="language">Ngôn ngữ:</label><br>
+                <div class="custom-select">
+                    <select id="language" onchange="window.location=this.options[this.selectedIndex].value">
+                        <option value="" disabled selected>Tiếng Anh</option>
+                        <option value="https://saro.website/about.html">English</option>
+                        <option value="https://saro.website/jp/stuff/foods.html">日本語</option>
+                        <option value="https://saro.website/kr/stuff/foods.html">한국어</option>
+                        <option value="https://saro.website/ch/stuff/foods.html">中文</option>
+                    </select>
+                    <span class="custom-arrow"></span>
+                </div>
+            </div>
+            <div class="footer-sm">
+                <a href="https://www.youtube.com/channel/UCfmBNdamq_Z70lFx-m4wpWA" target="_blank"><img
+                        src="../../assets/img/icons/YouTube1.png" alt="YouTube icon"></a>
+                <a href="https://www.instagram.com/sarowebsite/" target="_blank"><img
+                        src="../../assets/img/icons/Instagram.png" alt="Instagram icon"></a>
+                <a href="https://www.facebook.com/SARO-Free-Polish-Bài học-106067287815397" target="_blank"><img
+                        src="../../assets/img/icons/Facebook.png" alt="Facebook icon"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

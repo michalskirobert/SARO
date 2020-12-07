@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bài kiểm tra số 0 - SARO</title>
+    <link rel="stylesheet" href="../../../assets/style/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section class="quiz">
+        <button class="back" onclick="goBack()">Quay lại</button>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+        <h1>Bài học 0</h1>
+        <div class="container__quiz">
+            <div class="box__quiz box__quiz--item">
+                <div id="box__quiz">
+                    <div class="start start--item">
+                        <div id="start">Bắt đầu câu đố!</div>
+                    </div>
+                    <div id="quiz" style="display: none">
+                        <div id="question"></div>
+                        <div id="qImg"></div>
+                        <div id="choices">
+                            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                        </div>
+                        <div id="timer">
+                            <div id="counter"></div>
+                            <div id="btimeGauge"></div>
+                            <div id="timeGauge"></div>
+                        </div>
+                        <div id="progress"></div>
+                    </div>
+                    <div id="scoreContainer" style="display: none"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../../../assets/js/testUnit0.js"></script>
+</body>
+
+</html>
