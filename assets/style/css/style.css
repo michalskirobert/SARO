@@ -1480,7 +1480,7 @@ td {
 }
 
 .redLetter {
-  color: #FE9A68;
+  color: #EF1111;
 }
 
 .accent {
@@ -1502,6 +1502,14 @@ td {
 
 .lesson.lesson--adj + .panel > i:nth-last-child(3) {
   margin-top: 25px;
+}
+
+.blue {
+  color: #3E0BB5;
+}
+
+.green {
+  color: #0BB516;
 }
 
 .wrapper {

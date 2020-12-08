@@ -14,7 +14,7 @@
 // noun genders lesson
 
 .redLetter{
-  color:#FE9A68;
+  color:#EF1111;
 }
 
 //to be verb lesson
@@ -41,4 +41,13 @@
 
 .lesson.lesson--adj + .panel > i:nth-last-child(3) {
   margin-top: 25px;
+}
+
+// numerals lesson
+.blue {
+  color: #3E0BB5;
+}
+
+.green{
+  color:#0BB516;
 }
