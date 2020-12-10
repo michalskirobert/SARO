@@ -47,6 +47,15 @@ for (var i = 0; i < languageCookie.length; i++) {
    <a href="https://policies.google.com/technologies/cookies?hl=zh-Hs" target="_blank">了解更多</a>`;
 
     newBtn.innerHTML = "知道了";
+  } else if (languageCookie[i].lang === "vi") {
+    cookiesCont.innerHTML = `
+    Chúng tôi sử dụng cookie để hiểu cách bạn sử dụng trang web của chúng tôi và nâng cao trải nghiệm của bạn. Điều này bao gồm cá nhân hóa nội dung và quảng cáo.
+    Để tiếp tục sử dụng trang web của chúng tôi, bạn hãy chấp nhận việc sử dụng cookie của chúng tôi, đã được sửa đổi,
+    <a href="https://saro.website/learnmore" target="_blank"> Chính sách bảo mật và điểu khoản sử dụng</a>
+     Trang web của chúng tôi là hoàn toàn miễn phí, vì vậy chúng tôi cần quảng cáo để duy trì trang web này.
+     <a href="https://policies.google.com/technologies/cookies?hl=en-US" target="_blank">Hiểu thêm về cookies</a>`;
+
+    newBtn.innerHTML = "Tôi đã hiểu";
   }
 }
 

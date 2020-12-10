@@ -794,6 +794,224 @@ const questions = {
       correct: "C",
     },
   ],
+  vi: [
+    {
+      id: 1,
+      question: "Nhóm nào chỉ gồm các phụ âm (spółgłoski)?",
+      choiceA: "O, e, a, i, y",
+      choiceB: "P, b, t, s, h",
+      choiceC: "A, k, u, d, h",
+      correct: "B",
+    },
+    {
+      id: 2,
+      question: "Nhóm nào chỉ gồm các nguyên âm (samogłoski)?",
+      choiceA: "O, e, a, i, y",
+      choiceB: "P, b, t, s, h",
+      choiceC: "A, k, u, d, h",
+      correct: "A",
+    },
+    {
+      id: 3,
+      question: "Từ nào đã được nói? <jajko>",
+      choiceA: "Jajko",
+      choiceB: "Dom",
+      choiceC: "Igła",
+      correct: "A",
+    },
+    {
+      id: 4,
+      question: "Từ nào đã được nói? <wino>",
+      choiceA: "Mama",
+      choiceB: "But",
+      choiceC: "Wino",
+      correct: "C",
+    },
+    {
+      id: 5,
+      question: "Từ nào đã được nói? <rzeka>",
+      choiceA: "Rzeka",
+      choiceB: "Zima",
+      choiceC: "Żaba",
+      correct: "B",
+    },
+    {
+      id: 6,
+      question: "Từ nào đã được nói? <cisza>",
+      choiceA: "Ćma",
+      choiceB: "Cisza",
+      choiceC: "Góra",
+      correct: "A",
+    },
+    {
+      id: 7,
+      question:
+        "Chúng ta áp dụng biến cách vào phần nào của câu? (Có hai đáp án đúng!)",
+      choiceA: "Động từ",
+      choiceB: "Tính từ",
+      choiceC: "Danh từ",
+      correct: "B",
+    },
+    {
+      id: 8,
+      question: "Có bao nhiêu biến cách trong tiếng Ba Lan?",
+      choiceA: "5",
+      choiceB: "6",
+      choiceC: "7",
+      correct: "B" && "C",
+    },
+    {
+      id: 9,
+      question:
+        "„To jest mój komputer” (đây là máy tính của tôi) – cách ngữ pháp nào được sử dụng cho „komputer”?",
+      choiceA: "Biernik",
+      choiceB: "Mianownik",
+      choiceC: "Narzędnik",
+      correct: "C",
+    },
+    {
+      id: 10,
+      question:
+        "„W torbie nie ma telefonu” (không có điện thoại trong túi) – cách ngữ pháp nào được sử dụng cho „telefon”?",
+      choiceA: "Dopełniacz",
+      choiceB: "Miejscownik",
+      choiceC: "Wołacz",
+      correct: "B",
+    },
+    {
+      id: 11,
+      question:
+        "„W torbie nie ma telefonu” (không có cái điện thoại nào trong túi) – cách ngữ pháp nào được sử dụng cho „torba”?",
+      choiceA: "Dopełniacz",
+      choiceB: "Miejscownik",
+      choiceC: "Wołacz",
+      correct: "A",
+    },
+    {
+      id: 12,
+      question: "Thứ tự từ trong câu ngữ pháp tiếng Ba Lan là gì?",
+      choiceA: " Chủ ngữ – tân ngữ – động từ",
+      choiceB: " Tân ngữ – chủ ngữ – động từ ",
+      choiceC: " Chủ ngữ – động từ – tân ngữ",
+      correct: "B",
+    },
+    {
+      id: 13,
+      question:
+        "Thông thường chúng ta thường đặt thời gian ở vị trí nào trong câu?",
+      choiceA: "Ở đầu câu",
+      choiceB: "Ở giữa câu",
+      choiceC: "Ở cuối câu",
+      correct: "A",
+    },
+    {
+      id: 14,
+      question:
+        " Chúng ta có thể nói „Mieszkam w Polsce” thay cho „Ja mieszkam w Polsce”?",
+      choiceA: "Đúng",
+      choiceB: "Sai",
+      choiceC: " ",
+      correct: "A",
+    },
+    {
+      id: 15,
+      question:
+        "„To jest mój komputer” (this is my computer) – cách ngữ pháp nào được sử dụng cho „komputer”?",
+      choiceA: "Biernik",
+      choiceB: "Mianownik",
+      choiceC: "Narzędnik",
+      correct: "A",
+    },
+    {
+      id: 16,
+      question: `Hai câu dưới đây có nghĩa khác nhau không?
+              „Czy (ty) mieszkasz w Polsce?”
+              „(Ty) mieszkasz w Polsce?”`,
+      choiceA: "Có",
+      choiceB: "Không",
+      choiceC: "",
+      correct: "B",
+    },
+    {
+      id: 17,
+      question:
+        "Có hai cách để đặt câu hỏi đúng/sai cho câu: Ona jest studentką. Hai đáp án nào dưới đây là đúng?",
+      choiceA: "Jest ona studentką?",
+      choiceB: "Czy ona jest studentką?",
+      choiceC: "Ona jest studentką?",
+      correct: "B" && "C",
+    },
+    {
+      id: 18,
+      question: "Tính từ trả lời cho câu hỏi nào?",
+      choiceA: "Khi nào? Mấy giờ?",
+      choiceB: "Cái gì? Ai?",
+      choiceC: "Loại nào? Cái nào? Của ai?",
+      correct: "C",
+    },
+    {
+      id: 19,
+      question:
+        "Có một con chuột nhỏ – mysz (giới cái). Bạn sẽ nói như nào trong tiếng Ba Lan?",
+      choiceA: "Mały mysz",
+      choiceB: "Mała mysz",
+      choiceC: "Małe mysz",
+      correct: "B",
+    },
+    {
+      id: 20,
+      question:
+        "Bạn sống trong một ngôi nhà to – dom (giới đực). Bạn sẽ nói như thế nào trong tiếng Ba Lan?      ",
+      choiceA: "Duży dom",
+      choiceB: "Duża dom",
+      choiceC: "Duże dom",
+      correct: "A",
+    },
+    {
+      id: 21,
+      question:
+        "Bạn vừa mới lau sạch một cái cửa sổ – okno (Giới tính trung).Bạn sẽ nói „Một cái cửa sổ sạch” như nào?",
+      choiceA: "Czysty okno",
+      choiceB: "Czysta okno",
+      choiceC: "Czyste okno",
+      correct: "C",
+    },
+    {
+      id: 22,
+      question: "Có bao nhiêu giới tính cho danh từ trong ngữ pháp Ba Lan?",
+      choiceA: "3",
+      choiceB: "4",
+      choiceC: "5",
+      correct: "A",
+    },
+    {
+      id: 23,
+      question:
+        "„Mały samochód” – một chiếc ô tô nhỏ. Giới tính ngữ pháp của chiếc ô tô là gì?",
+      choiceA: "Giới đực",
+      choiceB: "Giới cái",
+      choiceC: "Giới trung",
+      correct: "A",
+    },
+    {
+      id: 24,
+      question:
+        "„Słodkie ciasto” – một cái bánh ngọt lịm. Giới tính ngữ pháp của cái bánh là gì?",
+      choiceA: "Giới đực",
+      choiceB: "Giới cái",
+      choiceC: "Giới trung",
+      correct: "C",
+    },
+    {
+      id: 25,
+      question:
+        "„Dobra kawa” – Cà phê thơm ngon. Giới tính ngữ pháp của cà phê là gì? ",
+      choiceA: "Giới đực",
+      choiceB: "Giới cái",
+      choiceC: "Giới trung",
+      correct: "B",
+    },
+  ],
 };
 
 export default questions;

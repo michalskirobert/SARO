@@ -48,6 +48,22 @@ function report() {
       email: "邮件",
       send: "发送",
     },
+    vi: {
+      title: "Báo cáo trang",
+      category: {
+        bug: "lỗi",
+        pgdsw: "Trang web không hoạt động",
+        pwd: "lỗi hiển thị",
+        other: "Khác",
+      },
+      additional: "*Thêm thông tin về tên, email không được chấp nhận ở đây",
+      issue: "Nếu vấn đề khác, nó là gì vậy?",
+      describe:
+        "Hãy nói với chúng tôi vấn đề của bạn hoặc cho chúng tôi phản hồi",
+      name: "Tên",
+      email: "Email",
+      send: "Gửi",
+    },
   };
 
   const reportWindow = document.getElementById("reportWindow");
@@ -62,6 +78,8 @@ function report() {
     lang = "ja";
   } else if (language === "zh") {
     lang = "zh";
+  } else if (language === "vi") {
+    lang = "vi";
   }
 
   codeBlock = `

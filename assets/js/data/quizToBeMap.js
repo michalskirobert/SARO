@@ -23,4 +23,12 @@ export const quizToBeMap = {
     got: "你得到:",
     correct: "/10",
   },
+  vi: {
+    message1: "Bạn cần phải học thêm!",
+    message2: "Bạn có thể làm tốt hơn nữa, cố lên!",
+    message3: "Bạn làm tốt lắm, hãy cố gắng hơn nữa!",
+    message4: "Bạn giỏi quá!",
+    got: "Bạn đã làm đúng:",
+    correct: "/10",
+  },
 };

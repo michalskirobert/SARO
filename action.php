@@ -79,6 +79,30 @@ function chineseMail(){
     $headers .= "你好 $name, 这个 邮件 是 自动 生成的 ，我们 已经  看了你 发来 的 邮件。 请 不要 回复 这 个 邮件。 我们 会在 24小时 内 与 你 联系。 \r\n";
     mail($to,$email_subject2,$email_body,$headers);
 }
+function vietnameseMail(){
+    $name = $_POST['name'];
+    $visitor_email = $_POST['email'];
+    $message = $_POST['message'];
+
+    $email_from = 'contact@saro.website';
+    $email_subject = "$name gửi tin nhắn cho trung tâm liên lạc";
+    $email_subject2 = "Xin chào! Đây là trung tâm liên lạc SARO! $name, chúng tôi đã nhận được mail của bạn";
+    $email_body =
+    "Tên: $name.\n".
+    "E-mail: $visitor_email.\n".
+    "Tin nhắn: $message.\n";
+
+    $to = 'majointa@gmail.com';
+    $headers = "Từ: $email_from \r\n";
+    $headers .= "Trả lời: $visitor_email \r\n";
+    mail($to,$email_subject,$email_body,$headers);
+
+    $to = "$visitor_email";
+    $headers = "Từ: $email_from \r\n";
+    $headers .= "Xin chào $name, email này là thư tự động để xác nhận chúng tôi đã nhận được thư của bạn. Vui lòng không trả lời email này. Chúng tôi sẽ liên hệ với bạn trong vòng 24 giờ. \r\n";
+    mail($to,$email_subject2,$email_body,$headers);
+}
+
 
 if($lang === 'ja'){
     japaneseMail();
@@ -86,6 +110,8 @@ if($lang === 'ja'){
     englishMail();
 }elseif($lang === 'zh'){
     chineseMail();
+}elseif($lang === 'vi'){
+    vietnameseMail();
 }
 
 ?>

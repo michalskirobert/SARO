@@ -20,6 +20,13 @@ const unit0 = {
     bad: "再试一次",
     veryBad: "不能通过",
   },
+  vi: {
+    passed: "Good job! You passed :)",
+    notBad: "Not bad :) you're in good shape! Passed!",
+    notPassed: "You need to little more study. Not passed.",
+    bad: "Try again..",
+    veryBad: "Not passed..",
+  },
 };
 
 export default unit0;

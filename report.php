@@ -244,6 +244,82 @@ function chineseReport(){
     </html>';
   }
   }
+  function vietnameseReport(){
+
+    $name = $_POST['name'];
+    $visitor_email = $_POST['email'];
+    $category = $_POST['category'];
+    $other = $_POST ['other'];
+    $describe = $_POST['describe'];
+    $page = $_POST['page'];
+    $lang = $_POST['lang'];
+
+    if($visitor_email === ""){
+      $visitor_email = "Anonymous";
+    }
+
+    $ID = rand(); "\n.";
+
+    $email_from = 'admin@saro.website';
+    $email_subject = "Báo cáo từ $name ID: #repSaro-080-$ID";
+    $email_subjectVisitor = "$name Xin chào! SARO đây! Chúng tôi đã nhận được báo cáo của bạn";
+
+    $email_body =
+    "Tên: $name.\n".
+    "Loại: $category.\n".
+    "Khác: $other.\n".
+    "Mô tả: $describe.\n".
+    "E-mail: $visitor_email.\n".
+    "Ngôn ngữ: $lang.\n".
+    "Trang: $page.\n".
+    "ID báo cáo: #repSaro-080-$ID";
+
+    $to = "majointa@gmail.com";
+    $headers = "From: $email_from \r\n";
+    $headers .= "Reply To: $visitor_email \r\n";
+    mail($to,$email_subject,$email_body,$headers);
+
+    $to = "$visitor_email";
+    $headers = "From: $email_from \r\n";
+    $headers .= "Xin chào $name!\n cảm ơn bạn đã giúp chúng tôi cải thiện SARO!\nVấn đề này sẽ được khắc phục sớm nhất có thể!\nEmail này là thư tự động để xác nhận chúng tôi đã nhận được thư của bạn.\nVui lòng không trả lời email này \r\n";
+    if (mail($to,$email_subjectVisitor,$email_body,$headers)){
+      echo '<!DOCTYPE html>
+      <html lang="vi">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">';
+    echo"  <meta http-equiv=\"refresh\" content=\"5;url=".$_SERVER['HTTP_REFERER']."\"/>";
+     echo' <title>Đang gửi báo cáo...</title>
+          <link rel="stylesheet" href="./assets/style/css/report.css">
+            <link
+          href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+      </head>
+      <body>
+      <section>
+      <h1 class="header-brand">SARO</h1>
+      <p id="state">Đang gửi báo cáo...</p>
+      <div class="container">
+          <div class="yellow"></div>
+          <div class="red"></div>
+          <div class="blue"></div>
+          <div class="violet"></div>
+      </div>
+      </div>
+      </section>
+            <script>
+          window.setTimeout(state, 2500);
+           function state() {
+               var stateSent = document.getElementById("state");
+               stateSent.innerHTML = `Báo cáo của bạn đã được gửi. <br>
+               Cảm ơn bạn đã giúp chúng tôi cải thiện SARO <br>
+                Bạn sẽ trở lại trang trước đó trong vài giây`;
+              }
+    </script>
+      </body>
+      </html>';
+    }
+    }
 
 $langauge = $_POST['language'];
 

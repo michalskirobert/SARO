@@ -22,6 +22,8 @@ if (language === "en") {
   lang = "ja";
 } else if (language === "zh") {
   lang = "zh";
+} else if (language === "vi") {
+  lang = "vi";
 }
 
 //addEvent listeners to buttons

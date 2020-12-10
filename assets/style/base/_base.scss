@@ -251,3 +251,10 @@ html:lang(zh) {
     font-family: $ff-chinese;
   }
 }
+
+//Vi
+html:lang(vi) {
+  * {
+    font-family: $ff-vi !important;
+  }
+}

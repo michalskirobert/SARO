@@ -42,6 +42,17 @@ function sendMail() {
       var emailValid = "邮件";
       var nameValid = "名字";
       var messageValid = "信息";
+    } else if (language[i].lang === "vi") {
+      var successMsg =
+        "Tin nhắn của bạn đã được gửi. <br /> Cảm ơn bạn. <br /> Bạn cũng đã nhận được <br> một xác nhận qua mail.";
+      var failMsg = "Mail chưa được gửi. <br /> Hãy thử lại lần nữa.";
+      var failCaptcha =
+        "Hãy kiểm tra lại mã :) <br> nếu bạn không phải là robot 🤖";
+      var captchaIssue =
+        "Có một lỗi với mã... <br> Hãy liên hệ với chúng tôi bằng cách báo cáo lỗi này";
+      var emailValid = "Email";
+      var nameValid = "Tên";
+      var messageValid = "Tin nhắn";
     }
   }
   if (name === "") {

@@ -23,6 +23,9 @@ function check() {
     case "zh":
       lang = "zh";
       break;
+    case "vi":
+      lang = "vi";
+      break;
     default:
       lang = "en";
       break;

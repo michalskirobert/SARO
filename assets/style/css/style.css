@@ -257,6 +257,56 @@ table {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html,
 body {
   height: 100%;
@@ -498,6 +548,10 @@ html:lang(zh) * {
   font-family: "Noto Sans SC", fallback, sans-serif;
 }
 
+html:lang(vi) * {
+  font-family: "Josefin Sans" !important;
+}
+
 /* catamaran-regular - latin */
 @font-face {
   font-family: "Catamaran";
@@ -701,6 +755,56 @@ html:lang(zh) * {
   font-style: normal;
   font-weight: 400;
   src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -1026,6 +1130,56 @@ html:lang(zh) * {
   font-style: normal;
   font-weight: 400;
   src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -1408,6 +1562,56 @@ form .form__button:hover {
   font-style: normal;
   font-weight: 400;
   src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -2114,6 +2318,56 @@ header .header-brand--after::after {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 header .hamburger {
   position: absolute;
   cursor: pointer;
@@ -2478,6 +2732,56 @@ html:lang(ja) .nav {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .vertical-center {
   display: table-cell;
   vertical-align: middle;
@@ -2707,6 +3011,56 @@ html:lang(ja) .nav {
   font-style: normal;
   font-weight: 400;
   src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -3136,6 +3490,56 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .lesson .lesson {
   background-color: none;
   color: #fff;
@@ -3195,6 +3599,14 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
 
 .lesson .lesson--testUnit0 {
   background-image: url(./../../img/embl/testUnit0.jpg);
+}
+
+.lesson .lesson--nominative {
+  background-image: url(./../../img/embl/nominative.jpg);
+}
+
+.lesson .lesson--numerals {
+  background-image: url(./../../img/embl/numerals.jpg);
 }
 
 .dialogue .dialogue {
@@ -3774,6 +4186,56 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .cases-links {
   overflow: hidden;
   margin-bottom: 20px;
@@ -4179,6 +4641,56 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
   font-style: normal;
   font-weight: 400;
   src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -4607,6 +5119,56 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .filterDiv {
   background-color: #DE0085;
   color: #B98196;
@@ -4855,6 +5417,56 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
   font-style: normal;
   font-weight: 400;
   src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -5185,6 +5797,56 @@ html:lang(ja) .report {
   font-style: normal;
   font-weight: 400;
   src: local("Poiret One"), local("PoiretOne-Regular"), url("../fonts/poiret-one-v9-latin-ext-regular.woff2") format("woff2"), url("../fonts/poiret-one-v9-latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-regular - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-500 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-600 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-700 - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* josefin-sans-italic - vietnamese_latin-ext */
+@font-face {
+  font-family: "Josefin Sans";
+  display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff2") format("woff2"), url("../fonts/josefin-sans-v16-vietnamese_latin-ext-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
