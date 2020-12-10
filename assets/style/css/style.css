@@ -552,6 +552,10 @@ html:lang(vi) * {
   font-family: "Josefin Sans" !important;
 }
 
+html:lang(vi) .data > a {
+  font-size: 11px;
+}
+
 /* catamaran-regular - latin */
 @font-face {
   font-family: "Catamaran";
