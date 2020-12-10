@@ -9,59 +9,84 @@
 
 <url>
   <loc>https://saro.website/</loc>
-  <lastmod>2020-09-14T11:01:43+00:00</lastmod>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://saro.website/join/</loc>
-  <lastmod>2020-09-14T11:01:43+00:00</lastmod>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
+<url>
+  <loc>https://saro.website/jp/test/unit0/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://saro.website/zh/test/unit0/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://saro.website/vi/test/unit0/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 <url>
   <loc>https://saro.website/stuff/</loc>
-  <lastmod>2020-09-14T11:01:43+00:00</lastmod>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
   <loc>https://saro.website/jp/</loc>
-  <lastmod>2020-09-14T11:01:43+00:00</lastmod>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://saro.website/test/unit0/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
   <loc>https://saro.website/jp/stuff/quiz/</loc>
-  <lastmod>2020-09-14T11:01:43+00:00</lastmod>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
   <loc>https://saro.website/stuff/quiz/</loc>
-  <lastmod>2020-09-14T11:01:43+00:00</lastmod>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
   <loc>https://saro.website/stuff/quiz/games/hangman/</loc>
-  <lastmod>2020-09-14T11:01:43+00:00</lastmod>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
   <loc>https://saro.website/stuff/quiz/games/quiz/declension/</loc>
-  <lastmod>2020-09-14T11:01:43+00:00</lastmod>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
   <loc>https://saro.website/jp/stuff/quiz/games/hangman/</loc>
-  <lastmod>2020-09-14T11:01:43+00:00</lastmod>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
   <loc>https://saro.website/jp/stuff/quiz/games/quiz/declension/</loc>
-  <lastmod>2020-09-14T11:01:43+00:00</lastmod>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -77,6 +102,62 @@
 <url>
   <loc>https://saro.website/ch/stuff/games/hangman/</loc>
   <lastmod>2020-11-08T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://saro.website/vi/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://saro.website/vi/join/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://saro.website/vi/stuff/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://saro.website/vi/stuff/quiz/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://saro.website/vi/stuff/quiz/games/hangman/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://saro.website/vi/stuff/quiz/games/quiz/declension/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://saro.website/stuff/api/polishNames/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://saro.website/jp/stuff/api/polishNames/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://saro.website/zh/stuff/api/polishNames/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://saro.website/vi/stuff/api/polishNames/</loc>
+  <lastmod>2020-12-14T11:01:43+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
