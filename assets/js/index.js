@@ -27,7 +27,7 @@ function getLanguage() {
       break;
     case "vi":
     case "vi-vn":
-      window.open("https://saro.website/vi/index");
+      window.open("https://saro.website/vi/index", "_self");
       break;
     default:
       window.open("https://saro.website/");
