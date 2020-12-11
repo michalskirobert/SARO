@@ -66,6 +66,14 @@ export const group = [
       "I am a Chinese girl. I was working in a Chinese Pharmaceutical Industry, and then was living in Dubai for about 3 years, and currently I have been living in Wasaw for about 2 years. I can speak English, Mandarin, and Shanghainese. I like travlling, reading, and learning everything new for me. I keep learning English by myself, from sort of silence to fluency, so I can share the way I used for you.",
     img: "/assets/img/saro/team10.jpg",
   },
+  {
+    id: 9,
+    name: "Hania",
+    profession: "Vietnamese translator",
+    about:
+      "Born in Vietnam and grown up in Poland, I am pursuing studying Psychology at university here. I really love art and dream of opening a radio channel, becoming a health coach, a soul healer and writing a book in my life. I am lucky to be a part of SARO and I do my best to translate into Vietnamese so that everyone can understand more about Polish culture and Polish language. Be strong!",
+    img: "/assets/img/saro/team11.jpg",
+  },
 ];
 
 export const exCrew = [

@@ -4909,6 +4909,10 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
   margin-top: 35px;
 }
 
+.container-card__item--button button {
+  display: none;
+}
+
 .container-card__item {
   height: calc(350px - 50px);
 }
