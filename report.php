@@ -329,6 +329,8 @@ if($langauge === 'en'){
   japaneseReport();
 }elseif ($langauge === 'zh'){
   chineseReport();
+}elseif ($langauge === "vi"){
+  vietnameseReport();
 }
 
 ?>
