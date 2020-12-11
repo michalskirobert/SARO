@@ -11,12 +11,6 @@ function getLanguage() {
     window.navigator.userLanguage || window.navigator.language;
 
   switch (userLanguage) {
-    case "en":
-    case "en-GB":
-    case "en-US":
-    case "vi":
-    default:
-      break;
     case "ja":
       window.open("https://saro.website/jp/index.html", "_self");
       break;
@@ -30,6 +24,13 @@ function getLanguage() {
     case "zh-HK":
     case "zh-sg":
       window.open("https://saro.website/ch/index.html", "_self");
+      break;
+    case "vi":
+    case "vi-vn":
+      window.open("https://saro.website/vi/index");
+      break;
+    default:
+      window.open("https://saro.website/");
       break;
   }
 }
