@@ -283,7 +283,7 @@ const questions = {
     {
       id: 3,
       question: `次の単語はa～cのうちどれですか？
-      <img class="sound" src="./../../../assets/img/icons/speaker.svg" onclick="play()" alt="Speaker icon" ><audio class="audio" src="./../../../media/unit0/alphabet/records/J.wav"></audio>`,
+      <img class="sound" src="./../../../assets/img/icons/speaker.svg" onclick="play()" alt="Speaker icon" ><audio class="audio" src="./../../../../media/unit0/alphabet/records/litery/J.wav"></audio>`,
       choiceA: "Jajko",
       choiceB: "Dom",
       choiceC: "Igła",
@@ -813,7 +813,7 @@ const questions = {
     },
     {
       id: 3,
-      question: "Từ nào đã được nói? <jajko>",
+      question: `Từ nào đã được nói? <img class="sound" src="./../../../assets/img/icons/speaker.svg" onclick="play()" alt="Speaker icon" ><audio class="audio" src="./../../../../media/unit0/alphabet/records/litery/J.wav"></audio>`,
       choiceA: "Jajko",
       choiceB: "Dom",
       choiceC: "Igła",
@@ -821,7 +821,7 @@ const questions = {
     },
     {
       id: 4,
-      question: "Từ nào đã được nói? <wino>",
+      question: `Từ nào đã được nói? <img class="sound" src="./../../../assets/img/icons/speaker.svg" onclick="play()" alt="Speaker icon" ><audio class="audio" src="./../../../../media/unit0/alphabet/records/litery/W.wav"></audio>`,
       choiceA: "Mama",
       choiceB: "But",
       choiceC: "Wino",
@@ -829,7 +829,9 @@ const questions = {
     },
     {
       id: 5,
-      question: "Từ nào đã được nói? <rzeka>",
+      question: `Từ nào đã được nói? <img class="sound" class="alphabetLesson" src="./../../../assets/img/icons/speaker.svg" onclick="play()"
+      alt="Speaker icon" >
+    <audio class="audio" src="./../../../../media/unit0/alphabet/records/dwuznaki/rz"></audio>`,
       choiceA: "Rzeka",
       choiceB: "Zima",
       choiceC: "Żaba",
@@ -837,7 +839,9 @@ const questions = {
     },
     {
       id: 6,
-      question: "Từ nào đã được nói? <cisza>",
+      question: `Từ nào đã được nói? <img class="sound" class="alphabetLesson" src="./../../../assets/img/icons/speaker.svg" onclick="play()"
+      alt="Speaker icon" >
+    <audio class="audio" src="./../../../../media/unit0/alphabet/records/dwuznaki/ci.wav"></audio>`,
       choiceA: "Ćma",
       choiceB: "Cisza",
       choiceC: "Góra",

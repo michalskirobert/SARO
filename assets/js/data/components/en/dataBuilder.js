@@ -82,6 +82,7 @@ ${crew}
 <div class="row">
 ${exGroup}
 </div>`;
+
   const button = document.querySelectorAll(".button__black");
   for (let i = 0; i < button.length; i++) {
     button[i].addEventListener("click", (e) => {
