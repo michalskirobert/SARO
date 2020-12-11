@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  background: pink;
+  font-family: "Catamaran";
+  color: #111;
+  text-align: center;
+  font-size: 18px;
+}
+
+.header-brand {
+  font-family: "Catamaran";
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #111;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+
+section {
+  width: 100%;
+}
+button {
+  background: pink;
+  color: #fff;
+  border: solid 1px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 18px 10px;
+  width: 200px;
+  margin: 10px;
+  outline: none;
+}
+button:hover {
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  background: #fff;
+  border: solid 1px #fff;
+  color: #111;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+canvas {
+  color: #fff;
+  border: #fff dashed 2px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#alphabet {
+  padding: 0;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-family: "Catamaran";
+}
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#alphabet li {
+  float: left;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 35px;
+  height: 30px;
+  padding-top: 1px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border: solid 1px #fff;
+}
+#alphabet li:hover {
+  background: rgb(255, 83, 169);
+  border: solid 1px #fff;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display: block;
+}
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.back {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  background: pink;
+  color: #fff;
+  border: solid 1px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 5px;
+  width: 80px;
+  margin: 10px;
+  outline: none;
+}
+
+.embl {
+  width: 150px;
+}

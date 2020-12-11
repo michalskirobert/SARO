@@ -11,13 +11,19 @@ function getLanguage() {
     window.navigator.userLanguage || window.navigator.language;
 
   switch (userLanguage) {
-    case "ja":
-      window.open("https://saro.website/jp/index.html", "_self");
+    case "vi":
+    case "vi-vn":
+      window.open("https://saro.website/vi/index.html", "_self");
       break;
+
+    case "ja":
+      break;
+
     case "ko":
     case "ko-kr":
       window.open("https://saro.website/ko/index.html", "_self");
       break;
+
     case "zh":
     case "zh-CN":
     case "zh-TW":
@@ -25,12 +31,9 @@ function getLanguage() {
     case "zh-sg":
       window.open("https://saro.website/ch/index.html", "_self");
       break;
-    case "vi":
-    case "vi-vn":
-      window.open("https://saro.website/vi/index", "_self");
-      break;
+
     default:
-      window.open("https://saro.website/");
+      window.open("https://saro.website/index.html", "_self");
       break;
   }
 }
