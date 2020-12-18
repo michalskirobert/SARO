@@ -128,10 +128,21 @@ form {
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #f1f1f1;
+  color: $color__basic;
   font-size: 40px;
   font-weight: bold;
   transition: color 0.3s;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.modal-container {
+  .close {
+    color: $color__default;
+    top: 0;
+    right: 0;
+  }
 }
 
 #close:hover,

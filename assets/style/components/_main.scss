@@ -182,3 +182,33 @@ html:lang(ja) {
 .introduce {
   padding-bottom: 35px;
 }
+
+//modals
+.modal-container {
+  display: flex;
+  flex-flow: column wrap;
+  height: fit-content;
+  max-width: 315px;
+  background-color: $color__basic;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  padding: 25px;
+  transform: translate(0, -12%);
+}
+
+.modal-container img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-container {
+    max-width: 650px;
+  }
+}
