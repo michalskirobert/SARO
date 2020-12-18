@@ -202,3 +202,14 @@
 #root {
   margin-bottom: 25px;
 }
+
+.container-card__item {
+  height: 150px;
+}
+
+html:lang(ja),
+html:lang(zh) {
+  .container-card__item {
+    height: 200px;
+  }
+}

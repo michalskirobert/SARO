@@ -50,16 +50,14 @@ const display = (data) => {
              const { id, name, about, img, profession } = person;
              return `<div class="column" id=${id}>
              <div class="card">
-                 <img src="${img}" alt="${name}" style="width:100%">
+                 <img src="${img}" alt="${name}"/>
                  <div class="container__card">
                  <div class="container-card__item">
                      <h2>${name}</h2>
                      <p class="title">${profession}</p>
-                     <p>${about.substr(0, 120)} (...)</p>
+                     <p>${about.substring(0, 77)}...</p>
                      </div>
-                     <div class="container-card__item--button">
                      <button class="button__black" onclick="modalOpen(${id});">${view}</button>
-                     </div>
                  </div>
              </div>
          </div>

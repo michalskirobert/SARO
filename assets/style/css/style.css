@@ -1911,7 +1911,7 @@ html:lang(ja) .box-news__item:last-child {
   align-items: center;
   margin: 0 auto;
   position: relative;
-  top: 0;
+  top: 12%;
   padding: 25px;
   transform: translate(0, -12%);
 }
@@ -4939,6 +4939,15 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
 
 #root {
   margin-bottom: 25px;
+}
+
+.container-card__item {
+  height: 150px;
+}
+
+html:lang(ja) .container-card__item,
+html:lang(zh) .container-card__item {
+  height: 200px;
 }
 
 /* catamaran-regular - latin */
