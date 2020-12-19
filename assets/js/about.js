@@ -41,8 +41,8 @@ const getData = async () => {
 
 const display = (data) => {
   const useFetch = data
-    .map((heeadling) => {
-      const { page, people } = heeadling;
+    .map((headling) => {
+      const { page, people } = headling;
       return `<h3>${page}</h3>
           <div class="row">
          ${people
@@ -50,14 +50,18 @@ const display = (data) => {
              const { id, name, about, img, profession } = person;
              return `<div class="column" id=${id}>
              <div class="card">
-                 <img src="${img}" alt="${name}"/>
                  <div class="container__card">
+                 <div class="image-container">
+                 <img src="${img}" alt="${name}"/>
+                 </div>
                  <div class="container-card__item">
                      <h2>${name}</h2>
                      <p class="title">${profession}</p>
                      <p>${about.substring(0, 77)}...</p>
                      </div>
+                     <div class="button-container">
                      <button class="button__black" onclick="modalOpen(${id});">${view}</button>
+                     </div>
                  </div>
              </div>
          </div>
