@@ -3657,6 +3657,10 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
   background-image: url(./../../img/embl/numerals.jpg);
 }
 
+.lesson .lesson--askingQuestions {
+  background-image: url(./../../img/embl/questions.jpg);
+}
+
 .dialogue .dialogue {
   background-color: none;
   color: #fff;
