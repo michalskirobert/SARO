@@ -14,6 +14,25 @@
   background-position: center;
   background-size: cover;
   display: table;
+  h1 {
+    font-family: $font-family__secondary;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 40px;
+    color: $color__basic;
+    text-align: center;
+    text-shadow: 2px 2px 8px $color__default;
+  }
+  h2 {
+    font-family: "Catamaran";
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 70px;
+    color: $color__basic;
+    text-align: center;
+    text-shadow: 2px 2px 8px $color__default;
+  }
 }
 
 @media only screen and (min-width: 1000px) {

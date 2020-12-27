@@ -126,31 +126,6 @@ strong {
   font-family: $font-family__tertiary;
 }
 
-//hero
-
-.index-banner {
-  h1 {
-    font-family: $font-family__secondary;
-    font-size: $font-size__huge;
-    font-size: $font-size__medium;
-    font-weight: 300;
-    font-style: italic;
-    line-height: 40px;
-    color: $color__basic;
-    text-align: center;
-    text-shadow: 2px 2px 8px $color__default;
-  }
-  h2 {
-    font-family: "Catamaran";
-    font-size: $font_size__huge;
-    font-weight: 900;
-    line-height: 70px;
-    color: $color__basic;
-    text-align: center;
-    text-shadow: 2px 2px 8px $color__default;
-  }
-}
-
 //form
 label {
   font-size: 16px;

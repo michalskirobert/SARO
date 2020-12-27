@@ -430,28 +430,6 @@ strong {
   font-family: "Cormorant", fallback, sans-serif;
 }
 
-.index-banner h1 {
-  font-family: "Cormorant garamond", fallback, sans-serif;
-  font-size: 60px;
-  font-size: 28px;
-  font-weight: 300;
-  font-style: italic;
-  line-height: 40px;
-  color: #ffff;
-  text-align: center;
-  text-shadow: 2px 2px 8px #554149;
-}
-
-.index-banner h2 {
-  font-family: "Catamaran";
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 70px;
-  color: #ffff;
-  text-align: center;
-  text-shadow: 2px 2px 8px #554149;
-}
-
 label {
   font-size: 16px;
   font-weight: 800;
@@ -2843,6 +2821,27 @@ html:lang(ja) .nav {
   background-position: center;
   background-size: cover;
   display: table;
+}
+
+.index-banner h1 {
+  font-family: "Cormorant garamond", fallback, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 40px;
+  color: #ffff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #554149;
+}
+
+.index-banner h2 {
+  font-family: "Catamaran";
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 70px;
+  color: #ffff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #554149;
 }
 
 @media only screen and (min-width: 1000px) {
