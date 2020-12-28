@@ -41,13 +41,16 @@ const mapLang = {
     male: "Nam giới",
   },
 };
+
 const root = document.getElementById("root");
 const searchBar = document.getElementById("searchBar");
 const isLang = document.querySelector("html").lang;
+let isLoading = true;
 let namesArray = [];
 let lang = "";
 
 searchBar.addEventListener("keyup", (e) => {
+  isLoading = true;
   const searchString = e.target.value.toLowerCase();
   const filteredData = namesArray.filter((data) => {
     return (
@@ -64,7 +67,6 @@ const loadData = async () => {
     const res = await fetch("./../../../../assets/js/data/polishNames.json");
     namesArray = await res.json();
     displayData(namesArray);
-
     switch (isLang) {
       case "ja":
       case "zh":
@@ -86,6 +88,7 @@ const loadData = async () => {
         person.gender = mapLang[lang].male;
       }
     });
+    isLoading = false;
   } catch (err) {
     console.error(err);
   }
@@ -102,8 +105,8 @@ if (isLang === "en") {
 }
 
 const displayData = (data) => {
-  if (!searchBar.value) {
-    root.innerHTML = `${mapLang[lang].write}`;
+  if (data.length < 1) {
+    root.innerHTML = `<p><u style="color: red;">${searchBar.value}</u> has been not found</p>`;
     root.style.overflowY = "hidden";
   } else {
     root.style.overflowY = "scroll";
@@ -122,6 +125,14 @@ const displayData = (data) => {
     root.innerHTML = htmlString;
   }
 };
+
+if (isLoading) {
+  root.style.overflowY = "hidden";
+  root.innerHTML = `<div class="loading"> <h2>LOADING...</h2>
+  <div class="loadingio-spinner-bean-eater-swm5ygtgd9b"><div class="ldio-xnu0f7hmo3">
+ <div><div></div><div></div><div></div></div><div><div></div><div></div><div></div></div>
+ </div></div></div>`;
+}
 
 document.getElementById("notif").innerHTML = `${mapLang[lang].notif}`;
 

@@ -430,28 +430,6 @@ strong {
   font-family: "Cormorant", fallback, sans-serif;
 }
 
-.index-banner h1 {
-  font-family: "Cormorant garamond", fallback, sans-serif;
-  font-size: 60px;
-  font-size: 28px;
-  font-weight: 300;
-  font-style: italic;
-  line-height: 40px;
-  color: #ffff;
-  text-align: center;
-  text-shadow: 2px 2px 8px #554149;
-}
-
-.index-banner h2 {
-  font-family: "Catamaran";
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 70px;
-  color: #ffff;
-  text-align: center;
-  text-shadow: 2px 2px 8px #554149;
-}
-
 label {
   font-size: 16px;
   font-weight: 800;
@@ -1337,6 +1315,10 @@ form .form__button:hover {
   line-height: 50px;
 }
 
+.button-container {
+  flex: 0;
+}
+
 .prep {
   list-style: none;
   font-family: "Catamaran";
@@ -1911,9 +1893,9 @@ html:lang(ja) .box-news__item:last-child {
   align-items: center;
   margin: 0 auto;
   position: relative;
-  top: 12%;
+  top: 0;
+  transform: translate(0, -14%);
   padding: 25px;
-  transform: translate(0, -12%);
 }
 
 .modal-container img {
@@ -1927,6 +1909,8 @@ html:lang(ja) .box-news__item:last-child {
 @media screen and (min-width: 768px) {
   .modal-container {
     max-width: 650px;
+    top: 10%;
+    transform: translate(0, -10%);
   }
 }
 
@@ -2832,11 +2816,32 @@ html:lang(ja) .nav {
 .index-banner {
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url(./../../img/bg/header-banner.jpg);
+  background-image: url(./../../img/bg/christmas-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: table;
+}
+
+.index-banner h1 {
+  font-family: "Cormorant garamond", fallback, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 40px;
+  color: #ffff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #554149;
+}
+
+.index-banner h2 {
+  font-family: "Catamaran";
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 70px;
+  color: #ffff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #554149;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -3649,6 +3654,10 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
 
 .lesson .lesson--numerals {
   background-image: url(./../../img/embl/numerals.jpg);
+}
+
+.lesson .lesson--askingQuestions {
+  background-image: url(./../../img/embl/questions.jpg);
 }
 
 .dialogue .dialogue {

@@ -189,14 +189,14 @@ html:lang(ja) {
   flex-flow: column wrap;
   height: fit-content;
   max-width: 315px;
-  background-color: $color__basic;
+  background-color: #ffff;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   position: relative;
-  top: 12%;
+  top: 0;
+  transform: translate(0, -14%);
   padding: 25px;
-  transform: translate(0, -12%);
 }
 
 .modal-container img {
@@ -210,5 +210,7 @@ html:lang(ja) {
 @media screen and (min-width: 768px) {
   .modal-container {
     max-width: 650px;
+    top: 10%;
+    transform: translate(0, -10%);
   }
 }
