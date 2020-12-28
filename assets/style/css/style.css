@@ -1354,6 +1354,10 @@ form .form__button:hover {
   list-style-type: disc;
 }
 
+.xmas {
+  list-style-type: circle;
+}
+
 /* catamaran-regular - latin */
 @font-face {
   font-family: "Catamaran";
