@@ -1358,6 +1358,10 @@ form .form__button:hover {
   list-style-type: circle;
 }
 
+ul.lessons-list {
+  list-style: inside !important;
+}
+
 /* catamaran-regular - latin */
 @font-face {
   font-family: "Catamaran";
@@ -3662,6 +3666,14 @@ form#quiz input#submitButton:hover, form#quiz input#submitButton:focus {
 
 .lesson .lesson--askingQuestions {
   background-image: url(./../../img/embl/questions.jpg);
+}
+
+.lesson .lesson--personalPronouns1 {
+  background-image: url(./../../img/embl/zaimki-1.jpg);
+}
+
+.lesson .lesson--personalPronouns2 {
+  background-image: url(./../../img/embl/zaimki-2.jpg);
 }
 
 .dialogue .dialogue {
