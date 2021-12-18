@@ -1,6 +1,7 @@
 const dataLang = document.querySelector("html").lang;
 const modal = document.querySelector(".modal");
 const modalContainer = document.querySelector(".modal-container");
+
 let root = document.getElementById("root");
 let isLoading = true;
 let url = "";
@@ -52,7 +53,7 @@ const display = (data) => {
              <div class="card">
                  <div class="container__card">
                  <div class="image-container">
-                 <img src="${img}" alt="${name}"/>
+                 <img src="./../../../SARO/assets/img/saro/${img}" alt="${name}"/>
                  </div>
                  <div class="container-card__item">
                      <h2>${name}</h2>
