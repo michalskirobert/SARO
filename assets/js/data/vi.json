@@ -7,14 +7,14 @@
         "name": "Robert",
         "profession": "Người phát triển trang web",
         "about": "Nhiếp ảnh gia chuyên nghiệp đến từ Ba Lan. Gần đây đang cố gắng hết sức với tư cách là nhà phát triển front-end và back-end trên trang web SARO. Nói thành thạo tiếng Anh, tiếng Nhật và tiếng Hàn. Yêu văn hóa Châu Á, các món ăn Châu Á và phát cuồng khi nấu các món ăn Châu Á!",
-        "img": "https://saro.website/assets/img/saro/team1.jpg"
+        "img": "../../img/img/saro/team1.jpg"
       },
       {
         "id": 2,
         "name": "Saki",
         "profession": "Phiên dịch viên tiếng Nhật",
         "about": "Saki là bạn gái của Robert - cố gắng hết sức với việc dịch mọi thứ sang tiếng Nhật và tạo nên các bài học, chia sẻ cảm nhận của cô ấy về sự khác biệt ngôn ngữ và văn hóa Ba Lan. Cô ấy làm việc như một đặc vụ LOT, cô ấy yêu con người Ba Lan và văn hóa Ba Lan",
-        "img": "https://saro.website/assets/img/saro/team2.jpg"
+        "img": "../../img/img/saro/team2.jpg"
       }
     ]
   },
@@ -26,42 +26,42 @@
         "name": "Anna",
         "profession": "Giáo viên/ Người hỗ trợ Front-end",
         "about": "Là một nhà phát triển front-end đầy khát vọng, một cô gái luôn hết mình vui vẻ và khá „điên rồ”. Giải thích một cách nhiệt tình về các phong tục, sự mê tín và những câu nói kỳ quặc của Ba Lan. Thích yoga, trang trí nhà cửa và mua sắm trực tuyến. Nói tiếng Anh và tiếng Nhật.",
-        "img": "https://saro.website/assets/img/saro/team7.jpg"
+        "img": "../../img/img/saro/team7.jpg"
       },
       {
         "id": 4,
         "name": "LENA",
         "profession": "Giáo viên",
         "about": "Là một sinh viên bất diệt và hiện là giáo viên dạy tiếng Hàn. Nói tiếng Ba Lan, tiếng Anh, tiếng Hàn. Biết một chút tiếng Đức và tiếng Nhật. Đam mê ngữ âm, thích ngữ pháp nữa. Yêu âm nhạc. Trên con đường khám phá lại ngôn ngữ Ba Lan từ quan điểm giảng dạy với SARO.",
-        "img": "https://saro.website/assets/img/saro/team9.jpg"
+        "img": "../../img/img/saro/team9.jpg"
       },
       {
         "id": 5,
         "name": "MARTYNA",
         "profession": "Giáo viên",
         "about": "Là một sinh viên tốt nghiệp chuyên ngành tiếng Trung, quan tâm đến ngôn ngữ, thích dành thời gian khám phá âm nhạc mới, nghe podcast về tội phạm có thật và đọc sách. Tôi thích dạy và truyền bá kiến thức về tiếng Ba Lan😊",
-        "img": "https://saro.website/assets/img/saro/team8.jpg"
+        "img": "../../img/img/saro/team8.jpg"
       },
       {
         "id": 7,
         "name": "WERONIKA",
         "profession": "Giáo viên",
         "about": "Một sinh viên sống ở Anh, đam mê tất cả những thứ liên quan đến ngôn ngữ học. Thích dạy học cũng như thích học, nói tiếng Anh, Đức, Trung Quốc và một số tiếng Nhật. Chia sẻ kiến thức của cô ấy về tiếng Ba Lan, dịch các cuộc đối thoại sang tiếng Trung và đảm bảo mọi thứ đều ở đúng vị trí!😊",
-        "img": "https://saro.website/assets/img/saro/team4.jpg"
+        "img": "../../img/img/saro/team4.jpg"
       },
       {
         "id": 8,
         "name": "HUANG FEI JIE",
         "profession": "Phiên dịch viên tiếng Trung",
         "about": "Tôi là một cô gái đến từ Trung Quốc. Tôi đã làm việc trong ngành Dược phẩm Trung Quốc, sau đó sống ở Dubai khoảng 3 năm và hiện tại tôi đang sống ở Wasaw được khoảng 2 năm. Tôi có thể nói tiếng Anh, tiếng Trung và tiếng Thượng Hải. Tôi thích tìm hiểu, đọc sách và tìm hiểu mọi thứ mới mẻ. Tôi đang tiếp tục tự học tiếng Anh, vì vậy tôi có thể chia sẻ cách tôi đã học cho bạn.",
-        "img": "https://saro.website/assets/img/saro/team10.jpg"
+        "img": "../../img/img/saro/team10.jpg"
       },
       {
         "id": 9,
         "name": "Hania",
         "profession": "Phiên dịch viên tiếng Tiếng Việt",
         "about": "Sinh ra ở Việt Nam và lớn lên ở Ba Lan, tôi đang theo đuổi ngành Tâm lý tại trường đại học nơi đây với ước mơ mở một kênh radio về trị liệu, trở thành một huấn luyện viên sức khỏe, và viết một cuốn sách. Tôi may mắn được trở thành một phần của SARO và tôi cố gắng hết sức để dịch sang tiếng Việt để mọi người có thể hiểu thêm về văn hóa Ba Lan và ngôn ngữ Ba Lan.",
-        "img": "https://saro.website/assets/img/saro/team11.jpg"
+        "img": "../../img/img/saro/team11.jpg"
       }
     ]
   },
@@ -73,14 +73,14 @@
         "name": "KASIA",
         "profession": "Giáo viên",
         "about": "A polish student, constantly in love with cats and languages - not only foreign ones. Voice of our listenings, hobbist musician. Interested in fantasy genre of almost all kinds, active rpg player and passionate in writing.",
-        "img": "https://saro.website/assets/img/saro/team5.jpg"
+        "img": "../../img/img/saro/team5.jpg"
       },
       {
         "id": 6,
         "name": "JUSTYNA",
         "profession": "Giáo viên",
         "about": "Hiện đang sống ở Iceland, biết hầu hết mọi thứ về ngành làm đẹp (không chỉ ở Ba Lan). Sẽ giúp bạn hiểu ngữ pháp tiếng Anh một cách dễ dàng nhất thông qua các đoạn hội thoại và các nhiệm vụ đơn giản. Cô ấy yêu thích tiếng Nhật, chăm sóc da Hàn Quốc và sushi.",
-        "img": "https://saro.website/assets/img/saro/team3.jpg"
+        "img": "../../img/img/saro/team3.jpg"
       }
     ]
   }
