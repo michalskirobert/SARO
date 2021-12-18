@@ -53,7 +53,7 @@ const display = (data) => {
              <div class="card">
                  <div class="container__card">
                  <div class="image-container">
-                 <img src="./../../../SARO/assets/img/saro/${img}" alt="${name}"/>
+                 <img src="./../../../assets/img/saro/${img}" alt="${name}"/>
                  </div>
                  <div class="container-card__item">
                      <h2>${name}</h2>
