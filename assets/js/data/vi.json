@@ -8,13 +8,6 @@
         "profession": "Người phát triển trang web",
         "about": "Nhiếp ảnh gia chuyên nghiệp đến từ Ba Lan. Gần đây đang cố gắng hết sức với tư cách là nhà phát triển front-end và back-end trên trang web SARO. Nói thành thạo tiếng Anh, tiếng Nhật và tiếng Hàn. Yêu văn hóa Châu Á, các món ăn Châu Á và phát cuồng khi nấu các món ăn Châu Á!",
         "img": "https://saro.website/assets/img/saro/team1.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Saki",
-        "profession": "Phiên dịch viên tiếng Nhật",
-        "about": "Saki là bạn gái của Robert - cố gắng hết sức với việc dịch mọi thứ sang tiếng Nhật và tạo nên các bài học, chia sẻ cảm nhận của cô ấy về sự khác biệt ngôn ngữ và văn hóa Ba Lan. Cô ấy làm việc như một đặc vụ LOT, cô ấy yêu con người Ba Lan và văn hóa Ba Lan",
-        "img": "https://saro.website/assets/img/saro/team2.jpg"
       }
     ]
   },

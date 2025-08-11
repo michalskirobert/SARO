@@ -8,13 +8,6 @@
         "profession": "网站开发者",
         "about": "波兰专业的摄影师和网站开发者。近期他致力于SARO网站的前端和后端开发。他可以说 一口流利的英语日语和韩语。 喜欢亚洲的文化，饮食，并热衷于烹饪亚洲食物！",
         "img": "https://saro.website/assets/img/saro/team1.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Saki",
-        "profession": "日本翻译",
-        "about": "Saki是Robert的女朋友，她致力于制作课程和以翻译的方式完成网页的日文版本。分享她 波兰语言和文化区别的感受。 她在波兰航空的代理，喜爱波兰的人们和波兰的文化。",
-        "img": "https://saro.website/assets/img/saro/team2.jpg"
       }
     ]
   },
